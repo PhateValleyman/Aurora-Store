@@ -122,7 +122,7 @@ public class FavouriteFragment extends BaseFragment implements SimpleSwipeCallba
 
         model = new ViewModelProvider(this).get(FavouriteAppsModel.class);
         model.getFavouriteApps().observe(getViewLifecycleOwner(), favouriteItems -> {
-            fastItemAdapter.add(favouriteItems);
+            fastItemAdapter.set(favouriteItems);
             swipeLayout.setRefreshing(false);
             updatePageData();
         });
