@@ -76,6 +76,6 @@ public class ThemeUtil {
     }
 
     private static boolean isSystemThemeLight(Context context) {
-        return (context.getResources().getConfiguration().uiMode & 48) == 32;
+        return (context.getResources().getConfiguration().uiMode & 48) != 32;
     }
 }
