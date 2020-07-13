@@ -21,7 +21,7 @@
 <androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ListPreference
-        app:defaultValue="light"
+        app:defaultValue="auto"
         app:entries="@array/pref_themes"
         app:entryValues="@array/pref_themes_values"
         app:key="PREFERENCE_THEME"

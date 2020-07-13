@@ -41,6 +41,8 @@ public class ThemeUtil {
                 return R.style.AppTheme_Dark;
             case "black":
                 return R.style.AppTheme_Black;
+            case "auto":
+                return isSystemThemeLight(activity) ? R.style.AppTheme : R.style.AppTheme_Dark;
             default:
                 return R.style.AppTheme;
         }
@@ -52,6 +54,8 @@ public class ThemeUtil {
             case "dark":
             case "black":
                 return false;
+            case "auto":
+                return isSystemThemeLight(context);
             default:
                 return true;
         }
@@ -69,5 +73,9 @@ public class ThemeUtil {
             activity.finish();
             activity.startActivity(intent);
         }
+    }
+
+    private static boolean isSystemThemeLight(Context context) {
+        return (context.getResources().getConfiguration().uiMode & 48) == 32;
     }
 }
