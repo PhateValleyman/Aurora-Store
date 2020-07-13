@@ -269,7 +269,7 @@ public class Util {
     }
 
     public static String getTheme(Context context) {
-        return getPrefs(context).getString(Constants.PREFERENCE_THEME, "light");
+        return getPrefs(context).getString(Constants.PREFERENCE_THEME, "auto");
     }
 
     public static boolean isLegacyCardEnabled(Context context) {
