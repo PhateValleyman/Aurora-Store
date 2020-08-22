@@ -276,7 +276,7 @@
     <string name="installer_status_unknown">"Unknown"</string>
     <string name="installer_status_user_action">"Waiting for user confirmation"</string>
     <string name="pref_downloader_internal">"Download apps in internal storage"</string>
-    <string name="pref_downloader_internal_desc">"If enabled, you will not able to install apps via Aurora Services"</string>
+    <string name="pref_downloader_internal_desc">"If enabled, you will not be able to install apps via Aurora Services"</string>
     <string name="pref_install_profile_summary">"Select the target profile to install apps to. Only works with the root installation method"</string>
     <string name="pref_install_profile_title">"Installation profiles (Experimental)"</string>
     <string name="pref_install_mode_internal_warn">"You have selected internal storage for downloads, please disable it to use Aurora Services"</string>
