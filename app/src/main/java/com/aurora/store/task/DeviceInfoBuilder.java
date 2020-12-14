@@ -96,6 +96,7 @@ public class DeviceInfoBuilder {
         values.putAll(getBuildValues());
         values.putAll(getConfigurationValues());
         values.putAll(getDisplayMetricsValues());
+        values.put("Platforms", TextUtils.join(",", Build.SUPPORTED_ABIS));
         values.putAll(getPackageManagerValues());
         values.putAll(getOperatorValues());
         values.putAll(staticProperties);
