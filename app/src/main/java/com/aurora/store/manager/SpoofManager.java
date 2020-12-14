@@ -79,6 +79,7 @@ public class SpoofManager {
         defaultProperties.setProperty("Build.MODEL", "Default");
         defaultProperties.setProperty("Build.MANUFACTURER", Build.MANUFACTURER);
         defaultProperties.setProperty("Build.VERSION.SDK_INT", String.valueOf(Build.VERSION.SDK_INT));
+        defaultProperties.setProperty("Platforms", TextUtils.join(",", Build.SUPPORTED_ABIS));
         propertiesList.add(0, defaultProperties);
         propertiesList.addAll(getSpoofDevicesFromApk());
         propertiesList.addAll(getSpoofDevicesFromUser());
