@@ -64,7 +64,26 @@ public class SearchTask {
         if (Util.filterGoogleAppsEnabled(context))
             return filterGoogleApps(apps);
         else
-            return apps;
+            return filterDuplicates(apps);
+    }
+
+    private List<App> filterDuplicates(List<App> apps) {
+        List<App> appList = new ArrayList<>();
+        for (App app : apps) {
+            if (notContains(appList, app)) {
+                appList.add(app);
+            }
+        }
+        return appList;
+    }
+
+    private boolean notContains(List<App> newList, App app) {
+        for(App item : newList) {
+            if(app.getPackageName().equals(item.getPackageName())) {
+                return false;
+            }
+        }
+        return true;
     }
 
     private List<App> filterGoogleApps(List<App> apps) {
@@ -78,7 +97,7 @@ public class SearchTask {
 
         List<App> appList = new ArrayList<>();
         for (App app : apps) {
-            if (!app.getPackageName().startsWith("com.google") && !gAppsSet.contains(app.getPackageName())) {
+            if (!app.getPackageName().startsWith("com.google") && !gAppsSet.contains(app.getPackageName()) && notContains(appList, app)) {
                 appList.add(app);
             }
         }
