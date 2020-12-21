@@ -213,6 +213,7 @@
     <string name="pref_notification_priority_default">"Default"</string>
     <string name="pref_notification_priority_high">"High"</string>
     <string name="pref_notification_priority_max">"Max"</string>
+    <string name="pref_ui_theme_auto">"Use system theme"</string>
     <string name="pref_ui_theme_light">"Light"</string>
     <string name="pref_ui_theme_dark">"Dark"</string>
     <string name="pref_ui_theme_black">"Black"</string>
