@@ -53,7 +53,7 @@ public class AuroraGlide extends AppGlideModule {
                 .signature(new ObjectKey(System.currentTimeMillis() / (24 * 60 * 60 * 1000)))
                 .centerCrop()
                 .encodeFormat(Bitmap.CompressFormat.PNG)
-                .encodeQuality(100)
+                .encodeQuality(30)
                 .diskCacheStrategy(Util.getCacheStrategy(context))
                 .format(PREFER_ARGB_8888)
                 .skipMemoryCache(false);

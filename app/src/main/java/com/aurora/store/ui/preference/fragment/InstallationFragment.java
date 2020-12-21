@@ -64,38 +64,50 @@ public class InstallationFragment extends PreferenceFragmentCompat implements Sh
         SharedPreferences preferences = Util.getPrefs(context);
         preferences.registerOnSharedPreferenceChangeListener(this);
 
+        ListPreference userProfilePreference = findPreference(Constants.PREFERENCE_INSTALLATION_PROFILE);
+        assert userProfilePreference != null;
+
+        userProfilePreference.setOnPreferenceChangeListener((preference, newValue) -> {
+            String installMethod = (String) newValue;
+            PrefUtil.putString(context, Constants.PREFERENCE_INSTALLATION_PROFILE, installMethod);
+            return true;
+        });
+
+        onInstallMethodChanged(userProfilePreference, true);
+
         ListPreference listInstallMethod = findPreference(Constants.PREFERENCE_INSTALLATION_METHOD);
         assert listInstallMethod != null;
         listInstallMethod.setOnPreferenceChangeListener((preference, newValue) -> {
             String installMethod = (String) newValue;
             if (installMethod.equals(ROOT)) {
+                PrefUtil.putString(context, Constants.PREFERENCE_INSTALLATION_METHOD, installMethod);
                 RootBeer rootBeer = new RootBeer(context);
                 if (rootBeer.isRooted()) {
-                    Root.requestRoot();
+                    // Root.requestRoot();
                     PrefUtil.putString(context, Constants.PREFERENCE_INSTALLATION_METHOD, installMethod);
                     showDialog(R.string.pref_app_download, R.string.pref_install_mode_root_warn);
-                    return true;
+                    return onInstallMethodChanged(userProfilePreference, true);
                 } else {
                     showDialog(R.string.action_installations, R.string.pref_install_mode_no_root);
-                    return false;
+                    return onInstallMethodChanged(userProfilePreference, false);
                 }
             } else if (installMethod.equals(SERVICES)) {
                 if (PrefUtil.getBoolean(context, Constants.PREFERENCE_DOWNLOAD_INTERNAL)) {
                     showDialog(R.string.pref_app_download, R.string.pref_install_mode_internal_warn);
-                    return false;
+                    return onInstallMethodChanged(userProfilePreference, false);
                 }
 
                 if (PackageUtil.isInstalled(context, Constants.SERVICE_PACKAGE)) {
                     PrefUtil.putString(context, Constants.PREFERENCE_INSTALLATION_METHOD, installMethod);
                     PrefUtil.putString(context, Constants.PREFERENCE_DOWNLOAD_DIRECTORY, PathUtil.getExtBaseDirectory(context));
-                    return true;
+                    return onInstallMethodChanged(userProfilePreference, true);
                 } else {
                     showDialog(R.string.action_installations, R.string.pref_install_mode_no_services);
-                    return false;
+                    return onInstallMethodChanged(userProfilePreference, false);
                 }
             } else {
                 PrefUtil.putString(context, Constants.PREFERENCE_INSTALLATION_METHOD, installMethod);
-                return true;
+                return onInstallMethodChanged(userProfilePreference, true);
             }
         });
 
@@ -129,20 +141,20 @@ public class InstallationFragment extends PreferenceFragmentCompat implements Sh
             ContextUtil.toastLong(context, getString(R.string.toast_abandon_sessions));
             return false;
         });
+    }
 
-        ListPreference userProfilePreference = findPreference(Constants.PREFERENCE_INSTALLATION_PROFILE);
-        assert userProfilePreference != null;
+    private boolean onInstallMethodChanged(ListPreference userProfilePreference, boolean retValue) {
         try {
-            addUserInfoData(userProfilePreference);
+            if(PrefUtil.getString(getActivity(), Constants.PREFERENCE_INSTALLATION_METHOD).equals(ROOT)) {
+                addUserInfoData(userProfilePreference);
+                userProfilePreference.setEnabled(true);
+            } else {
+                userProfilePreference.setEnabled(false);
+            }
         } catch (Exception e) {
             userProfilePreference.setEnabled(false);
         }
-
-        userProfilePreference.setOnPreferenceChangeListener((preference, newValue) -> {
-            String installMethod = (String) newValue;
-            PrefUtil.putString(context, Constants.PREFERENCE_INSTALLATION_PROFILE, installMethod);
-            return true;
-        });
+        return retValue;
     }
 
     @Override
@@ -156,7 +168,7 @@ public class InstallationFragment extends PreferenceFragmentCompat implements Sh
     }
 
     private void addUserInfoData(ListPreference listPreference) {
-        disposable.add(Observable.fromCallable(() -> new Root())
+        disposable.add(Observable.fromCallable(Root::new)
                 .map(root -> {
                     if (!root.isAcquired()) {
                         listPreference.setEntries(new CharSequence[0]);
