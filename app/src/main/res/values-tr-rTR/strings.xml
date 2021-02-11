@@ -20,7 +20,6 @@
     <string name="action_filter">"Süzgeçler"</string>
     <string name="action_filter_all">"Tümü"</string>
     <string name="action_filter_apply">"Uygula"</string>
-
     <!-- Reklam içeren uygulamalar -->
     <string name="action_filter_apps_with_ads">"Reklamlı uygulamalar"</string>
     <string name="action_filter_downloads">"İndirilenler"</string>
@@ -31,7 +30,7 @@
     <string name="action_get_local_apk">"Yerel APK al"</string>
     <string name="action_home">"Ana Sayfa"</string>
     <string name="action_installations">"Kurulum"</string>
-    <string name="action_installed">"Kurulmuş"</string>
+    <string name="action_installed">Kuruldu</string>
     <string name="action_later">"Sonra"</string>
     <string name="action_logging_in">"Giriş yap"</string>
     <string name="action_logout">"Çıkış yap"</string>
@@ -48,11 +47,10 @@
     <string name="action_uninstall">"Kaldır"</string>
     <string name="action_updates">"Güncellemeler"</string>
     <string name="action_whitelist">"Beyaz liste"</string>
-
     <!-- Bu öğe ülkenizde kullanılabilir değil -->
-    <string name="availability_restriction_country">"Bu öğe ülkenizde kullanılabilir değil."</string>
-    <string name="availability_restriction_generic">"Bu öğe mevcut değil."</string>
-    <string name="availability_restriction_hardware_app">"Cihazınız bu sürümle uyumlu değil."</string>
+    <string name="availability_restriction_country">Bu öge ülkenizde kullanılabilir değil.</string>
+    <string name="availability_restriction_generic">Bu öge kullanılabilir değil.</string>
+    <string name="availability_restriction_hardware_app">Aygıtınız bu sürümle uyumlu değil.</string>
     <string name="category_appFree">"Ücretsiz"</string>
     <string name="category_topFree">"Ücretsiz en popüler"</string>
     <string name="category_topGrossing">"En yüksek hasılat"</string>
@@ -93,7 +91,7 @@
     <string name="download_resume_all">"Tümünü devam ettir"</string>
     <string name="early_access">"Erken erişim"</string>
     <string name="error_app_not_found">"Uygulama yok"</string>
-    <string name="error_invalid_device_definition">"Cihaz tanımı reddedildi"</string>
+    <string name="error_invalid_device_definition">Aygıt tanımı reddedildi</string>
     <string name="error_no_network">"Ağ bağlantısı yok"</string>
     <string name="error_search_not_found">"Eşleşen uygulama bulunamadı"</string>
     <string name="exodus_noTracker">"İzleyici içermiyor"</string>
@@ -112,13 +110,13 @@
     <string name="list_blacklist_none">"Kara listeye alınan uygulama yok"</string>
     <string name="list_empty_fav">"Sık kullanılan yok"</string>
     <string name="list_empty_updates">"Mevcut güncelleme yok"</string>
-    <string name="list_installed">"Kurulmuş"</string>
+    <string name="list_installed">Kuruldu</string>
     <string name="list_installed_system">"Yalnız kullanıcı uygulamalarını göster"</string>
     <string name="list_not_installd">"Kurulu değil"</string>
     <string name="list_update_all">"Tümünü güncelle"</string>
     <string name="list_update_all_txt">"güncelleme(ler) mevcut"</string>
     <string name="manual_download_disclaimer">"Yasal Uyarı"</string>
-    <string name="manual_download_incompatible">"Google Play Store, bu uygulamanın cihazınızla uyumlu olmadığını düşünüyor. Bu, sürüm kodunun Google Play Store sunucusu tarafından döndürülmediği anlamına gelir."</string>
+    <string name="manual_download_incompatible">Google Play Store, bu uygulamanın aygıtınızla uyumlu olmadığını düşünüyor. Bu, sürüm kodunun Google Play Store sunucusu tarafından döndürülmediği anlamına gelir.</string>
     <string name="manual_download_warning">"Bu sayfa, indirilecek uygulamanın sürümünü elle seçmenizi sağlar. Uygulamaların keyfi sürümlerini indirmenin Google Play Store tarafından desteklenmediğini unutmayın. Başarınız, sürüm kodunun şanslı bir tahminine bağlıdır. Doğru tahmin etseniz ve indirme işlemine başlasanız bile, uyumsuz bir APK alabilirsiniz."</string>
     <string name="menu_account">"Hesaplar"</string>
     <string name="menu_disclaimer">"Yasal Uyarı"</string>
@@ -131,11 +129,11 @@
     <string name="pref_app_network">"Ağ"</string>
     <string name="pref_app_notification">"Bildirimler"</string>
     <string name="pref_app_ui">"Kullanıcı Arayüzü"</string>
-    <string name="pref_category_spoof_device">"Sahte cihaz"</string>
+    <string name="pref_category_spoof_device">Sahte aygıt</string>
     <string name="pref_category_spoof_lang">"Sahte dil"</string>
     <string name="pref_category_spoof_location">"Sahte konum"</string>
-    <string name="pref_device_to_pretend_to_be">"Farklı bir cihaz gibi davran"</string>
-    <string name="pref_device_to_pretend_to_be_default">"Asıl cihazınızın bilgileri"</string>
+    <string name="pref_device_to_pretend_to_be">Farklı bir aygıt gibi davran</string>
+    <string name="pref_device_to_pretend_to_be_default">Aygıtınızın asıl bilgileri</string>
     <string name="pref_device_to_pretend_to_be_toast">"Bu değişiklik yeniden giriş yaptıktan sonra uygulanacak"</string>
     <string name="pref_dialog_to_apply_restart">"Bu ayar, uygulamayı yeniden başlattıktan sonra uygulanacak"</string>
     <string name="pref_downloader_active_summary">"En fazla etkin indirme sayısı"</string>
@@ -150,8 +148,8 @@
     <string name="pref_filter_google_title">"Google uygulamalarını süz"</string>
     <string name="pref_filter_search_summary">"Arama süzgeçleri her aramada sıfırlanır. Arama süzgeçlerini kaydetmek için kapatın"</string>
     <string name="pref_filter_search_title">"Kalıcı olmayan arama süzgeci kullan"</string>
-    <string name="pref_install_auto_summary">"İndirme işlemi tamamlandıktan sonra uygulamalar anında yüklenir"</string>
-    <string name="pref_install_auto_title">"APK'lar indiğinde otomatik kur"</string>
+    <string name="pref_install_auto_summary">İndirme tamamlandıktan hemen sonra uygulamalar kurulur</string>
+    <string name="pref_install_auto_title">İndirdikten sonra APK\'ları otomatik kur</string>
     <string name="pref_install_delete_title">"Kurulumdan sonra APK'yı sil"</string>
     <string name="pref_install_mode_summary">"APK kurulum yöntemini seç"</string>
     <string name="pref_install_mode_title">"Kurulum yöntemi"</string>
@@ -163,9 +161,9 @@
     <string name="pref_proxy_host">"Proxy sunucu"</string>
     <string name="pref_proxy_port">"Proxy bağlantı noktası"</string>
     <string name="pref_proxy_type">"Proxy türü"</string>
-    <string name="pref_requested_language">"Varsayılan API istek dilini değiştir"</string>
+    <string name="pref_requested_language">Öntanımlı API istek dilini değiştir</string>
     <string name="pref_requested_location_disable">"Tamamen devre dışı bırakmak için Sahte Konum'u Geliştirici Seçeneklerinden el ile devre dışı bırakmanız gerekir."</string>
-    <string name="pref_requested_location_summary">"Aurora Store varsayılan Sahte Konum Uygulaması olarak ayarlanmalıdır"</string>
+    <string name="pref_requested_location_summary">Aurora Store öntanımlı Sahte Konum Uygulaması olarak ayarlanmalıdır</string>
     <string name="pref_ui_card_summary">"Öne çıkan uygulamalar için eski tarz kartlarını kullanın"</string>
     <string name="pref_ui_card_title">"Eski tarz uygulama kartları"</string>
     <string name="pref_ui_snap_summary">"Kaydırmada yalnızca bir uygulama göster"</string>
@@ -193,9 +191,9 @@
     <string name="pref_locale_custom_title">"Özel dil"</string>
     <string name="pref_locale_custom_summary">"Özel uygulama dilini zorla"</string>
     <string name="pref_locale_list_title">"Yerel seç"</string>
-    <string name="about_app">"Aurora Store, Play Store'a açık kaynak kodlu bir alternatiftir. Uygulama indirmenize izin verir, yüklü uygulamaların güncellemelerini sağlar, uygulama ve oyun aramanıza izin verir. Ayrıca, bir uygulamaya gömülü izleyicilerin bir listesini sağlar."</string>
+    <string name="about_app">Aurora Store, Play Store\'a açık kaynak kodlu bir alternatiftir. Uygulama indirmenize izin verir, kurulu uygulamaların güncellemelerini sağlar, uygulama ve oyun aramanıza izin verir. Ayrıca, bir uygulamaya gömülü izleyicilerin bir listesini sağlar.</string>
     <string name="about_paypal">"Paypal"</string>
-    <string name="about_paypal_summary">"Bana PayPal'dan bağış yapın."</string>
+    <string name="about_paypal_summary">PayPal ile bağış yapın</string>
     <string name="about_fdroid">"F-Droid"</string>
     <string name="about_gitlab">"GitLab"</string>
     <string name="about_gitlab_summary">"GitLab'daki Aurora OSS'den Aurora Store kaynak kodunu alın."</string>
@@ -205,13 +203,13 @@
     <string name="about_xda">"Geliştirici Konusu"</string>
     <string name="about_xda_summary">"Tartışmalar veya öneriler için Aurora Store XDA konusuna bakın."</string>
     <string name="action_about">"Hakkında"</string>
-    <string name="pref_downloader_strategy_summary">"Varsayılan indirme stratejisini seçin, en hızlı indirme için önerilen paralel olandır"</string>
+    <string name="pref_downloader_strategy_summary">Öntanımlı indirme stratejisini seçin. En hızlı/eş zamanlı indirmeler için Paralel tavsiye edilir</string>
     <string name="pref_downloader_strategy_title">"İndirme stratejisi"</string>
     <string name="pref_downloader_strategy_sequential">"Sıralı indirme"</string>
     <string name="pref_downloader_strategy_parallel">"Paralel indirme (Bölünmüş)"</string>
     <string name="pref_install_mode_native">"Yerel"</string>
-    <string name="pref_install_mode_root">"Kök"</string>
-    <string name="pref_notification_priority_default">"Varsayılan"</string>
+    <string name="pref_install_mode_root">Root</string>
+    <string name="pref_notification_priority_default">Öntanımlı</string>
     <string name="pref_notification_priority_high">"Yüksek"</string>
     <string name="pref_notification_priority_max">"En fazla"</string>
     <string name="pref_ui_theme_light">"Açık"</string>
@@ -220,13 +218,12 @@
     <string name="action_close">"Kapat"</string>
     <string name="exodus_hasTracker">"İzleyici içerir"</string>
     <string name="list_selected">"Ssçilen uygulamalar"</string>
-
     <!-- Fuzzy -->
-    <string name="notification_installation_auto">"İndirildi, kurmak için tıklayın"</string>
+    <string name="notification_installation_auto">Kurmak için tıklayın</string>
     <string name="notification_installation_manual">"Bölünmüş APK, elle işlem gerektiriyor"</string>
-    <string name="pref_install_type_summary">"Paketleri kurmak için yerel yükleyiciyi kullan, bölünmüş APK kurulumunu bozar"</string>
-    <string name="pref_install_type_title">"Yerel yükleyiciyi zorla"</string>
-    <string name="pref_ui_tab_default_title">"Varsayılan sekmeyi seç"</string>
+    <string name="pref_install_type_summary">Paketleri kurmak için yerel kurucuyu kullan, bölünmüş APK kurulumlarını bozar</string>
+    <string name="pref_install_type_title">Yerel kurucuyu zorla</string>
+    <string name="pref_ui_tab_default_title">Öntanımlı sekmeyi seç</string>
     <string name="pref_update_interval_title">"Güncelleme sıklığı"</string>
     <string name="pref_update_interval_manually">"El ile"</string>
     <string name="pref_update_interval_hourly">"Saatlik"</string>
@@ -241,25 +238,24 @@
     <string name="link_dev">"Geliştirici"</string>
     <string name="link_prmission">"İzinler"</string>
     <string name="link_playstore">"Play Store"</string>
-
     <!-- Ayarlar -->
     <string name="link_setting">"Ayarlar"</string>
     <string name="link_share">"Paylaş"</string>
-    <string name="pref_install_mode_no_root">"Kök erişimi mevcut değil, cihazınızın kök erişimi olduğundan emin olun."</string>
-    <string name="pref_install_mode_root_warn">"Root ile kurulum metodu Android Pie ve üstünde adb shell ile yüklenebilmesi için APK'nın uygulama verisine indirilmesini gerektirir."</string>
-    <string name="pref_install_delete_summary">"Kök yükleme yöntemiyle Android Pie + çalıştıran cihazlarda, APK'ler varsayılan olarak silinir"</string>
+    <string name="pref_install_mode_no_root">Root erişimi kullanılamıyor, aygıtınızın root erişimi olduğundan emin olun</string>
+    <string name="pref_install_mode_root_warn">Root ile kurulum metodu Android Pie ve üstünde adb shell ile yüklenebilmesi için APK\'nın uygulama verisine indirilmesini gerektirir</string>
+    <string name="pref_install_delete_summary">Android Pie ve üstünü çalıştıran aygıtlarda, root kurulum yönteminde APK\'ler öntanımlı olarak silinir</string>
     <string name="action_loading">"Yükleniyor"</string>
-    <string name="pref_default">"Varsayılan"</string>
+    <string name="pref_default">Öntanımlı</string>
     <string name="dialog_purchase_title">"Uygulama Satın Alma"</string>
     <string name="dialog_purchase_desc">"Önce bu uygulamayı satın almanız gerekir. Aurora Store şu anda uygulama alımlarını desteklemiyor, satın almak için web sayfasına yönlendirileceksiniz."</string>
     <string name="dialog_purchase_positive">"Satın al"</string>
     <string name="dialog_geores_title">"Konuma kısıtlı uygulama"</string>
     <string name="dialog_geores_desc">"İndirmeye çalıştığınız uygulama ülkenizde kullanılamıyor, ayarlardan konumunuzu kandırmayı deneyin ve indirmeyi tekrar deneyin."</string>
     <string name="dialog_incompat_title">"Uyumsuz uygulama"</string>
-    <string name="dialog_incompat_desc">"İndirmeye çalıştığınız uygulama cihazınızla uyumsuz, cihaz bilginizi kandırmayı deneyin ve indirmeyi tekrar deneyin."</string>
+    <string name="dialog_incompat_desc">İndirmeye çalıştığınız uygulama aygıtınızla uyumlu değil, ayarlar içerisinden aygıt bilginizi kandırmayı deneyin ve tekrar deneyin.</string>
     <string name="pref_install_mode_services">"Aurora Hizmetleri"</string>
-    <string name="pref_install_mode_no_services">"Aurora Hizmetleri yüklü değil, lütfen önce hizmetleri yükleyin."</string>
-    <string name="pref_install_mode_offline_services">"Aurora Hizmetleri bağlı değil, lütfen etkin olduğundan ve uygulamanın doğru sürümüne sahip olduğunuzdan emin olun."</string>
+    <string name="pref_install_mode_no_services">Aurora Hizmetleri kurulu değil, lütfen önce hizmetleri kurun</string>
+    <string name="pref_install_mode_offline_services">Aurora Hizmetleri bağlı değil, lütfen etkin olduğundan ve uygulamanın doğru sürümüne sahip olduğunuzdan emin olun</string>
     <string name="action_info">"Uygulama Bilgisi"</string>
     <string name="download_waiting">"Bekleniyor"</string>
     <string name="pref_services_title">"Aurora Hizmetleri"</string>
@@ -282,9 +278,9 @@
     <string name="installer_status_user_action">"Kullanıcı onayı bekleniyor"</string>
     <string name="pref_downloader_internal">"Uygulamaları dahili depolama birimine indir"</string>
     <string name="pref_downloader_internal_desc">"Etkinleştirilirse, uygulamaları Aurora Hizmetleri üzerinden kuramazsınız"</string>
-    <string name="pref_install_profile_summary">"Uygulamaları kurmak için hedef profili seçin. Yalnızca root ile yükleme yöntemiyle çalışır"</string>
+    <string name="pref_install_profile_summary">Uygulamaları kurmak için hedef profili seçin. Yalnızca root ile kurulum yöntemiyle çalışır</string>
     <string name="pref_install_profile_title">"Kurulum profilleri (Deneysel)"</string>
-    <string name="pref_install_mode_internal_warn">"İndirmek için dahili depolamayı seçtiniz, lütfen Aurora Hizmetleri'ni kullanmak için devre dışı bırakın."</string>
+    <string name="pref_install_mode_internal_warn">İndirmeler için dahili depolamayı seçtiniz, Aurora Hizmetlerini kullanmak için lütfen devre dışı bırakın</string>
     <string name="pref_updates_extended">"Genişletilmiş güncellemeler"</string>
     <string name="pref_updates_extended_desc">"Devre dışı bırakılmış uygulamalar için güncellemeleri kontrol etmeyi etkinleştir"</string>
     <string name="pref_caching_strategy">"Görüntü önbellekleme stratejisi"</string>
@@ -292,8 +288,8 @@
     <string name="pref_caching_strategy_automatic">"Otomatik"</string>
     <string name="pref_caching_strategy_none">"Hiçbiri"</string>
     <string name="pref_clean_junk">"Gereksiz dosyaları temizlemeyi zorla"</string>
-    <string name="pref_clean_junk_desc">"İndirilen bütün dosyaları varsayılan dizinden siler"</string>
-    <string name="pref_abandon_session">"İndirme oturumlarını zorla temizle"</string>
+    <string name="pref_clean_junk_desc">İndirilen bütün dosyaları öntanımlı dizinden siler</string>
+    <string name="pref_abandon_session">Kurulum oturumlarını zorla temizle</string>
     <string name="pref_abandon_session_desc">"Bekleyen tüm kurulum oturumlarını iptal et"</string>
     <string name="toast_junk_removed">"Gereksiz dosyalar kaldırıldı"</string>
     <string name="toast_abandon_sessions">"Eski kurulum oturumları iptal edildi"</string>
@@ -341,7 +337,7 @@
     <string name="dialog_uninstall_confirmation">"Bu uygulamayı kaldırmak istiyor musunuz?"</string>
     <string name="action_send">"Gönder"</string>
     <string name="dialog_unavailable_title">"Uygulama kullanılamıyor"</string>
-    <string name="dialog_unavailable_desc">"Satın almaya çalıştığınız öğe bulunamadı, cihazınızı taklit etmeyi deneyin veya hesabı değiştirin."</string>
+    <string name="dialog_unavailable_desc">Satın almaya çalıştığınız öge bulunamadı, aygıt bilginizi kandırmayı deneyin veya hesabı değiştirin.</string>
     <string name="privacy_title">"Aurora OSS Gizlilik Politikası"</string>
     <string name="privacy_policy">"Gizlilik Politikası"</string>
     <string name="action_accept">"Kabul Et"</string>
@@ -367,4 +363,8 @@
     <string name="download_metadata">"Üst veri alınıyor"</string>
     <string name="list_empty_blacklist">"Kara listeye alınan uygulama yok"</string>
     <string name="pref_notification_title_geo_spoof">"Aurora Geo Kandırma"</string>
+    <string name="crash_line3">İsteğe bağlı olarak, uygulama verilerini temizlemeyi ve uygulamayı başlatmayı yeniden deneyebilirsiniz.</string>
+    <string name="list_categories_none">Kullanılabilir kategori yok</string>
+    <string name="action_import">İçe aktar</string>
+    <string name="action_clear_restart">Verileri temizle</string>
 </resources>
