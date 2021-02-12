@@ -274,7 +274,7 @@
     <string name="installer_status_failure_storage">"Not enough storage space"</string>
     <string name="installer_status_success">"Installed"</string>
     <string name="installer_status_unknown">"Unknown"</string>
-    <string name="installer_status_user_action">"Awaiting user confirmation"</string>
+    <string name="installer_status_user_action">"Awaiting user confirmation…"</string>
     <string name="pref_downloader_internal">"Download apps to internal storage"</string>
     <string name="pref_downloader_internal_desc">"Prevents you from installing apps via Aurora services"</string>
     <string name="pref_install_profile_summary">"If you have Aurora installed with the root method you can select the profile to install apps to."</string>
