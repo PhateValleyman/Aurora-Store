@@ -2,17 +2,14 @@
 <resources>
     <string name="account_dummy">"Anonimo"</string>
     <string name="account_google">"Account Google"</string>
-
     <!-- Logout -->
     <string name="account_logout">"Disconnettersi da Aurora?"</string>
     <string name="account_prompt_login">"Effettua il login per continuare"</string>
-
     <!-- Account -->
     <string name="action_accounts">"Profili"</string>
     <string name="action_ask">"Chiedi"</string>
     <string name="action_blacklist">"Blacklist"</string>
     <string name="action_cancel">"Annulla"</string>
-
     <!-- Cancella -->
     <string name="action_clear">"Rimuovi"</string>
     <string name="action_clear_all">"Rimuovi tutto"</string>
@@ -25,103 +22,81 @@
     <string name="action_favourites">"App preferite"</string>
     <string name="action_filter">"Filtri"</string>
     <string name="action_filter_all">"Tutto"</string>
-
     <!-- Applica -->
     <string name="action_filter_apply">"Applica"</string>
     <string name="action_filter_apps_with_ads">"App con annunci"</string>
     <string name="action_filter_downloads">"Download"</string>
     <string name="action_filter_gsf_dependent_apps">"Dipendente da GSF"</string>
     <string name="action_filter_misc">"Varie"</string>
-
     <!-- A pagamento -->
     <string name="action_filter_paid_apps">"A pagamento"</string>
-
     <!-- Voto -->
     <string name="action_filter_rating">"Valutazioni"</string>
     <string name="action_get_local_apk">"Ottieni l'APK locale"</string>
-
     <!-- Home -->
     <string name="action_home">"Home"</string>
     <string name="action_installations">"Installazioni"</string>
     <string name="action_installed">"Installato"</string>
-
     <!-- Più tardi -->
     <string name="action_later">"Più tardi"</string>
-
     <!-- Effettuando il login -->
     <string name="action_logging_in">"Accesso in corso"</string>
-
     <!-- Logout -->
     <string name="action_logout">"Disconnetti"</string>
     <string name="action_manual">"Download manuale"</string>
-
     <!-- Altro -->
     <string name="action_more">"Altro"</string>
     <string name="action_next">"Avanti"</string>
     <string name="action_pause">"Metti in pausa"</string>
-
     <!-- Riavvia -->
     <string name="action_restart">"Riavvia"</string>
-
     <!-- Riprendi -->
     <string name="action_resume">"Riprendi"</string>
     <string name="action_retry">"Riprova"</string>
     <string name="action_settings">"Impostazioni"</string>
-
     <!-- Spoof -->
     <string name="action_spoofed">"Spoofing"</string>
     <string name="action_submit">"Invia"</string>
-
     <!-- Disinstalla -->
     <string name="action_uninstall">"Disinstalla"</string>
     <string name="action_updates">"Aggiornamenti"</string>
     <string name="action_whitelist">"Whitelist"</string>
     <string name="availability_restriction_country">"Questo articolo non è disponibile nel tuo Paese."</string>
-
     <!-- Quest'app non é disponibile -->
     <string name="availability_restriction_generic">"Questo articolo non è disponibile."</string>
     <string name="availability_restriction_hardware_app">"Il tuo dispositivo non è compatibile con questa versione."</string>
     <string name="category_appFree">"Gratis"</string>
-
     <!-- Top gratuite -->
     <string name="category_topFree">"Più popolari"</string>
     <string name="category_topGrossing">"Più redditizie"</string>
-
     <!-- Di tendenza -->
     <string name="category_trending">"Di tendenza"</string>
     <string name="delete">"Elimina"</string>
-
     <!-- Aurora Store ha bisogno dei seguenti permessi -->
     <string name="desc_perm">"Aurora Store utilizza le seguenti autorizzazioni"</string>
     <string name="details_appReviewsAll">"Leggi tutte le recensioni"</string>
     <string name="details_contains_ads">"Contiene annunci"</string>
-
     <!-- Scarica -->
     <string name="details_download">"Scarica"</string>
     <string name="details_favourite_add">"Aggiungi ai preferiti"</string>
     <string name="details_favourite_remove">"Rimuovi dai preferiti"</string>
-
     <!-- Installa -->
     <string name="details_install">"Installa"</string>
     <string name="details_installing">"Installazione"</string>
     <string name="details_more">"Ulteriori informazioni"</string>
     <string name="details_no_ads">"Senza annunci"</string>
-
     <!-- Permessi app -->
     <string name="details_permissions">"Permessi dell'app"</string>
     <string name="details_purchase">"Acquista"</string>
     <string name="details_rate_this_app">"Valuta questa applicazione"</string>
     <string name="details_rating_reviews">"Valutazioni e recensioni"</string>
     <string name="details_reviews">"Recensioni applicazione"</string>
-
     <!-- Apri -->
     <string name="details_run">"Apri"</string>
-
     <!-- Condividi -->
     <string name="details_share">"Condividi"</string>
     <string name="details_update">"Aggiorna"</string>
     <string name="details_why_rate_this_app">"Dì agli altri cosa ne pensi"</string>
-
     <!-- Il tuo giudizio -->
     <string name="details_you_rated_this_app">"La tua valutazione"</string>
     <string name="dialog_title_logout">"Disconnettersi?"</string>
@@ -129,10 +104,8 @@
     <string name="download_canceled">"Annullato"</string>
     <string name="download_clear_completed">"Rimuovi completati"</string>
     <string name="download_completed">"Completato"</string>
-
     <!-- Fallito -->
     <string name="download_failed">"Fallito"</string>
-
     <!-- Here I didn't preserve the "force" verb since in Italian we can't have two verbs one after another and there isn't a very concise way to express "force clear" (we could say "Cancella tutti forzatamente" but it becomes a bit too long for the menu). -->
     <string name="download_force_clear_all">"Rimuovi tutti"</string>
     <string name="download_pause_all">"Metti in pausa tutti"</string>
@@ -169,9 +142,8 @@
     <string name="list_update_all_txt">"Aggiornamenti disponibili"</string>
     <string name="manual_download_disclaimer">"Disclaimer"</string>
     <string name="manual_download_incompatible">"Google Play Store considera questa app incompatibile con il tuo dispositivo. Ciò significa che il codice di versione non è stato restituito dal server di Google Play Store."</string>
-    <string name="manual_download_warning">"Questa pagina ti consente di scegliere manualmente la versione dell'app da scaricare.
-
-Tieni presente che il download di versioni arbitrarie di app non è supportato da Google Play Store. Il download potrà avvenire soltanto se inserisci un codice di versione valido. Anche se riesci a far partire il download, potresti ottenere un APK incompatibile."</string>
+    <string name="manual_download_warning">Questa pagina ti consente di scegliere manualmente la versione dell\'app da scaricare.
+\nTieni presente che il download di versioni arbitrarie di app non è supportato da Google Play Store. Il download potrà avvenire soltanto se inserisci un codice di versione valido. Anche se riesci a far partire il download, potresti ottenere un APK incompatibile.</string>
     <string name="menu_account">"Profili"</string>
     <string name="menu_disclaimer">"Disclaimer"</string>
     <string name="menu_downloads">"Download"</string>
@@ -252,12 +224,12 @@ Inoltre fornisce una lista di tracker incorporati in una applicazione."</string>
     <string name="about_paypal_summary">"Donami su PayPal"</string>
     <string name="about_fdroid">"F-Droid"</string>
     <string name="about_gitlab">"GitLab"</string>
-    <string name="about_gitlab_summary">"Ottieni il codice sorgente di Aurora Store da Aurora OSS su GitLab"</string>
+    <string name="about_gitlab_summary">Ottieni il codice sorgente di Aurora Store da Aurora OSS su GitLab.</string>
     <string name="about_telegram">"Telegram"</string>
-    <string name="about_telegram_summary">"Unisciti al gruppo di supporto per discussioni o suggerimenti"</string>
+    <string name="about_telegram_summary">Unisciti al gruppo di supporto per discussioni o suggerimenti.</string>
     <string name="about_fdroid_summary">"Ottieni Aurora dal repository di F-Droid"</string>
     <string name="about_xda">"Thread sviluppatore"</string>
-    <string name="about_xda_summary">"Vedi il thread su XDA di Aurora Store per discussioni o suggerimenti"</string>
+    <string name="about_xda_summary">Vedi il thread su XDA di Aurora Store per discussioni o suggerimenti.</string>
     <string name="action_about">"Info"</string>
     <string name="pref_downloader_strategy_summary">"Seleziona la modalità download predefinita, è raccomandata la modalità parallela per download più veloci"</string>
     <string name="pref_downloader_strategy_title">"Modalità download"</string>
@@ -274,7 +246,6 @@ Inoltre fornisce una lista di tracker incorporati in una applicazione."</string>
     <string name="action_close">"Chiudi"</string>
     <string name="exodus_hasTracker">"Contiene tracker"</string>
     <string name="list_selected">"Applicazioni selezionate"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"Scaricato, tocca per installare"</string>
     <string name="notification_installation_manual">"APK raggruppato, azione manuale richiesta"</string>
@@ -419,4 +390,8 @@ Inoltre fornisce una lista di tracker incorporati in una applicazione."</string>
     <string name="download_metadata">"Ottieni metadata"</string>
     <string name="list_empty_blacklist">"Nessuna app in blacklist"</string>
     <string name="pref_notification_title_geo_spoof">"Aurora Geolocalizzazione"</string>
+    <string name="crash_line3">Opzionalmente, puoi provare ad eliminare i dati dell\'applicazione e riavviare l\'applicazione.</string>
+    <string name="list_categories_none">Nessuna categoria disponibile</string>
+    <string name="action_import">Importa</string>
+    <string name="action_clear_restart">Elimina i dati</string>
 </resources>
