@@ -173,7 +173,7 @@
     <string name="testing_program_opt_in">"Join"</string>
     <string name="testing_program_opt_out">"Leave"</string>
     <string name="testing_program_review_dialog_content_hint">"Share your feelings about the app with others."</string>
-    <string name="testing_program_section_opted_in_message">"You will get beta versions of apps unless you leave the beta testing program."</string>
+    <string name="testing_program_section_opted_in_message">"You will get beta versions of apps (unless you leave the beta testing program)."</string>
     <string name="testing_program_section_opted_in_title">"You're a beta tester"</string>
     <string name="testing_program_section_opted_out_message">"Try new features early and send feedback directly to the developers."</string>
     <string name="testing_program_section_opted_out_title">"Become a beta tester"</string>
