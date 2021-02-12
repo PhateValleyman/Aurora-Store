@@ -220,7 +220,6 @@ También ofrece una lista de los trackers incluidos en una aplicación."</string
     <string name="action_close">"Cerrar"</string>
     <string name="exodus_hasTracker">"Contiene trackers"</string>
     <string name="list_selected">"Aplicaciones seleccionadas"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"Descargada, pulsa para instalar"</string>
     <string name="notification_installation_manual">"APK incorporado, necesita acción manual"</string>
@@ -353,8 +352,7 @@ También ofrece una lista de los trackers incluidos en una aplicación."</string
     <string name="about_libera">"Libera Pay"</string>
     <string name="about_bitcoin_btc">"bitcoin"</string>
     <string name="about_bitcoin_btc_summary">"Realizar una donación mediante Bitcoin (BTC)"</string>
-    <string name="about_bitcoin_bch">"Bitcoin Cash
-"</string>
+    <string name="about_bitcoin_bch">Bitcoin Cash</string>
     <string name="about_bitcoin_bch_summary">"Realizar una donación mediante Bitcoin Cash (BCH)"</string>
     <string name="about_bitcoin_eth">"Ethereum"</string>
     <string name="about_bitcoin_eth_summary">"Realizar una donación mediante Ethereum (ETH)"</string>
