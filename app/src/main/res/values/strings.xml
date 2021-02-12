@@ -147,7 +147,7 @@
     <string name="pref_filter_fdroid_title">"Filter F-Droid apps"</string>
     <string name="pref_filter_google_summary">"Removes all Google apps from search results and category apps"</string>
     <string name="pref_filter_google_title">"Filter Google apps"</string>
-    <string name="pref_filter_search_summary">"Search filters are reset every time unless you turn this off"</string>
+    <string name="pref_filter_search_summary">"Search filters are reset every time (unless you turn this off)."</string>
     <string name="pref_filter_search_title">"Use non-persistent search filter"</string>
     <string name="pref_install_auto_summary">"Apps are installed instantly after download completes"</string>
     <string name="pref_install_auto_title">"Auto-install downloaded APKs"</string>
