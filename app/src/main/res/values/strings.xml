@@ -117,7 +117,7 @@
     <string name="list_update_all">"Update all"</string>
     <string name="list_update_all_txt">"update(s) available"</string>
     <string name="manual_download_disclaimer">"Disclaimer"</string>
-    <string name="manual_download_incompatible">"The Google Play Store considers this app incompatible with your device since it doesn't have the version code."</string>
+    <string name="manual_download_incompatible">"The Google Play store considers this app incompatible with your device since it doesn't have the version code."</string>
     <string name="manual_download_warning">"This page lets you manually choose the version of the app to download, which is unsupported by the Google Play store. It works by guessing the version code and might produce an incompatible APK."</string>
     <string name="menu_account">"Accounts"</string>
     <string name="menu_disclaimer">"Disclaimer"</string>
@@ -192,7 +192,7 @@
     <string name="pref_locale_custom_title">"Custom language"</string>
     <string name="pref_locale_custom_summary">"Enforce custom app language"</string>
     <string name="pref_locale_list_title">"Select locale"</string>
-    <string name="about_app">"Aurora Store is a copylefted libre software alternative to the Google Play Store. Download apps, update installed ones, and search for apps and games. It also provides a list of trackers embedded in apps."</string>
+    <string name="about_app">"Aurora Store is a copylefted libre software alternative to the Google Play store. Download apps, update installed ones, and search for apps and games. It also provides a list of trackers embedded in apps."</string>
     <string name="about_paypal">"PayPal"</string>
     <string name="about_paypal_summary">"Donate via PayPal"</string>
     <string name="about_fdroid">"F-Droid"</string>
