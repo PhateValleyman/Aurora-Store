@@ -118,7 +118,7 @@
     <string name="list_update_all_txt">"update(s) available"</string>
     <string name="manual_download_disclaimer">"Disclaimer"</string>
     <string name="manual_download_incompatible">"The Google Play Store considers this app incompatible with your device since it doesn't have the version code."</string>
-    <string name="manual_download_warning">"This page lets you manually choose the version of the app to download, which is unsupported by the Google Play Store. It works by guessing the version code and might produce an incompatible APK."</string>
+    <string name="manual_download_warning">"This page lets you manually choose the version of the app to download, which is unsupported by the Google Play store. It works by guessing the version code and might produce an incompatible APK."</string>
     <string name="menu_account">"Accounts"</string>
     <string name="menu_disclaimer">"Disclaimer"</string>
     <string name="menu_downloads">"Downloads"</string>
