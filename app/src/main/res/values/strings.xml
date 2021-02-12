@@ -240,7 +240,7 @@
     <string name="link_playstore">"Google Play store"</string>
     <string name="link_setting">"Setting"</string>
     <string name="link_share">"Share"</string>
-    <string name="pref_install_mode_no_root">"Grant root access or root your device first to get access."</string>
+    <string name="pref_install_mode_no_root">"Root your device or grant it to Aurora first."</string>
     <string name="pref_install_mode_root_warn">"For Android Pie/9 onwards the root install method requires the APK to be downloaded to app data to be install via adb shell"</string>
     <string name="pref_install_delete_summary">"On devices running Android Pie + with root install method, APKs get deleted by default"</string>
     <string name="action_loading">"Loading"</string>
