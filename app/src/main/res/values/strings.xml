@@ -248,7 +248,7 @@
     <string name="dialog_purchase_title">"App Purchase"</string>
     <string name="dialog_purchase_desc">"You will be redirected to its webpage to purchase the app first."</string>
     <string name="dialog_purchase_positive">"Buy now"</string>
-    <string name="dialog_geores_title">"Geo-restricted app"</string>
+    <string name="dialog_geores_title">"Blocked in your country"</string>
     <string name="dialog_geores_desc">"Try faking your location from the settings and try again."</string>
     <string name="dialog_incompat_title">"Incompatible app"</string>
     <string name="dialog_incompat_desc">"Your device can't run this app reliably, but you can fake it in the settings."</string>
