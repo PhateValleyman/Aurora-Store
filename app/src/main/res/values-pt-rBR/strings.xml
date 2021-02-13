@@ -3,9 +3,8 @@
     <string name="account_dummy">"Anônimo"</string>
     <string name="account_google">"Conta do Google"</string>
     <string name="account_logout">"Sair do Aurora?"</string>
-    <string name="account_prompt_login">"Por favor, entre numa conta para continuar."</string>
+    <string name="account_prompt_login">Por favor, entre numa conta para continuar</string>
     <string name="action_accounts">"Contas"</string>
-
     <!-- não consegui entender onde ele se encaixa -->
     <string name="action_ask">"Autorizar"</string>
     <string name="action_blacklist">"Lista negra"</string>
@@ -28,7 +27,6 @@
     <string name="action_filter_misc">"Miscelânea"</string>
     <string name="action_filter_paid_apps">"Pagos"</string>
     <string name="action_filter_rating">"Classificações"</string>
-
     <!-- Obter APK local -->
     <string name="action_get_local_apk">"Obter APK local"</string>
     <string name="action_home">"Início"</string>
@@ -57,7 +55,7 @@
     <string name="category_topFree">"Melhores gratuitos"</string>
     <string name="category_topGrossing">"Mais rentáveis"</string>
     <string name="category_trending">"Tendências"</string>
-    <string name="delete">"Apagar"</string>
+    <string name="delete">Excluir</string>
     <string name="desc_perm">"A Aurora Store usa as seguintes permissões"</string>
     <string name="details_appReviewsAll">"Ler todas as resenhas"</string>
     <string name="details_contains_ads">"Contém anúncios"</string>
@@ -118,10 +116,8 @@
     <string name="list_update_all">"Atualizar todos"</string>
     <string name="list_update_all_txt">"Atualização(ões) disponível(is)"</string>
     <string name="manual_download_disclaimer">"Aviso legal"</string>
-    <string name="manual_download_incompatible">"A Google Play Store considera esse aplicativo incompatível com o seu aparelho. Isto significa que o código de versão não foi informado pelo servidor da Google Play Store."</string>
-    <string name="manual_download_warning">"Essa página lhe permite escolher manualmente a versão do aplicativo para fazer download.
-
-Lembre-se que fazer o download de versões arbitrárias de aplicativos não é suportado pela Google Play Store. O seu sucesso dependerá de um palpite de sorte do código de versão. Mesmo se você acertar no palpite e o download se iniciar, você poderá obter um APK incompatível."</string>
+    <string name="manual_download_incompatible">A loja do Google Play considera esse aplicativo incompatível com o seu aparelho. Isto significa que o código de versão não foi informado pelo servidor da loja do Google Play.</string>
+    <string name="manual_download_warning">Essa página lhe permite escolher manualmente a versão do aplicativo para baixar. Lembre-se que fazer o download de versões arbitrárias de aplicativos não é suportado pela loja do Google Play. O seu sucesso dependerá de um palpite de sorte do código de versão. Mesmo se você acertar no palpite e o download se iniciar, você poderá obter um APK incompatível.</string>
     <string name="menu_account">"Contas"</string>
     <string name="menu_disclaimer">"Aviso legal"</string>
     <string name="menu_downloads">"Downloads"</string>
@@ -148,13 +144,13 @@ Lembre-se que fazer o download de versões arbitrárias de aplicativos não é s
     <string name="pref_downloader_wifi_title">"Fazer download somente via Wi-Fi"</string>
     <string name="pref_filter_fdroid_summary">"Remove os aplicativos do F-Droid das listas de aplicativos"</string>
     <string name="pref_filter_fdroid_title">"Filtrar apps do F-Droid"</string>
-    <string name="pref_filter_google_summary">"Remover todos os aplicativos Google dos resultados de busca e nas categorias"</string>
-    <string name="pref_filter_google_title">"Filtrar aplicativos Google"</string>
-    <string name="pref_filter_search_summary">"Os filtros de pesquisa são redefinidos a cada nova pesquisa. Desative isso para salvar os filtros de pesquisa."</string>
+    <string name="pref_filter_google_summary">Remover todos os aplicativos de Google dos resultados de busca e nas categorias</string>
+    <string name="pref_filter_google_title">Filtrar aplicativos de Google</string>
+    <string name="pref_filter_search_summary">Os filtros de pesquisa são redefinidos a cada nova pesquisa. Desative isso para salvar os filtros de pesquisa</string>
     <string name="pref_filter_search_title">"Usar filtros de pesquisa não-persistentes"</string>
     <string name="pref_install_auto_summary">"Os aplicativos são instalados logo após o término do download"</string>
     <string name="pref_install_auto_title">"Instalar APKs automaticamente após download"</string>
-    <string name="pref_install_delete_title">"Apagar APK após instalação"</string>
+    <string name="pref_install_delete_title">Excluir APK após instalação</string>
     <string name="pref_install_mode_summary">"Selecionar modo de instalação de APK"</string>
     <string name="pref_install_mode_title">"Método de instalação"</string>
     <string name="pref_notification_priority_summary">"Definir nível de prioridade para notificações de aplicativos"</string>
@@ -167,7 +163,7 @@ Lembre-se que fazer o download de versões arbitrárias de aplicativos não é s
     <string name="pref_proxy_type">"Tipo do proxy"</string>
     <string name="pref_requested_language">"Alterar o idioma padrão de solicitação da API"</string>
     <string name="pref_requested_location_disable">"Você precisa desativar a opção de local fictício manualmente nas configurações de desenvolvedor do Android para desativá-la completamente."</string>
-    <string name="pref_requested_location_summary">"A Aurora Store precisa ser definida como o aplicativo de local fictício padrão"</string>
+    <string name="pref_requested_location_summary">Aurora Store precisa ser definida como o aplicativo de local fictício padrão</string>
     <string name="pref_ui_card_summary">"Usar cartões no estilo antigo para aplicativos em destaque"</string>
     <string name="pref_ui_card_title">"Cartões de destaque antigos"</string>
     <string name="pref_ui_snap_summary">"Mostrar somente um aplicativo por vez ao rolar"</string>
@@ -195,7 +191,7 @@ Lembre-se que fazer o download de versões arbitrárias de aplicativos não é s
     <string name="pref_locale_custom_title">"Idioma personalizado"</string>
     <string name="pref_locale_custom_summary">"Forçar um idioma personalizado no aplicativo"</string>
     <string name="pref_locale_list_title">"Escolher idioma"</string>
-    <string name="about_app">"Aurora é uma alternativa de código aberto à Play Store. Ela permite que você faça o download de aplicativos, forneçe atualizações de aplicativos instalados e permite que você pesquise por aplicativos e jogos. Ela também fornece uma lista de rastreadores num aplicativo."</string>
+    <string name="about_app">Loja da Aurora é uma alternativa de código livre à loja de Google Play. Ela permite que você faça o download de aplicativos, fornece atualizações de apps instalados e permite que você pesquise por aplicativos e jogos. Ela também mostra uma lista de rastreadores num aplicativo.</string>
     <string name="about_paypal">"PayPal"</string>
     <string name="about_paypal_summary">"Faça uma doação através do PayPal"</string>
     <string name="about_fdroid">"F-Droid"</string>
@@ -203,7 +199,7 @@ Lembre-se que fazer o download de versões arbitrárias de aplicativos não é s
     <string name="about_gitlab_summary">"Obtenha o código-fonte da Aurora Store no projeto \"Aurora OSS\" no GitLab."</string>
     <string name="about_telegram">"Telegram"</string>
     <string name="about_telegram_summary">"Junte-se ao grupo de suporte da Aurora para debater ou dar a sua sugestão."</string>
-    <string name="about_fdroid_summary">"Obtenha a Aurora no repositório do F-Droid"</string>
+    <string name="about_fdroid_summary">Obtenha a Aurora no repositório do F-Droid.</string>
     <string name="about_xda">"Tópico de desenvolvimento"</string>
     <string name="about_xda_summary">"Consulte o tópico de suporte da Aurora Store no XDA para debater ou dar a sua sugestão."</string>
     <string name="action_about">"Sobre"</string>
@@ -222,7 +218,6 @@ Lembre-se que fazer o download de versões arbitrárias de aplicativos não é s
     <string name="action_close">"Fechar"</string>
     <string name="exodus_hasTracker">"Contém rastreadores"</string>
     <string name="list_selected">"Aplicativos selecionados"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"Download concluído; toque para instalar"</string>
     <string name="notification_installation_manual">"APK empacotado; ação manual necessária"</string>
@@ -236,7 +231,7 @@ Lembre-se que fazer o download de versões arbitrárias de aplicativos não é s
     <string name="pref_update_interval_weekly">"Diariamente"</string>
     <string name="download_none">"Nenhum download"</string>
     <string name="details_new_changes">"O que há de novo"</string>
-    <string name="cat_top_apps">"Top das Aplicações"</string>
+    <string name="cat_top_apps">Top dos Aplicativos</string>
     <string name="cat_top_games">"Principais jogos"</string>
     <string name="cat_top_family">"Principais aplicativos familiares"</string>
     <string name="details_no_changes">"Changelog não fornecido pelo desenvolvedor"</string>
@@ -245,26 +240,26 @@ Lembre-se que fazer o download de versões arbitrárias de aplicativos não é s
     <string name="link_playstore">"Play Store"</string>
     <string name="link_setting">"Configuração"</string>
     <string name="link_share">"Compartilhar"</string>
-    <string name="pref_install_mode_no_root">"Acesso raiz não disponível, verifique se seu dispositivo está enraizado"</string>
-    <string name="pref_install_mode_root_warn">"O método de instalação raiz exige que o APK seja baixado nos dados do aplicativo, a fim de instalar via shell adb, Android Pie +"</string>
-    <string name="pref_install_delete_summary">"Em dispositivos que executam o Android Pie + com o método de instalação de raiz, os APKs são excluídos por padrão"</string>
+    <string name="pref_install_mode_no_root">Acesso Root indisponível, verifique se seu dispositivo está com Root</string>
+    <string name="pref_install_mode_root_warn">O método de instalação Root exige que o APK seja baixado nos dados do aplicativo, a fim de instalar via adb shell, Android Pie +</string>
+    <string name="pref_install_delete_summary">Em dispositivos que executam o Android Pie + com o método de instalação Root, os APKs são excluídos por padrão</string>
     <string name="action_loading">"Carregando"</string>
     <string name="pref_default">"Padrão"</string>
     <string name="dialog_purchase_title">"Comprar Aplivativo"</string>
-    <string name="dialog_purchase_desc">"Você precisa comprar este aplicativo, Aurora Store não aceita compras dentro do aplicativo, você vai ser redirecionado para a pagina de compras"</string>
-    <string name="dialog_purchase_positive">"Compre"</string>
+    <string name="dialog_purchase_desc">Você precisa comprar este aplicativo. Aurora Store não aceita compras dentro-do-App, você vai ser redirecionado para a pagina de compras.</string>
+    <string name="dialog_purchase_positive">Compre agora</string>
     <string name="dialog_geores_title">"Aplicativo com restrição geográfica"</string>
-    <string name="dialog_geores_desc">"O aplicativo que você está tentando baixar não está disponível em seu país. Tente falsificar sua região nas configurações para fazer o download."</string>
-    <string name="dialog_incompat_title">"Aplicativo Incontável"</string>
-    <string name="dialog_incompat_desc">"Esse aplicativo é incompatível com o seu dispositivo, Tente falsificar seu dispositivo nas configurações do Aurora"</string>
-    <string name="pref_install_mode_services">"Aurora Services"</string>
+    <string name="dialog_geores_desc">O aplicativo que você está tentando baixar não está disponível em seu país. Tente simular outra região nas configurações para fazer o download.</string>
+    <string name="dialog_incompat_title">Aplicativo incompatível</string>
+    <string name="dialog_incompat_desc">Esse aplicativo é incompatível com o seu dispositivo, tente simular outro dispositivo via configurações da Aurora.</string>
+    <string name="pref_install_mode_services">Serviços da Aurora</string>
     <string name="pref_install_mode_no_services">"Aurora Services não instalado, instale o primeiro"</string>
-    <string name="pref_install_mode_offline_services">"Os Serviços Aurora não estão conectados, verifique se está ativado e se você tem a versão correta do aplicativo"</string>
+    <string name="pref_install_mode_offline_services">Serviços da Aurora não estão conectados, verifique se estão ativados e se você tem a versão correta do aplicativo</string>
     <string name="action_info">"Informações do aplicativo"</string>
-    <string name="download_waiting">"Esperando"</string>
+    <string name="download_waiting">Aguardando</string>
     <string name="pref_services_title">"Serviços Aurora"</string>
-    <string name="pref_services_desc">"Iniciar serviços Aurora"</string>
-    <string name="pref_services_desc_alt">"Serviços Aurora indisponíveis"</string>
+    <string name="pref_services_desc">Iniciar Serviços da Aurora</string>
+    <string name="pref_services_desc_alt">Serviços da Aurora indisponíveis. Clique para ir ao repositório de serviços para mais informações.</string>
     <string name="pref_custom_tokenizer">"Ativar tokenizador personalizado"</string>
     <string name="pref_custom_tokenizer_url">"URL do tokenizador"</string>
     <string name="action_export_device">"Exportar informações do dispositivo"</string>
@@ -273,18 +268,18 @@ Lembre-se que fazer o download de versões arbitrárias de aplicativos não é s
     <string name="installer_status_failure">"Instalação falhou"</string>
     <string name="installer_status_failure_aborted">"Instalação cancelada"</string>
     <string name="installer_status_failure_blocked">"A instalação foi bloqueada"</string>
-    <string name="installer_status_failure_conflict">"Existe um pacote conflitante"</string>
+    <string name="installer_status_failure_conflict">Existe um pacote incompatível</string>
     <string name="installer_status_failure_incompatible">"Aplicativo incompatível"</string>
     <string name="installer_status_failure_invalid">"APK inválido ou corrompido"</string>
     <string name="installer_status_failure_storage">"Espaço de memória insuficiente"</string>
     <string name="installer_status_success">"Instalado com sucesso"</string>
     <string name="installer_status_unknown">"Desconhecido"</string>
     <string name="installer_status_user_action">"Aguardando confirmação do usuário"</string>
-    <string name="pref_downloader_internal">"Baixe aplicativos no armazenamento interno"</string>
-    <string name="pref_downloader_internal_desc">"Se ativado, você não poderá instalar aplicativos via Serviços Aurora"</string>
-    <string name="pref_install_profile_summary">"Selecione o perfil de destino para instalar aplicativos, funciona apenas com o método de instalação raiz"</string>
+    <string name="pref_downloader_internal">Baixe aplicativos ao armazenamento interno</string>
+    <string name="pref_downloader_internal_desc">Se ativado, você não poderá instalar aplicativos via Serviços da Aurora</string>
+    <string name="pref_install_profile_summary">Selecione o perfil de destino para instalar aplicativos, funciona apenas com o método de instalação Root</string>
     <string name="pref_install_profile_title">"Perfis de instalação (Experimental)"</string>
-    <string name="pref_install_mode_internal_warn">"Você selecionou o armazenamento interno para downloads, desative-o para usar os Serviços Aurora"</string>
+    <string name="pref_install_mode_internal_warn">Você selecionou o armazenamento interno para downloads, desative-o para usar os Serviços da Aurora</string>
     <string name="pref_updates_extended">"Atualizações estendidas"</string>
     <string name="pref_updates_extended_desc">"Ativar para verificar atualizações de aplicativos desativados"</string>
     <string name="pref_caching_strategy">"Estratégia de cache de imagem"</string>
@@ -293,16 +288,16 @@ Lembre-se que fazer o download de versões arbitrárias de aplicativos não é s
     <string name="pref_caching_strategy_none">"Nenhum"</string>
     <string name="pref_clean_junk">"Forçar a limpeza de arquivos indesejados"</string>
     <string name="pref_clean_junk_desc">"Remove todos os arquivos baixados do diretório padrão"</string>
-    <string name="pref_abandon_session">"Forçar sessões de instalação claras"</string>
+    <string name="pref_abandon_session">Forçar a limpeza de sessões de instalação</string>
     <string name="pref_abandon_session_desc">"Abandonar todas as sessões de instalação pendentes antigas"</string>
     <string name="toast_junk_removed">"Arquivos indesejados removidos"</string>
     <string name="toast_abandon_sessions">"Sessões de instalação antigas abandonadas"</string>
-    <string name="dialog_title_self_update">"Nova atualização disponível "</string>
-    <string name="dialog_desc_self_update">"Deseja atualizar agora? "</string>
-    <string name="list_update_all_txt_one">"Atualização disponível "</string>
-    <string name="pref_ui_package">"Procurar por nome do pacote "</string>
-    <string name="pref_ui_package_summary">"Permitir busca de aplicativos pelo nome do pacote "</string>
-    <string name="pref_update_self_title">"Verificar atualizações "</string>
+    <string name="dialog_title_self_update">Nova atualização disponível</string>
+    <string name="dialog_desc_self_update">Deseja atualizar agora \?</string>
+    <string name="list_update_all_txt_one">Atualização disponível</string>
+    <string name="pref_ui_package">Procurar por nome do pacote</string>
+    <string name="pref_ui_package_summary">Permitir busca de aplicativos pelo nome do pacote</string>
+    <string name="pref_update_self_title">Verificar atualizações</string>
     <string name="pref_update_self_desc">"Verificar pelas últimas atualizações disponíveis da Aurora Store"</string>
     <string name="list_updating_background">"Baixando aplicativos em segundo plano"</string>
     <string name="list_updating_failed">"Falha ao atualizar"</string>
@@ -316,18 +311,18 @@ Lembre-se que fazer o download de versões arbitrárias de aplicativos não é s
     <string name="details_dev_details">"Contato do desenvolvedor"</string>
     <string name="details_dev_email">"Email"</string>
     <string name="details_dev_address">"Endereço"</string>
-    <string name="details_dev_website">"Website"</string>
+    <string name="details_dev_website">Site</string>
     <string name="details_more_updated">"Atualizado em"</string>
     <string name="details_more_version">"Versão"</string>
     <string name="exodus_noReport">"Relatório não disponível"</string>
-    <string name="testing_program_opt_in_success">"Parabéns, você se juntou ao programa beta"</string>
+    <string name="testing_program_opt_in_success">Parabéns, você se juntou ao programa beta.</string>
     <string name="testing_program_opt_in_failed">"Ai! sua solicitação de inscrição beta falhou"</string>
-    <string name="testing_program_opt_out_success">"Saida do programa beta com sucesso"</string>
+    <string name="testing_program_opt_out_success">Você deixou o programa beta com sucesso</string>
     <string name="testing_program_opt_out_failed">"Falha ao tentar sair do programa beta"</string>
     <string name="title_categories">"Categorias"</string>
     <string name="toast_api_all_ok">"Tudo pronto para iniciar"</string>
-    <string name="toast_api_build_retrying">"Falha ao criar API, tentando novamente"</string>
-    <string name="toast_api_build_failed">"Falha ao criar API"</string>
+    <string name="toast_api_build_retrying">Falha ao criar API, tentando novamente.</string>
+    <string name="toast_api_build_failed">Falha ao criar API.</string>
     <string name="toast_api_build_api">"Criando API do GooglePlay"</string>
     <string name="review_positive">"Positivas"</string>
     <string name="review_recent">"Recentes"</string>
@@ -336,23 +331,23 @@ Lembre-se que fazer o download de versões arbitrárias de aplicativos não é s
     <string name="notification_channel_general">"Notificação geral"</string>
     <string name="action_continue_anyway">"Continue de qualquer forma?"</string>
     <string name="details_files">"Detalhes do arquivo"</string>
-    <string name="pref_requested_location_enable">"Você precisa habilitar manualmente o Local Fictício nas Opções do Desenvolvedor. Uma conexão VPN para um local próximo é obrigatória"</string>
+    <string name="pref_requested_location_enable">Você precisa habilitar manualmente o Local Fictício nas Opções do Desenvolvedor. Uma conexão VPN para um local próximo é obrigatória.</string>
     <string name="toast_api_build_delayed">"Está demorando mais que o esperado"</string>
     <string name="dialog_uninstall_confirmation">"Deseja desinstalar este aplicativo?"</string>
     <string name="action_send">"Enviar"</string>
     <string name="dialog_unavailable_title">"Aplicativo indisponível"</string>
-    <string name="dialog_unavailable_desc">"Não foi possível encontrar o item que você estava tentando comprar, tente falsificar seu dispositivo ou mudar de conta."</string>
+    <string name="dialog_unavailable_desc">Não foi possível encontrar o item que você estava tentando comprar, tente simular outro dispositivo ou mudar de conta.</string>
     <string name="privacy_title">"Política de Privacidade do Aurora OSS"</string>
     <string name="privacy_policy">"Política de Privacidade"</string>
     <string name="action_accept">"Aceitar"</string>
     <string name="action_decline">"Rejeitar"</string>
-    <string name="crash_title">"Aurora Relatório de Falha"</string>
+    <string name="crash_title">Relatório de Falhas da Aurora</string>
     <string name="crash_line1">"Bem, isso é embaraçoso !"</string>
     <string name="crash_line2">"Você pode enviar este relatório para o Desenvolvedor do Aurora, para ajudar a resolver o problema."</string>
     <string name="action_ignore">"Ignorar essa versão"</string>
     <string name="action_ignore_remove">"Remover da lista de ignorados"</string>
     <string name="action_disabled">"Desativado"</string>
-    <string name="exodus_progress">"Checando por trackers"</string>
+    <string name="exodus_progress">Verificação de rastreadores</string>
     <string name="list_update_selected">"Atualizar selecionado"</string>
     <string name="about_libera">"Libera Pay"</string>
     <string name="about_libera_summary">"Se torne um apoiador em Libera Pay"</string>
@@ -366,5 +361,9 @@ Lembre-se que fazer o download de versões arbitrárias de aplicativos não é s
     <string name="about_bhim_summary">"Doar por UPI"</string>
     <string name="download_metadata">"Obtendo metadados"</string>
     <string name="list_empty_blacklist">"Sem aplicativos na lista negra"</string>
-    <string name="pref_notification_title_geo_spoof">"Alterado Aurora Geo"</string>
+    <string name="pref_notification_title_geo_spoof">Simular localização Geo na Aurora</string>
+    <string name="crash_line3">Opcionalmente, você pode tentar limpar dados do App e tentar iniciar-lo novamente.</string>
+    <string name="list_categories_none">Não há categorias disponíveis</string>
+    <string name="action_import">Importar</string>
+    <string name="action_clear_restart">Limpar dados</string>
 </resources>
