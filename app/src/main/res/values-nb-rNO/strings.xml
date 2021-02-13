@@ -217,7 +217,6 @@ Husk at nedlasting av vilkårlig versjoner av apper ikke støttes av Google Play
     <string name="action_close">"Lukk"</string>
     <string name="exodus_hasTracker">"Inneholder sporere"</string>
     <string name="list_selected">"Apper valgt"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"Lastet ned, klikk for å installere"</string>
     <string name="notification_installation_manual">"Pakket Apk, manuell handling kreves"</string>
@@ -259,7 +258,7 @@ Husk at nedlasting av vilkårlig versjoner av apper ikke støttes av Google Play
     <string name="download_waiting">"Venter"</string>
     <string name="pref_services_title">"Aurora-tjenester"</string>
     <string name="pref_services_desc">"Start Aurora-tjenester"</string>
-    <string name="pref_services_desc_alt">"Aurora-tjenester er ikke tilgjengelig"</string>
+    <string name="pref_services_desc_alt">Aurora-tjenestene er ikke tilgjengelige. Klikk for å gå til tjenestepakkebrønnen for å lære mer.</string>
     <string name="pref_custom_tokenizer">"Aktiver tilpasset tokenizer"</string>
     <string name="pref_custom_tokenizer_url">"Tokenizer-URL"</string>
     <string name="action_export_device">"Eksporter Enhetsinfo"</string>
@@ -338,4 +337,32 @@ Husk at nedlasting av vilkårlig versjoner av apper ikke støttes av Google Play
     <string name="crash_line2">"Du kan sende denne rapporten til Aurora Dev, for å hjelpe deg med å løse problemet."</string>
     <string name="action_ignore">"Ignorer denne versjonen"</string>
     <string name="action_disabled">"Deaktivert"</string>
+    <string name="pref_requested_location_enable">Du må manuelt skru på falsk posisjon fra utviklerinnstillingene. En VPN-tilkobling til et sted i nærheten kreves.</string>
+    <string name="dialog_unavailable_desc">Elementet du prøvde å kjøpe ble ikke funnet, prøv å endre enhetstypen i programmet eller endre konto.</string>
+    <string name="about_bhim">BHIM - UPI</string>
+    <string name="pref_notification_title_geo_spoof">Forfalsk geografisk plassering</string>
+    <string name="list_empty_blacklist">Ingen svartelistede programmer</string>
+    <string name="download_metadata">Henter metadata</string>
+    <string name="about_bhim_summary">Doner via UPI</string>
+    <string name="about_bitcoin_eth_summary">Doner via Ethereum (ETH)</string>
+    <string name="about_bitcoin_eth">Ethereum</string>
+    <string name="about_bitcoin_bch_summary">Doner via Bitcoin Cash (BCH)</string>
+    <string name="about_bitcoin_bch">Bitcoin Cash</string>
+    <string name="about_bitcoin_btc_summary">Doner via Bitcoin (BTC)</string>
+    <string name="about_bitcoin_btc">Bitcoin</string>
+    <string name="about_libera_summary">Dugnadskronerulling på Liberapay</string>
+    <string name="about_libera">Liberapay</string>
+    <string name="list_update_selected">Oppdater valgte</string>
+    <string name="exodus_progress">Ser etter sporere</string>
+    <string name="crash_line3">Alternativt kan du prøve å tømme programdata og prøve å starte programmet på nytt.</string>
+    <string name="crash_line1">Oida, pinlige greier.</string>
+    <string name="action_ignore_remove">Fjern fra ignoreringsliste</string>
+    <string name="crash_title">Aurora-krasjrapport</string>
+    <string name="privacy_policy">Personvernspraksis</string>
+    <string name="privacy_title">Personvernspraksis for Aurora OSS</string>
+    <string name="testing_program_opt_out_failed">Klarte ikke å gå ute av beta-programmet</string>
+    <string name="testing_program_opt_out_success">Gikk ut av beta-programmet</string>
+    <string name="list_categories_none">Ingen tilgjengelige kategorier</string>
+    <string name="action_import">Importer</string>
+    <string name="action_clear_restart">Tøm data</string>
 </resources>
