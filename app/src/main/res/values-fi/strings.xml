@@ -1,2 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="action_updates">Päivitykset</string>
+    <string name="pref_notification_title_geo_spoof">Aurora Geo naamiointi</string>
+    <string name="dialog_unavailable_desc">Tuotetta jota yritit ostaa ei löytynyt. Yritä naamioida laitteesi tai vaihda tiliä.</string>
+    <string name="dialog_incompat_desc">Sovellus jota yrität ladata ei ole yteensopiva laitteesi kanssa. Yritä uudelleen kun olet vaihtanut naamioidun laitteen asetuksista.</string>
+    <string name="dialog_geores_desc">Sovellus jota yrität ladata ei ole saatavilla maassasi. Yritä uudelleen kun olet vaihtanut naamioidun sijainnin asetuksista.</string>
+    <string name="pref_category_spoof_location">Naamioi käytetty sijainti</string>
+    <string name="pref_category_spoof_lang">Naamioi käytetty kieli</string>
+    <string name="action_spoofed">Naamioi</string>
+    <string name="pref_category_spoof_device">Naamioi laitteeksi</string>
+    <string name="action_settings">Asetukset</string>
+    <string name="action_retry">Yritä uudelleen</string>
+    <string name="action_resume">Jatka</string>
+    <string name="action_restart">Aloita uudestaan</string>
+    <string name="action_pause">Tauko</string>
+    <string name="action_next">Seuraava</string>
+    <string name="action_more">Lisää</string>
+    <string name="action_logout">Kirjaudu ulos</string>
+    <string name="action_manual">Manuaalinen lataus</string>
+    <string name="action_logging_in">Kirjaudutaan sisään</string>
+    <string name="action_later">Myöhemmin</string>
+    <string name="action_installed">Asennetut</string>
+    <string name="action_installations">Asennukset</string>
+    <string name="action_home">Koti</string>
+    <string name="action_get_local_apk">Hae paikallinen APK</string>
+    <string name="action_filter_rating">Arvostelut</string>
+    <string name="action_filter_paid_apps">Maksulliset</string>
+    <string name="action_filter_misc">Sekalaiset</string>
+    <string name="action_filter_gsf_dependent_apps">GSF -riippuvainen</string>
+    <string name="action_filter_downloads">Lataukset</string>
+    <string name="action_filter_apps_with_ads">Mainoksia sisältävät sovellukset</string>
+    <string name="action_filter_apply">Käytä</string>
+    <string name="action_filter_all">Kaikki</string>
+    <string name="action_filter">Suodattimet</string>
+    <string name="action_favourites">Suosikkisovellukset</string>
+    <string name="action_import">Tuo</string>
+    <string name="action_export">Vie</string>
+    <string name="action_enable">Laita päälle</string>
+    <string name="action_done">Valmista</string>
+    <string name="action_disable">Poista käytöstä</string>
+    <string name="action_copy">Kopioi linkki</string>
+    <string name="action_copied">Linkki kopioitu leikepöydälle</string>
+    <string name="action_clear_restart">Tyhjennä tiedot</string>
+    <string name="action_clear_all">Tyhjennä kaikki</string>
+    <string name="action_clear">Tyhjennä</string>
+    <string name="action_cancel">Peruuta</string>
+    <string name="action_blacklist">Musta lista</string>
+    <string name="action_ask">Kysy</string>
+    <string name="action_accounts">Tilit</string>
+    <string name="account_prompt_login">Kirjaudu sisään jatkaaksesi</string>
+    <string name="account_logout">Kirjaudu ulos Aurora Storesta\?</string>
+    <string name="account_google">Google</string>
+    <string name="account_dummy">Anonyymi</string>
+</resources>
