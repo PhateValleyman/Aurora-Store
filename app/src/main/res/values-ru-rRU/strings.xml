@@ -6,7 +6,6 @@
     <string name="account_prompt_login">"Пожалуйста, войдите, чтобы продолжить"</string>
     <string name="action_accounts">"Аккаунты"</string>
     <string name="action_ask">"Запросить"</string>
-
     <!-- Ожидается добавление отдельного стринга для названия категории в настройках, а это останется только для действия добавляющего приложение в чёрный список, а не как сейчас. -->
     <string name="action_blacklist">"Чёрный список"</string>
     <string name="action_cancel">"Отмена"</string>
@@ -31,7 +30,6 @@
     <string name="action_get_local_apk">"Сохранить установленный APK-файл"</string>
     <string name="action_home">"Главная"</string>
     <string name="action_installations">"Установка"</string>
-
     <!-- Там приложения и игры. Есть путаница с приложениями из маркета. Может "установленные?" -->
     <string name="action_installed">"Установленные"</string>
     <string name="action_later">"Позже"</string>
@@ -40,7 +38,6 @@
     <string name="action_manual">"Загрузить вручную"</string>
     <string name="action_more">"Ещё"</string>
     <string name="action_next">"Дальше"</string>
-
     <!-- С учётом "перезапустить" и "возобновить" по смыслу и по виду оптимальнее будет не пауза, а именно "приостановить". Больше по виду. -->
     <string name="action_pause">"Приостановить"</string>
     <string name="action_restart">"Перезапустить"</string>
@@ -100,10 +97,8 @@
     <string name="error_search_not_found">"Не найдено"</string>
     <string name="exodus_noTracker">"Не содержит трекеров"</string>
     <string name="exodus_powered">"При поддержке Exodus"</string>
-
     <!-- Стрёмно как ни крути. Может вообще не переводить ? -->
     <string name="exodus_title">"Защита Aurora"</string>
-
     <!-- Логичее "Отчёт exodus" без "от", так как exodus не является персоной.
 https://exodus-privacy.eu.org/en/. Это как "отчёт от аваста" получается =) -->
     <string name="exodus_title_alt">"Отчёт Exodus"</string>
@@ -115,28 +110,22 @@ https://exodus-privacy.eu.org/en/. Это как "отчёт от аваста" 
     <string name="list_app_no_ads">"Без рекламы"</string>
     <string name="list_app_system">"Системное приложение"</string>
     <string name="list_app_user">"Пользовательское приложение"</string>
-
     <!-- "Приложения в чёрном списке" слишком длинно. Даже на не маленьких устройствах переносится на вторую строку -->
     <string name="list_blacklist">"В чёрном списке"</string>
-
     <!-- см. "Blacklisted Apps" -->
     <string name="list_blacklist_none">"Чёрный список пуст"</string>
     <string name="list_empty_fav">"Список избранного пуст"</string>
     <string name="list_empty_updates">"Нет доступных обновлений"</string>
-
     <!-- нн -->
     <string name="list_installed">"Установленные"</string>
-
     <!-- Скрыть системные shorten than показывать пользовательские -->
     <string name="list_installed_system">"Скрыть системные приложения"</string>
     <string name="list_not_installd">"Не установлено"</string>
     <string name="list_update_all">"Обновить все"</string>
-
     <!-- Required declension -->
     <string name="list_update_all_txt">"обновлений доступно"</string>
     <string name="manual_download_disclaimer">"Отказ от ответственности"</string>
     <string name="manual_download_incompatible">"Сервер Google Play Store не вернул код версии приложения. Это означает, что Google Play Store считает это приложение несовместимым с вашим устройством."</string>
-
     <!-- Need to add info to original about veraion deletion by dev himself -->
     <string name="manual_download_warning">"Здесь вы можете вручную выбрать версию приложения для загрузки.
 
@@ -147,7 +136,6 @@ https://exodus-privacy.eu.org/en/. Это как "отчёт от аваста" 
     <string name="menu_license">"Лицензия"</string>
     <string name="menu_setting">"Настройки"</string>
     <string name="menu_terms">"Условия предоставления услуг"</string>
-
     <!-- Maybe fix original to "App not need extra permissions" -->
     <string name="no_permissions">"Приложение не требует дополнительных разрешений."</string>
     <string name="pref_app_download">"Загрузки"</string>
@@ -166,17 +154,14 @@ https://exodus-privacy.eu.org/en/. Это как "отчёт от аваста" 
     <string name="pref_downloader_debug_summary">"Включите отладку процесса загрузки, чтобы получить подробные журналы"</string>
     <string name="pref_downloader_debug_title">"Отладка процесса загрузки"</string>
     <string name="pref_downloader_path_title">"Папка загрузок"</string>
-
     <!-- Немного резало глаза "только используя" -->
     <string name="pref_downloader_wifi_title">"Загружать только по Wi-Fi"</string>
     <string name="pref_filter_fdroid_summary">"Не показывать приложения из F-Droid в списках приложений"</string>
     <string name="pref_filter_fdroid_title">"Скрывать приложения из F-Droid"</string>
     <string name="pref_filter_google_summary">"Убирает все приложения Google из результатов поиска и категорий"</string>
-
     <!-- "Приложения gapps" звучит как: "приложения гугл приложения". Gapps это уже google apps. Так что или "скрывать gapps" или "скрывать приложения google". ИМХО -->
     <string name="pref_filter_google_title">"Скрывать приложения Google"</string>
     <string name="pref_filter_search_summary">"Сбрасывать фильтры поиска при каждом новом поиске; отключите, чтобы фильтры сохранялись"</string>
-
     <!-- Invert toggle. "Use persistent search filter (○   )" -->
     <string name="pref_filter_search_title">"Временный фильтр поиска"</string>
     <string name="pref_install_auto_summary">"Устанавливать приложения сразу после завершения загрузки"</string>
@@ -184,7 +169,6 @@ https://exodus-privacy.eu.org/en/. Это как "отчёт от аваста" 
     <string name="pref_install_delete_title">"Удалять APK после установки"</string>
     <string name="pref_install_mode_summary">"Выберите способ установки APK-файлов"</string>
     <string name="pref_install_mode_title">"Способ установки"</string>
-
     <!-- Maybe more description -->
     <string name="pref_notification_priority_summary">"Установка уровня приоритета для уведомлений"</string>
     <string name="pref_notification_priority_title">"Приоритет уведомлений"</string>
@@ -194,7 +178,6 @@ https://exodus-privacy.eu.org/en/. Это как "отчёт от аваста" 
     <string name="pref_proxy_host">"Адрес"</string>
     <string name="pref_proxy_port">"Порт"</string>
     <string name="pref_proxy_type">"Тип прокси"</string>
-
     <!-- Теряется смысл назначения опции с текущим переводом. -->
     <string name="pref_requested_language">"Изменить требуемый язык по умолчанию"</string>
     <string name="pref_requested_location_disable">"Вам необходимо вручную отключить использование фиктивных местоположений из параметров для разработчиков, для полного отключения функции."</string>
@@ -213,14 +196,12 @@ https://exodus-privacy.eu.org/en/. Это как "отчёт от аваста" 
     <string name="testing_program_section_opted_out_title">"Стать бета-тестером"</string>
     <string name="title_all_apps">"Все приложения"</string>
     <string name="title_home">"Aurora Store"</string>
-
     <!-- Не надо добавлять "Мои", не на каждом устройстве эта надпись влазит полностью -->
     <string name="title_installed">"Приложения и игры"</string>
     <string name="title_perm">"Разрешения"</string>
     <string name="title_search">"Поиск приложений и игр"</string>
     <string name="title_updates">"Доступные обновления"</string>
     <string name="title_welcome">"Добро пожаловать"</string>
-
     <!-- А это где вообще отображается ? -->
     <string name="toast_apk_blacklisted">"Добавлено в чёрный список"</string>
     <string name="toast_apk_whitelisted">"Добавлено в белый список"</string>
@@ -248,7 +229,6 @@ Aurora позволяет искать, загружать, устанавлив
     <string name="pref_downloader_strategy_title">"Метод загрузки"</string>
     <string name="pref_downloader_strategy_sequential">"Последовательный"</string>
     <string name="pref_downloader_strategy_parallel">"Параллельный (раздельно)"</string>
-
     <!-- Длинно, зато отражает смысл и влазит без проблем -->
     <string name="pref_install_mode_native">"Стандартный диалог установки"</string>
     <string name="pref_install_mode_root">"С использованием root"</string>
@@ -261,11 +241,9 @@ Aurora позволяет искать, загружать, устанавлив
     <string name="action_close">"Закрыть"</string>
     <string name="exodus_hasTracker">"Содержит трекеры"</string>
     <string name="list_selected">"Выбранные приложения"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"Загружено, коснитесь для установки"</string>
     <string name="notification_installation_manual">"Bundled APK, требуется участие пользователя"</string>
-
     <!-- https://developer.android.com/guide/app-bundle -->
     <string name="pref_install_type_summary">"Использовать системный установщик для установки APK-файлов; ломает установку APK, состоящих из нескольких частей"</string>
     <string name="pref_install_type_title">"Только системный установщик"</string>
@@ -403,4 +381,13 @@ Aurora позволяет искать, загружать, устанавлив
     <string name="download_metadata">"Получение метаданных"</string>
     <string name="list_empty_blacklist">"Чёрный список пуст"</string>
     <string name="pref_notification_title_geo_spoof">"Подмена местоположения Aurora"</string>
+    <string name="about_bhim">BHIM - UPI</string>
+    <string name="about_bitcoin_eth">Ethereum</string>
+    <string name="about_bitcoin_bch">Биткойн Кэш</string>
+    <string name="about_bitcoin_btc">Биткойн</string>
+    <string name="about_libera">Liberapay</string>
+    <string name="crash_line3">При желании вы можете попробовать очистить данные приложения и повторить попытку запуска приложения.</string>
+    <string name="list_categories_none">Нет доступных категорий</string>
+    <string name="action_import">Импорт</string>
+    <string name="action_clear_restart">Очистить данные</string>
 </resources>
