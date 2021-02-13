@@ -2,7 +2,7 @@
 <resources>
     <string name="account_dummy">"Anonym"</string>
     <string name="account_google">"Google Konto"</string>
-    <string name="account_logout">"Von Aurora abmelden"</string>
+    <string name="account_logout">Von Aurora abmelden\?</string>
     <string name="account_prompt_login">"Bitte anmelden um fortzufahren"</string>
     <string name="action_accounts">"Konten"</string>
     <string name="action_ask">"Fragen"</string>
@@ -61,9 +61,8 @@
     <string name="details_favourite_add">"Zu Favoriten hinzufügen"</string>
     <string name="details_favourite_remove">"Aus Favoriten entfernen"</string>
     <string name="details_install">"Installieren"</string>
-
     <!-- This should be "Installiere" as "Installieren" is already the translation for "Install". So at the moment when you click on "Install" the Button changes to "Installing" but in the German version nothing changes! -->
-    <string name="details_installing">"Installiere..."</string>
+    <string name="details_installing">Installiere</string>
     <string name="details_more">"Weiterlesen"</string>
     <string name="details_no_ads">"Keine Werbung"</string>
     <string name="details_permissions">"Berechtigungen"</string>
@@ -222,7 +221,6 @@ Zudem zeigt Aurora die Anzahl der Tracker in der jeweiligen App an."</string>
     <string name="action_close">"Schließen"</string>
     <string name="exodus_hasTracker">"Anzahl Tracker:"</string>
     <string name="list_selected">"Apps ausgewählt"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"Heruntergeladen, klicke zum Installieren"</string>
     <string name="notification_installation_manual">"Gebündelte APK, manuelles Eingreifen erforderlich"</string>
@@ -316,7 +314,6 @@ Zudem zeigt Aurora die Anzahl der Tracker in der jeweiligen App an."</string>
     <string name="details_dev_details">"Kontaktdaten des Entwicklers"</string>
     <string name="details_dev_email">"Email"</string>
     <string name="details_dev_address">"Adresse"</string>
-
     <!-- Netzseite is wrong. Better use Webseite Internetseite or just Website -->
     <string name="details_dev_website">"Netzseite"</string>
     <string name="details_more_updated">"Aktualisiert am"</string>
@@ -338,7 +335,6 @@ Zudem zeigt Aurora die Anzahl der Tracker in der jeweiligen App an."</string>
     <string name="notification_channel_general">"Allgemeine Benachrichtigung"</string>
     <string name="action_continue_anyway">"Trotzdem fortfahren? "</string>
     <string name="details_files">"Datei details"</string>
-
     <!-- Looked up settings name in developer options. Unsure about the last sentence concerning vpn... -->
     <string name="pref_requested_location_enable">"\"Falsche Standorte\" müssen in den Entwickleroptionen aktiviert werden. Eine VPN-Verbindung ist notwendig."</string>
     <string name="toast_api_build_delayed">"Es dauert länger als erwartet"</string>
@@ -372,4 +368,8 @@ Zudem zeigt Aurora die Anzahl der Tracker in der jeweiligen App an."</string>
     <string name="download_metadata">"Empfange Metadaten"</string>
     <string name="list_empty_blacklist">"Keine blockierten Apps"</string>
     <string name="pref_notification_title_geo_spoof">"Standort vortäuschen"</string>
+    <string name="crash_line3">Optional kannst du versuchen, die App-Daten zu löschen und die App erneut zu starten.</string>
+    <string name="list_categories_none">Keine Kategorien verfügbar</string>
+    <string name="action_import">Importieren</string>
+    <string name="action_clear_restart">Daten löschen</string>
 </resources>
