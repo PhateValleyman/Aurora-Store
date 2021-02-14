@@ -8,8 +8,8 @@
     <string name="action_ask">"Pitati"</string>
     <string name="action_blacklist">"Stavi na crnu listu"</string>
     <string name="action_cancel">"Otkaži"</string>
-    <string name="action_clear">"Očisti"</string>
-    <string name="action_clear_all">"Očisti sve"</string>
+    <string name="action_clear">Izbriši</string>
+    <string name="action_clear_all">Izbriši sve</string>
     <string name="action_copied">"Link kopiran u međuspremnik"</string>
     <string name="action_copy">"Kopiraj link"</string>
     <string name="action_disable">"Onesposobi"</string>
@@ -77,10 +77,10 @@
     <string name="dialog_title_logout">"Odjava?"</string>
     <string name="download_cancel_all">"Otkaži sve"</string>
     <string name="download_canceled">"Otkazano"</string>
-    <string name="download_clear_completed">"Čišćenje gotovo"</string>
+    <string name="download_clear_completed">Brisanje je završeno</string>
     <string name="download_completed">"Preuzeto"</string>
     <string name="download_failed">"Neuspjeh"</string>
-    <string name="download_force_clear_all">"Prisilno očisti sve"</string>
+    <string name="download_force_clear_all">Prisilno izbriši sve</string>
     <string name="download_pause_all">"Pauziraj sve"</string>
     <string name="download_paused">"Zaustavljeno"</string>
     <string name="download_progress">"Preuzimanje"</string>
@@ -93,7 +93,7 @@
     <string name="error_no_network">"Nema mrežne veze"</string>
     <string name="error_search_not_found">"Nije pronađena odgovarajuća aplikacija"</string>
     <string name="exodus_noTracker">"Ne sadrži tragače"</string>
-    <string name="exodus_powered">"Powered by Exodus"</string>
+    <string name="exodus_powered">Omogućuje Exodus</string>
     <string name="exodus_title">"Aurora Protect"</string>
     <string name="exodus_title_alt">"Exodus izvješće"</string>
     <string name="exodus_viewMore">"Pogledaj"</string>
@@ -112,7 +112,7 @@
     <string name="list_installed_system">"Prikaži samo korisničke aplikacije"</string>
     <string name="list_not_installd">"Nije instalirano"</string>
     <string name="list_update_all">"Ažuriraj sve"</string>
-    <string name="list_update_all_txt">"dostupno ažuriranje "</string>
+    <string name="list_update_all_txt">dostupno ažuriranje</string>
     <string name="manual_download_disclaimer">"odricanje"</string>
     <string name="manual_download_incompatible">"Trgovina Google Play smatra ovu aplikaciju nekompatibilnom s vašim uređajem. To znači da poslužitelj usluge Google Play nije vratio kôd verzije."</string>
     <string name="manual_download_warning">"Na ovoj stranici možete ručno odabrati verziju aplikacije za preuzimanje. Imajte na umu da Google Play trgovina ne podržava preuzimanje proizvoljnih verzija aplikacija. Vaš uspjeh ovisi o sretnoj pretpostavci koda verzije. Čak i ako pogodite dobro i započnete preuzimanje, možda ćete dobiti nekompatibilnu aplikaciju."</string>
@@ -194,14 +194,14 @@
     <string name="about_paypal_summary">"Doniraj putem PayPala"</string>
     <string name="about_fdroid">"F-Droid"</string>
     <string name="about_gitlab">"GitLab"</string>
-    <string name="about_gitlab_summary">"Preuzmi izvorni kȏd Aurora Storea sa Aurora OSS-a na GitLabu"</string>
+    <string name="about_gitlab_summary">Preuzmi izvorni kod Aurora Storea s Aurora OSS-a na GitLabu.</string>
     <string name="about_telegram">"Telegram"</string>
     <string name="about_telegram_summary">"Pridružite se Aurora grupi za podršku za rasprave ili prijedloge."</string>
-    <string name="about_fdroid_summary">"Preuzmi Auroru putem F-Droida"</string>
+    <string name="about_fdroid_summary">Preuzmi Aurora putem F-Droida.</string>
     <string name="about_xda">"Thread programera"</string>
     <string name="about_xda_summary">"Pogledaj XDA thread Aurore za rasprave ili prijedloge."</string>
     <string name="action_about">"O aplikaciji"</string>
-    <string name="pref_downloader_strategy_summary">"Odaberi zadanu strategiju preuzimanja. Zbog brzine, preporučeno je paralelno preuzimanje."</string>
+    <string name="pref_downloader_strategy_summary">Odaberi zadanu strategiju preuzimanja. Zbog brzine, preporučeno je paralelno preuzimanje</string>
     <string name="pref_downloader_strategy_title">"Strategija preuzimanja"</string>
     <string name="pref_downloader_strategy_sequential">"Sekvencijalno preuzimanje"</string>
     <string name="pref_downloader_strategy_parallel">"Paralelno preuzimanje (dijelovi)"</string>
@@ -216,7 +216,6 @@
     <string name="action_close">"Zatvori"</string>
     <string name="exodus_hasTracker">"Sadrži pratioce"</string>
     <string name="list_selected">"Označene aplikacije"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"Preuzeto, klikni za instalaciju"</string>
     <string name="notification_installation_manual">"APK u paketu, zahtjeva ručnu obradu"</string>
@@ -285,9 +284,9 @@
     <string name="pref_caching_strategy_all">"Sve"</string>
     <string name="pref_caching_strategy_automatic">"Automatsko"</string>
     <string name="pref_caching_strategy_none">"Nikakvo"</string>
-    <string name="pref_clean_junk">"Prisilno očisti bezvrijedne datoteke"</string>
+    <string name="pref_clean_junk">Prisilno izbriši bezvrijedne datoteke</string>
     <string name="pref_clean_junk_desc">"Uklanja sve preuzete datoteke iz zadanog direktorija"</string>
-    <string name="pref_abandon_session">"Prisilno obriši sjednice instalacije"</string>
+    <string name="pref_abandon_session">Prisilno izbriši sjednice instalacije</string>
     <string name="pref_abandon_session_desc">"Napusti sve stare instalacije na čekanju"</string>
     <string name="toast_junk_removed">"Neželjene datoteke su uklonjene"</string>
     <string name="toast_abandon_sessions">"Stare sjednice instalacije su napuštene"</string>
@@ -304,7 +303,7 @@
     <string name="pref_updates_auto_desc">"Ažuriraj aplikacije kad god je nova verzija dostupna"</string>
     <string name="toast_login_success">"Uspješna prijava"</string>
     <string name="toast_login_failed">"Neuspješna prijava"</string>
-    <string name="disclaimer">"Korištenje Aurora trgovine s vlastitim Google računom može uzrokovati deaktivaciju vašeg računa jer Aurora Store krši Googleove Uvjepružanja usluge 3.3, koristite na vlastiti rizik. Možete se prijaviti anonimno."</string>
+    <string name="disclaimer">Korištenje Aurora trgovine s vlastitim Google računom može uzrokovati deaktivaciju vašeg računa jer Aurora Store krši Googleove Uvjete pružanja usluge 3.3, koristite na vlastiti rizik. Možete se prijaviti anonimno</string>
     <string name="menu_blacklist">"Dodaj na crnu listu"</string>
     <string name="action_unknown">"Nepoznato"</string>
     <string name="details_dev_details">"Kontaktiraj razvojnog programera"</string>
@@ -358,4 +357,6 @@
     <string name="about_bitcoin_eth_summary">"Doniraj Ethereum (ETH)"</string>
     <string name="about_bhim">"BHIM - UPI"</string>
     <string name="about_bhim_summary">"Doniraj preko UPI"</string>
+    <string name="crash_line3">Opcionalno možeš pokušati izbrisati podatke programa te ponovo pokrenuti program.</string>
+    <string name="action_clear_restart">Izbriši podatke</string>
 </resources>
