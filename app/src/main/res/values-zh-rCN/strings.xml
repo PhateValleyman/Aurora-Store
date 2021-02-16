@@ -21,7 +21,6 @@
     <string name="action_filter_all">"全部"</string>
     <string name="action_filter_apply">"应用"</string>
     <string name="action_filter_apps_with_ads">"包含广告的应用"</string>
-
     <!-- 在筛选器中应为“下载量” -->
     <string name="action_filter_downloads">"下载量"</string>
     <string name="action_filter_gsf_dependent_apps">"依赖谷歌框架"</string>
@@ -76,7 +75,6 @@
     <string name="details_update">"更新"</string>
     <string name="details_why_rate_this_app">"告诉别人您的想法"</string>
     <string name="details_you_rated_this_app">"您的评分"</string>
-
     <!-- 登出（帐号）而非退出 -->
     <string name="dialog_title_logout">"登出？"</string>
     <string name="download_cancel_all">"全部取消"</string>
@@ -140,7 +138,6 @@
     <string name="pref_device_to_pretend_to_be_toast">"这些变更将在重新登录后生效"</string>
     <string name="pref_dialog_to_apply_restart">"这些变更将在重启应用后生效"</string>
     <string name="pref_downloader_active_summary">"最大活动下载数"</string>
-
     <!-- 参见下方副标题“最大活动下载数” -->
     <string name="pref_downloader_active_title">"活动下载"</string>
     <string name="pref_downloader_debug_summary">"启用下载调试以获取详细日志"</string>
@@ -168,7 +165,6 @@
     <string name="pref_proxy_type">"代理类型"</string>
     <string name="pref_requested_language">"更改 API 请求的默认语言"</string>
     <string name="pref_requested_location_disable">"您需要在开发者选项中禁用模拟位置以完全禁用它。"</string>
-
     <!-- be set -> 被设置 -->
     <string name="pref_requested_location_summary">"Aurora 商店必须被设置为默认模拟位置应用"</string>
     <string name="pref_ui_card_summary">"为精选应用使用经典风格卡片"</string>
@@ -180,10 +176,8 @@
     <string name="testing_program_opt_out">"退出"</string>
     <string name="testing_program_review_dialog_content_hint">"输入对该应用的反馈"</string>
     <string name="testing_program_section_opted_in_message">"应用更新将包含 Beta 版。如果您退出此应用的 Beta 版计划，您将不再获得 Beta 版更新。"</string>
-
     <!-- 此处复制了 Play 商店的原文 -->
     <string name="testing_program_section_opted_in_title">"您已成为 Beta 版测试人员"</string>
-
     <!-- 此处复制了 Play 商店的原文 -->
     <string name="testing_program_section_opted_out_message">"在新功能正式发布之前进行试用，并向开发者提供反馈。"</string>
     <string name="testing_program_section_opted_out_title">"成为 Beta 版测试人员"</string>
@@ -196,17 +190,14 @@
     <string name="title_welcome">"欢迎"</string>
     <string name="toast_apk_blacklisted">"已加入黑名单"</string>
     <string name="toast_apk_whitelisted">"已加入白名单"</string>
-
     <!-- 在Toast中不用完成时使人更舒服？ -->
     <string name="toast_apk_copy_success">"成功提取 APK"</string>
-
     <!-- 此处应强调“失败” -->
     <string name="toast_apk_copy_failure">"APK 提取失败"</string>
     <string name="pref_app_language">"语言"</string>
     <string name="pref_locale_custom_title">"自定义语言"</string>
     <string name="pref_locale_custom_summary">"强制自定义应用语言"</string>
     <string name="pref_locale_list_title">"选择语言"</string>
-
     <!-- 原文并没有“显示”的含义，此处应为“提供” -->
     <string name="about_app">"Aurora 是 Play 商店的开源替代品。
         它允许您下载应用，更新已安装的应用，并搜索应用和游戏。
@@ -238,7 +229,6 @@
     <string name="action_close">"关闭"</string>
     <string name="exodus_hasTracker">"包含跟踪器"</string>
     <string name="list_selected">"已选择的应用"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"已下载，点击安装"</string>
     <string name="notification_installation_manual">"APK 经捆绑，需要手动操作"</string>
@@ -251,7 +241,6 @@
     <string name="pref_update_interval_daily">"每周"</string>
     <string name="pref_update_interval_weekly">"每天"</string>
     <string name="download_none">"无下载项目"</string>
-
     <!-- 不应口语化，此处”新版变化“见Google Play中的翻译 -->
     <string name="details_new_changes">"新版变化"</string>
     <string name="cat_top_apps">"热门软件"</string>
@@ -301,7 +290,6 @@
     <string name="pref_downloader_internal">"在内部存储中下载应用"</string>
     <string name="pref_downloader_internal_desc">"若启用将不能通过 Aurora 服务安装应用"</string>
     <string name="pref_install_profile_summary">"选择要安装应用的目标配置文件，仅适用于 Root 安装方式"</string>
-
     <!-- “实验性功能”为广泛使用的表达 -->
     <string name="pref_install_profile_title">"安装配置文件（实验性）"</string>
     <string name="pref_install_mode_internal_warn">"您已选择内部存储进行下载，请将其禁用以使用 Aurora 服务"</string>
@@ -387,4 +375,5 @@
     <string name="download_metadata">"正在获取元数据"</string>
     <string name="list_empty_blacklist">"没有列入黑名单的应用"</string>
     <string name="pref_notification_title_geo_spoof">"Aurora 地理位置欺骗"</string>
+    <string name="action_import">导入</string>
 </resources>
