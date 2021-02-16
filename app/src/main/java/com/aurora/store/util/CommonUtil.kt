@@ -40,8 +40,8 @@ object CommonUtil {
     private val diPrefixes: Map<Int, String> = hashMapOf(
         Pair(1, ""),
         Pair(3, " K"),
-        Pair(6, " Million"),
-        Pair(9, " Billion")
+        Pair(6, " M"),
+        Pair(9, " B")
     )
 
     fun addSiPrefix(value: Long): String {
@@ -183,6 +183,7 @@ object CommonUtil {
             10 -> R.style.Accent10
             11 -> R.style.Accent11
             12 -> R.style.Accent12
+            13 -> R.style.Accent13
             else -> R.style.Accent01
         }
     }
