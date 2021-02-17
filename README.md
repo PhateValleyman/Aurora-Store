@@ -15,8 +15,10 @@ For those concerned with privacy, **Aurora Store** does not require Google's pro
 
 ## Screenshots
 
-<img src="screenshots/account.png" height="400"><img src="screenshots/home.png" height="400">
-<img src="screenshots/sidebar.png" height="400"><img src="screenshots/spoof.png" height="400">
+<img src="screenshots/account.png" height="400">
+<img src="screenshots/home.png" height="400">
+<img src="screenshots/sidebar.png" height="400">
+<img src="screenshots/spoof.png" height="400">
 
 ## Features
 

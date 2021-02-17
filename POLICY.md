@@ -1,6 +1,6 @@
 # Aurora Store Privacy Policy
 
-Last Updated: **15.02.2021**
+Last Updated: **17.02.2021**
 
 ## User data sent to Google by default
 
@@ -22,15 +22,9 @@ All accounts being used within **Aurora Store** are saved onto the device as AAS
 
 ## User data sent to our server by default
 
-The only data being sent to our server are **IP addresses**. This is to ensure the functionality and stability of our server, which detects the amount of GET requests from an IP address and if deemed them as spamming, will be rate-limited or banned. The table below shows the restrictions set on our server:
+The only data being sent to our server are **IP addresses**. This is to ensure the functionality and stability of our server, which detects the amount of GET requests from an IP address and if deemed them as spamming, will be banned from our server, otherwise rate-limited.
 
-| Request/s | Rate-limited | Banned |
-| --------- | :----------: | :----: |
-| < 5       |      no      |   no   |
-| > 10      |     yes      |   no   |
-| > 50      |      no      |  yes   |
-
-Rate-limiting lasts for
+Rate-limiting lasts for an hour. If you keep going over the 20 request per hour limit, an additional hour to the rate-limiting will be added for every addtional 20 requests. So do yourself a favour and don't do it.
 
 ## Changes To This Privacy Policy
 
