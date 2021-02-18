@@ -199,20 +199,17 @@
     <string name="pref_locale_custom_summary">"强制自定义应用语言"</string>
     <string name="pref_locale_list_title">"选择语言"</string>
     <!-- 原文并没有“显示”的含义，此处应为“提供” -->
-    <string name="about_app">"Aurora 是 Play 商店的开源替代品。
-        它允许您下载应用，更新已安装的应用，并搜索应用和游戏。
-        它还提供了嵌入在应用中的跟踪器列表。
-    "</string>
+    <string name="about_app">Aurora 是一款 Play 商店的开源替代品。它允许你下载应用，提供已安装的应用的更新，并让你搜索应用和游戏。它还提供了嵌入在应用中的跟踪器列表。</string>
     <string name="about_paypal">"PayPal"</string>
     <string name="about_paypal_summary">"通过 PayPal 捐助我"</string>
     <string name="about_fdroid">"F-Droid"</string>
     <string name="about_gitlab">"GitLab"</string>
-    <string name="about_gitlab_summary">"在 GitLab 上的 Aurora OSS 获取 Aurora 商店的源代码"</string>
+    <string name="about_gitlab_summary">从 GitLab 上的 Aurora OSS 获取 Aurora 商店的源代码。</string>
     <string name="about_telegram">"Telegram"</string>
-    <string name="about_telegram_summary">"加入 Aurora 支持群组参加讨论或提出建议"</string>
-    <string name="about_fdroid_summary">"通过 F-Droid 获取 Aurora"</string>
+    <string name="about_telegram_summary">加入 Aurora 支持群组参加讨论或提出建议。</string>
+    <string name="about_fdroid_summary">通过 F-Droid 获取 Aurora。</string>
     <string name="about_xda">"开发论坛主题"</string>
-    <string name="about_xda_summary">"查看 Aurora 商店在 XDA 上的主题并参与讨论或提出建议"</string>
+    <string name="about_xda_summary">查看 Aurora 商店在 XDA 上的主题，参与讨论或提出建议。</string>
     <string name="action_about">"关于"</string>
     <string name="pref_downloader_strategy_summary">"选择默认下载方式，推荐使用并行方式进行高速下载"</string>
     <string name="pref_downloader_strategy_title">"下载方式"</string>
@@ -271,7 +268,7 @@
     <string name="download_waiting">"等待中"</string>
     <string name="pref_services_title">"Aurora 服务"</string>
     <string name="pref_services_desc">"运行 Aurora 服务"</string>
-    <string name="pref_services_desc_alt">"Aurora 服务不可用"</string>
+    <string name="pref_services_desc_alt">Aurora 服务不可用。单击转到服务存储库以了解更多信息。</string>
     <string name="pref_custom_tokenizer">"启用自定义 Token 生成器"</string>
     <string name="pref_custom_tokenizer_url">"Token 生成器 URL"</string>
     <string name="action_export_device">"导出设备信息"</string>
@@ -355,8 +352,8 @@
     <string name="action_accept">"接受"</string>
     <string name="action_decline">"拒绝"</string>
     <string name="crash_title">"Aurora崩溃报告"</string>
-    <string name="crash_line1">"额，尴尬了"</string>
-    <string name="crash_line2">"您可以把这份报告发给Aurora开发者以帮助解决这个问题"</string>
+    <string name="crash_line1">额，这可尴尬了！</string>
+    <string name="crash_line2">您可以把这份报告发给 Aurora 开发者以帮助解决这个问题。</string>
     <string name="action_ignore">"忽略此版本"</string>
     <string name="action_ignore_remove">"从忽略列表移除"</string>
     <string name="action_disabled">"已禁用"</string>
@@ -376,4 +373,7 @@
     <string name="list_empty_blacklist">"没有列入黑名单的应用"</string>
     <string name="pref_notification_title_geo_spoof">"Aurora 地理位置欺骗"</string>
     <string name="action_import">导入</string>
+    <string name="crash_line3">你可以尝试清除应用程序数据并重试启动应用程序。</string>
+    <string name="list_categories_none">无类别可用</string>
+    <string name="action_clear_restart">清除数据</string>
 </resources>
