@@ -186,4 +186,7 @@
     <string name="toast_apk_whitelisted">"vitlistade"</string>
     <string name="toast_apk_copy_success">"APK har kopierats framgångsrikt"</string>
     <string name="toast_apk_copy_failure">"Misslyckades med att kopiera APK"</string>
+    <string name="details_dev_website">Webbplats</string>
+    <string name="details_dev_address">Adress</string>
+    <string name="details_dev_email">E-post</string>
 </resources>
