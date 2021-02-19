@@ -311,7 +311,7 @@ También ofrece una lista de los trackers incluidos en una aplicación."</string
     <string name="menu_blacklist">"Añadir a lista negra"</string>
     <string name="action_unknown">"Desconocido"</string>
     <string name="details_dev_details">"Contacto del desarrollador"</string>
-    <string name="details_dev_email">"Correo"</string>
+    <string name="details_dev_email">Correo electrónico</string>
     <string name="details_dev_address">"Dirección"</string>
     <string name="details_dev_website">"Página web"</string>
     <string name="details_more_updated">"Actualizado el"</string>
@@ -361,4 +361,7 @@ También ofrece una lista de los trackers incluidos en una aplicación."</string
     <string name="download_metadata">"Descarga de metadatos"</string>
     <string name="list_empty_blacklist">"Lista negra vacía"</string>
     <string name="pref_notification_title_geo_spoof">"Aurora Suplantar Localización"</string>
+    <string name="list_categories_none">No hay categorías disponibles</string>
+    <string name="action_import">Importar</string>
+    <string name="action_clear_restart">Vaciar datos</string>
 </resources>
