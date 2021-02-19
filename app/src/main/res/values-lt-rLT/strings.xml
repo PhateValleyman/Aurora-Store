@@ -186,4 +186,7 @@
     <string name="toast_apk_whitelisted">"Baltasis sąrašas"</string>
     <string name="toast_apk_copy_success">"APK sėkmingai kopijuoja"</string>
     <string name="toast_apk_copy_failure">"Nepavyko kopijuoti APK"</string>
+    <string name="details_dev_website">Internetinė svetainė</string>
+    <string name="details_dev_address">Adresas</string>
+    <string name="details_dev_email">El. paštas</string>
 </resources>
