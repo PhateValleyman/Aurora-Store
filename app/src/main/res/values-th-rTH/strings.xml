@@ -186,4 +186,6 @@
     <string name="toast_apk_whitelisted">"อนุญาตพิเศษ"</string>
     <string name="toast_apk_copy_success">"คัดลอก APK สำเร็จแล้ว"</string>
     <string name="toast_apk_copy_failure">"ไม่สามารถคัดลอก APK"</string>
+    <string name="details_dev_website">เว็บไซต์</string>
+    <string name="details_dev_email">อีเมล</string>
 </resources>
