@@ -221,7 +221,6 @@
     <string name="action_close">"Закрыць"</string>
     <string name="exodus_hasTracker">"Утрымлівае трэкеры"</string>
     <string name="list_selected">"Праграмы выбраны"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"Спампаваць, націсніце для ўсталявання"</string>
     <string name="notification_installation_manual">"Пакетны APK. Патрабуюцца дзеянні ўручную"</string>
@@ -311,4 +310,7 @@
     <string name="toast_login_failed">"Не ўдалося ўвайсці"</string>
     <string name="disclaimer">"Выкарыстанне Aurora Store з вашым уласным уліковым запісам Google можа прывесці да таго, што ён трапіць у чорны спіс або будзе дэактываваны, бо Aurora Store парушае ўмовы выкарыстання паслуг Google 3.3. Карыстайцеся гэтым на свой страх і рызыку. Як варыянт, вы можаце скарыстацца ананімным уліковым запісам для ўваходу ў Aurora Store"</string>
     <string name="menu_blacklist">"Дадаць у чорны спіс"</string>
+    <string name="details_dev_website">Вэб-сайт</string>
+    <string name="details_dev_address">Адрас</string>
+    <string name="details_dev_email">Электронная пошта</string>
 </resources>
