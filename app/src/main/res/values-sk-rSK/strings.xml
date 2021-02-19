@@ -218,7 +218,6 @@ Upozorňujeme, že služba Google Play Store nepodporuje preberanie ľubovoľný
     <string name="action_close">"Zavrieť"</string>
     <string name="exodus_hasTracker">"Obsahuje sledovače"</string>
     <string name="list_selected">"Vybrané aplikácie"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"Stiahnuté, kliknite pre inštaláciu"</string>
     <string name="notification_installation_manual">"Zbalený Apk, vyžaduje sa manuálna akcia"</string>
@@ -310,7 +309,7 @@ Upozorňujeme, že služba Google Play Store nepodporuje preberanie ľubovoľný
     <string name="menu_blacklist">"Pridať na čierny zoznam"</string>
     <string name="action_unknown">"Neznáme"</string>
     <string name="details_dev_details">"Kontakt na vývojára"</string>
-    <string name="details_dev_email">"Email"</string>
+    <string name="details_dev_email">E-mail</string>
     <string name="details_dev_address">"Adresa"</string>
     <string name="details_dev_website">"Web"</string>
     <string name="details_more_updated">"Aktualizované"</string>
