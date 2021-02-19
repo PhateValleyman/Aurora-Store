@@ -8,7 +8,7 @@
     <!-- Account -->
     <string name="action_accounts">"Profili"</string>
     <string name="action_ask">"Chiedi"</string>
-    <string name="action_blacklist">"Blacklist"</string>
+    <string name="action_blacklist">Lista nera</string>
     <string name="action_cancel">"Annulla"</string>
     <!-- Cancella -->
     <string name="action_clear">"Rimuovi"</string>
@@ -43,7 +43,7 @@
     <string name="action_logging_in">"Accesso in corso"</string>
     <!-- Logout -->
     <string name="action_logout">"Disconnetti"</string>
-    <string name="action_manual">"Download manuale"</string>
+    <string name="action_manual">Scaricamento manuale</string>
     <!-- Altro -->
     <string name="action_more">"Altro"</string>
     <string name="action_next">"Avanti"</string>
@@ -60,7 +60,7 @@
     <!-- Disinstalla -->
     <string name="action_uninstall">"Disinstalla"</string>
     <string name="action_updates">"Aggiornamenti"</string>
-    <string name="action_whitelist">"Whitelist"</string>
+    <string name="action_whitelist">Lista bianca</string>
     <string name="availability_restriction_country">"Questo articolo non è disponibile nel tuo Paese."</string>
     <!-- Quest'app non é disponibile -->
     <string name="availability_restriction_generic">"Questo articolo non è disponibile."</string>
@@ -131,8 +131,8 @@
     <string name="list_app_no_ads">"senza annunci"</string>
     <string name="list_app_system">"App di sistema"</string>
     <string name="list_app_user">"App utente"</string>
-    <string name="list_blacklist">"App nella blacklist"</string>
-    <string name="list_blacklist_none">"Nessuna app nella blacklist"</string>
+    <string name="list_blacklist">App nella lista nera</string>
+    <string name="list_blacklist_none">Nessuna app nella lista nera</string>
     <string name="list_empty_fav">"Nessun preferito"</string>
     <string name="list_empty_updates">"Nessun aggiornamento disponibile"</string>
     <string name="list_installed">"Installato"</string>
@@ -140,18 +140,18 @@
     <string name="list_not_installd">"Non installato"</string>
     <string name="list_update_all">"Aggiorna tutto"</string>
     <string name="list_update_all_txt">"Aggiornamenti disponibili"</string>
-    <string name="manual_download_disclaimer">"Disclaimer"</string>
+    <string name="manual_download_disclaimer">Scarico di responsabilità</string>
     <string name="manual_download_incompatible">"Google Play Store considera questa app incompatibile con il tuo dispositivo. Ciò significa che il codice di versione non è stato restituito dal server di Google Play Store."</string>
     <string name="manual_download_warning">Questa pagina ti consente di scegliere manualmente la versione dell\'app da scaricare.
-\nTieni presente che il download di versioni arbitrarie di app non è supportato da Google Play Store. Il download potrà avvenire soltanto se inserisci un codice di versione valido. Anche se riesci a far partire il download, potresti ottenere un APK incompatibile.</string>
+\nTieni presente che lo scaricamento di versioni arbitrarie di applicazione non è supportato da Google Play Store. Lo scaricamento potrà avvenire soltanto se inserisci un codice di versione valido. Anche se riesci a far partire lo scaricamento, potresti ottenere un APK incompatibile.</string>
     <string name="menu_account">"Profili"</string>
-    <string name="menu_disclaimer">"Disclaimer"</string>
-    <string name="menu_downloads">"Download"</string>
+    <string name="menu_disclaimer">Scarico di responsabilità</string>
+    <string name="menu_downloads">Scaricamenti</string>
     <string name="menu_license">"Licenza"</string>
     <string name="menu_setting">"Impostazioni"</string>
     <string name="menu_terms">"Termini di servizio"</string>
     <string name="no_permissions">"L'app non richede autorizzazioni."</string>
-    <string name="pref_app_download">"Download"</string>
+    <string name="pref_app_download">Scaricamenti</string>
     <string name="pref_app_network">"Rete"</string>
     <string name="pref_app_notification">"Notifiche"</string>
     <string name="pref_app_ui">"Interfaccia utente"</string>
@@ -174,7 +174,7 @@
     <string name="pref_filter_google_title">"Filtra le app di Google"</string>
     <string name="pref_filter_search_summary">"I filtri di ricerca vengono ripristinati su ogni ricerca. Disattiva per salvare i filtri di ricerca"</string>
     <string name="pref_filter_search_title">"Usa filtro di ricerca non persistente"</string>
-    <string name="pref_install_auto_summary">"Le app vengono installate immediatamente al termine del download"</string>
+    <string name="pref_install_auto_summary">Le app vengono installate immediatamente al termine dello scaricamento</string>
     <string name="pref_install_auto_title">"Installazione automatica APK"</string>
     <string name="pref_install_delete_title">"Elimina APK dopo l'installazione"</string>
     <string name="pref_install_mode_summary">"Seleziona la modalità di installazione dell'APK"</string>
@@ -209,7 +209,7 @@
     <string name="title_search">"Cerca applicazioni e giochi"</string>
     <string name="title_updates">"Aggiornamenti disponibili"</string>
     <string name="title_welcome">"Benvenuto"</string>
-    <string name="toast_apk_blacklisted">"Aggiunto alla blacklist"</string>
+    <string name="toast_apk_blacklisted">Aggiunto alla lista nera</string>
     <string name="toast_apk_whitelisted">"Aggiunto alla whitelist"</string>
     <string name="toast_apk_copy_success">"APK copiato correttamente"</string>
     <string name="toast_apk_copy_failure">"Impossibile copiare l'APK"</string>
@@ -227,14 +227,14 @@ Inoltre fornisce una lista di tracker incorporati in una applicazione."</string>
     <string name="about_gitlab_summary">Ottieni il codice sorgente di Aurora Store da Aurora OSS su GitLab.</string>
     <string name="about_telegram">"Telegram"</string>
     <string name="about_telegram_summary">Unisciti al gruppo di supporto per discussioni o suggerimenti.</string>
-    <string name="about_fdroid_summary">"Ottieni Aurora dal repository di F-Droid"</string>
+    <string name="about_fdroid_summary">Ottieni Aurora dal repository di F-Droid.</string>
     <string name="about_xda">"Thread sviluppatore"</string>
     <string name="about_xda_summary">Vedi il thread su XDA di Aurora Store per discussioni o suggerimenti.</string>
     <string name="action_about">"Info"</string>
-    <string name="pref_downloader_strategy_summary">"Seleziona la modalità download predefinita, è raccomandata la modalità parallela per download più veloci"</string>
-    <string name="pref_downloader_strategy_title">"Modalità download"</string>
-    <string name="pref_downloader_strategy_sequential">"Download sequenziale"</string>
-    <string name="pref_downloader_strategy_parallel">"Download in parallelo"</string>
+    <string name="pref_downloader_strategy_summary">Seleziona la modalità scaricamento predefinita, è raccomandata la modalità parallela per scaricamenti più veloci</string>
+    <string name="pref_downloader_strategy_title">Modalità scaricamento</string>
+    <string name="pref_downloader_strategy_sequential">Scaricamento sequenziale</string>
+    <string name="pref_downloader_strategy_parallel">Scaricamento in parallelo</string>
     <string name="pref_install_mode_native">"Nativo"</string>
     <string name="pref_install_mode_root">"Root"</string>
     <string name="pref_notification_priority_default">"Predefinita"</string>
@@ -269,7 +269,7 @@ Inoltre fornisce una lista di tracker incorporati in una applicazione."</string>
     <string name="link_setting">"Impostazioni"</string>
     <string name="link_share">"Condividi"</string>
     <string name="pref_install_mode_no_root">"Root non disponibile, assicurati di avere il root abilitato sul tuo dispositivo"</string>
-    <string name="pref_install_mode_root_warn">"Il metodo di installazione con root richiede che l'APK venga scaricato nella cartella di sistema di Aurora (su Android Pie o superiore) affinché possa essere installato via adb shell."</string>
+    <string name="pref_install_mode_root_warn">Il metodo di installazione con root richiede che l\'APK venga scaricato nella cartella di sistema di Aurora (su Android Pie o superiore) affinché possa essere installato via adb shell</string>
     <string name="pref_install_delete_summary">"Sui dispositivi con Android Pie o superiore con metodo di installazione root, gli APK vengono eliminati in modo predefinito"</string>
     <string name="action_loading">"Caricamento"</string>
     <string name="pref_default">"Default"</string>
@@ -280,14 +280,14 @@ Inoltre fornisce una lista di tracker incorporati in una applicazione."</string>
     <string name="dialog_geores_desc">"L'app che stai cercando di scaricare non è disponibile nel tuo Paese, prova a simulare una regione differente dalle impostazioni."</string>
     <string name="dialog_incompat_title">"App non compatibile"</string>
     <string name="dialog_incompat_desc">"L'app che stai cercando di scaricare non è compatibile con il tuo dispositivo, prova a simulare un dispositivo differente dalle impostazioni."</string>
-    <string name="pref_install_mode_services">"Aurora Services"</string>
+    <string name="pref_install_mode_services">Servizi Aurora</string>
     <string name="pref_install_mode_no_services">"Aurora Services non installati"</string>
     <string name="pref_install_mode_offline_services">"Aurora Services non connessi, assicurati che siano abilitati e che tu abbia installato la versione corretta dell'app"</string>
     <string name="action_info">"Informazioni app"</string>
     <string name="download_waiting">"In attesa"</string>
-    <string name="pref_services_title">"Aurora Services"</string>
+    <string name="pref_services_title">Servizi Aurora</string>
     <string name="pref_services_desc">"Avvia Aurora Services"</string>
-    <string name="pref_services_desc_alt">"Aurora Services non disponibili"</string>
+    <string name="pref_services_desc_alt">Servizi Aurora non disponibili. Fare clic per accedere al repository dei servizi e saperne di più.</string>
     <string name="pref_custom_tokenizer">"Token dispenser personalizzato"</string>
     <string name="pref_custom_tokenizer_url">"URL del token dispenser"</string>
     <string name="action_export_device">"Esporta informazioni dispositivo"</string>
@@ -307,7 +307,7 @@ Inoltre fornisce una lista di tracker incorporati in una applicazione."</string>
     <string name="pref_downloader_internal_desc">"Se l'opzione è abilitata, non sarà possibile installare app tramite Aurora Services"</string>
     <string name="pref_install_profile_summary">"Seleziona l'utente per il quale installare le applicazioni (metodo di installazione root richiesto)"</string>
     <string name="pref_install_profile_title">"Utente di destinazione (sperimentale)"</string>
-    <string name="pref_install_mode_internal_warn">"Disabilita il download delle app nella memoria interna per poter utilizzare Aurora Services"</string>
+    <string name="pref_install_mode_internal_warn">Disabilita lo scaricamento delle app nella memoria interna per poter utilizzare Aurora Services</string>
     <string name="pref_updates_extended">"Aggiornamenti estesi"</string>
     <string name="pref_updates_extended_desc">"Abilita per controllare gli aggiornamenti per le app disabilitate"</string>
     <string name="pref_caching_strategy">"Modalità di caching delle immagini"</string>
@@ -331,13 +331,13 @@ Inoltre fornisce una lista di tracker incorporati in una applicazione."</string>
     <string name="list_updating_failed">"Aggiornamento fallito"</string>
     <string name="pref_updates_auto">"Abilita aggiornamenti automatici"</string>
     <string name="pref_updates_auto_desc">"Aggiorna le app ogni volta che è disponibile una nuova versione"</string>
-    <string name="toast_login_success">"Login effettuato con successo"</string>
-    <string name="toast_login_failed">"Login fallito"</string>
-    <string name="disclaimer">"L'accesso ad Aurora Store con il tuo account Google potrebbe causare l'aggiunta in blacklist o la disattivazione di quest'ultimo, dal momento che l'app viola il punto 3.3 dei termini di servizio di Google Play. Procedi a tuo rischio e pericolo. Puoi comunque scegliere di utilizzare l'accesso anonimo con un account usa e getta per accedere all'app."</string>
-    <string name="menu_blacklist">"Aggiungi alla blacklist"</string>
+    <string name="toast_login_success">Accesso effettuato con successo</string>
+    <string name="toast_login_failed">Accesso non riuscito</string>
+    <string name="disclaimer">L\'accesso ad Aurora Store con il tuo account Google potrebbe causare l\'aggiunta in lista nera o la disattivazione di quest\'ultimo, dal momento che l\'app viola il punto 3.3 dei termini di servizio di Google Play. Procedi a tuo rischio e pericolo. Puoi comunque scegliere di utilizzare l\'accesso anonimo con un account usa e getta per accedere all\'applicazione</string>
+    <string name="menu_blacklist">Aggiungi alla lista nera</string>
     <string name="action_unknown">"Sconosciuto"</string>
     <string name="details_dev_details">"Contatto sviluppatore"</string>
-    <string name="details_dev_email">"Email"</string>
+    <string name="details_dev_email">Posta elettronica</string>
     <string name="details_dev_address">"Indirizzo"</string>
     <string name="details_dev_website">"Sito web"</string>
     <string name="details_more_updated">"Aggiornato il"</string>
@@ -349,10 +349,10 @@ Inoltre fornisce una lista di tracker incorporati in una applicazione."</string>
     <string name="testing_program_opt_out_failed">"Tentativo di uscita dal programma beta fallito"</string>
     <string name="title_categories">"Categorie"</string>
     <string name="toast_api_all_ok">"Tutto pronto"</string>
-    <string name="toast_api_build_retrying">"Generazione delle API fallita, nuovo tentativo in corso"</string>
-    <string name="toast_api_build_failed">"Generazione delle API fallita"</string>
+    <string name="toast_api_build_retrying">Generazione delle API fallita, nuovo tentativo in corso.</string>
+    <string name="toast_api_build_failed">Generazione delle API fallita.</string>
     <string name="toast_api_build_api">"Generazione delle API Google Play in corso"</string>
-    <string name="review_positive">"Positive"</string>
+    <string name="review_positive">Positiva</string>
     <string name="review_recent">"Recenti"</string>
     <string name="review_helpful">"Utili"</string>
     <string name="notification_channel_alert">"Notifiche rapide"</string>
@@ -366,10 +366,10 @@ Inoltre fornisce una lista di tracker incorporati in una applicazione."</string>
     <string name="dialog_unavailable_title">"App non disponibile"</string>
     <string name="dialog_unavailable_desc">"L'oggetto che stavi cercando di acquistare non è stato trovato, prova a simulare un dispositivo differente o a cambiare account."</string>
     <string name="privacy_title">"Privacy policy di Aurora OSS"</string>
-    <string name="privacy_policy">"Privacy policy"</string>
+    <string name="privacy_policy">Informativa sulla riservatezza</string>
     <string name="action_accept">"Accetta"</string>
     <string name="action_decline">"Rifiuta"</string>
-    <string name="crash_title">"Crash report di Aurora Store"</string>
+    <string name="crash_title">Rapporto sull\'incidente di Aurora</string>
     <string name="crash_line1">"Ops, questo è imbarazzante!"</string>
     <string name="crash_line2">"Puoi inviare questo report allo sviluppatore di Aurora Store per aiutarlo a risolvere il problema."</string>
     <string name="action_ignore">"Ignora questa versione"</string>
@@ -377,7 +377,7 @@ Inoltre fornisce una lista di tracker incorporati in una applicazione."</string>
     <string name="action_disabled">"Disabilitato"</string>
     <string name="exodus_progress">"Controllo trackers"</string>
     <string name="list_update_selected">"Aggiornamento selezionato"</string>
-    <string name="about_libera">"Libera Pay"</string>
+    <string name="about_libera">Liberapay</string>
     <string name="about_libera_summary">"Diventa sostenitore su Libera Pay"</string>
     <string name="about_bitcoin_btc">"Bitcoin"</string>
     <string name="about_bitcoin_btc_summary">"Dona via Bitcoin (BTC)"</string>
@@ -388,8 +388,8 @@ Inoltre fornisce una lista di tracker incorporati in una applicazione."</string>
     <string name="about_bhim">"BHIM - UPI"</string>
     <string name="about_bhim_summary">"Dona via UPI"</string>
     <string name="download_metadata">"Ottieni metadata"</string>
-    <string name="list_empty_blacklist">"Nessuna app in blacklist"</string>
-    <string name="pref_notification_title_geo_spoof">"Aurora Geolocalizzazione"</string>
+    <string name="list_empty_blacklist">Nessuna app in lista nera</string>
+    <string name="pref_notification_title_geo_spoof">Geosimulazione Aurora</string>
     <string name="crash_line3">Opzionalmente, puoi provare ad eliminare i dati dell\'applicazione e riavviare l\'applicazione.</string>
     <string name="list_categories_none">Nessuna categoria disponibile</string>
     <string name="action_import">Importa</string>
