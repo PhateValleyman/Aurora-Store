@@ -216,7 +216,6 @@
     <string name="action_close">"닫기"</string>
     <string name="exodus_hasTracker">"포함된 추적기"</string>
     <string name="list_selected">"앱 선택됨"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"다운로드 완료. 클릭하여 설치"</string>
     <string name="pref_update_interval_title">"업데이트 주기"</string>
@@ -242,4 +241,6 @@
     <string name="dialog_purchase_positive">"구매"</string>
     <string name="dialog_geores_title">"지역 제한 앱"</string>
     <string name="dialog_incompat_title">"호환되지 않는 앱"</string>
+    <string name="details_dev_website">웹사이트</string>
+    <string name="details_dev_email">이메일</string>
 </resources>
