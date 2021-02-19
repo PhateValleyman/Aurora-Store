@@ -335,7 +335,7 @@ Aurora позволяет искать, загружать, устанавлив
     <string name="details_dev_details">"Связь с разработчиком"</string>
     <string name="details_dev_email">"Эл. почта"</string>
     <string name="details_dev_address">"Адрес"</string>
-    <string name="details_dev_website">"Сайт"</string>
+    <string name="details_dev_website">Веб-сайт</string>
     <string name="details_more_updated">"Обновлено"</string>
     <string name="details_more_version">"Версия"</string>
     <string name="exodus_noReport">"Отчёт недоступен"</string>
