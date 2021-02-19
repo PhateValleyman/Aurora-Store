@@ -309,9 +309,9 @@
     <string name="menu_blacklist">"Adicionar à lista negra"</string>
     <string name="action_unknown">"Desconhecido"</string>
     <string name="details_dev_details">"Contato do desenvolvedor"</string>
-    <string name="details_dev_email">"Email"</string>
+    <string name="details_dev_email">Correio eletrônico</string>
     <string name="details_dev_address">"Endereço"</string>
-    <string name="details_dev_website">Site</string>
+    <string name="details_dev_website">Saite</string>
     <string name="details_more_updated">"Atualizado em"</string>
     <string name="details_more_version">"Versão"</string>
     <string name="exodus_noReport">"Relatório não disponível"</string>
