@@ -186,4 +186,6 @@
     <string name="toast_apk_whitelisted">"engedélyezőlistán"</string>
     <string name="toast_apk_copy_success">"APK sikeresen másolt"</string>
     <string name="toast_apk_copy_failure">"Az APK másolása nem sikerült"</string>
+    <string name="details_dev_website">Weboldal</string>
+    <string name="details_dev_email">E-mail cím</string>
 </resources>
