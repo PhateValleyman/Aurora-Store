@@ -220,7 +220,6 @@ Tamén prové unha lista de trackers incluídos nunha aplicación."</string>
     <string name="action_close">"Pechar"</string>
     <string name="exodus_hasTracker">"Contén trackers"</string>
     <string name="list_selected">"Aplicacións Seleccionadas"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"Descargada, pulsa para instalar"</string>
     <string name="notification_installation_manual">"APK partido, instalación manuais requirida"</string>
@@ -262,4 +261,7 @@ Tamén prové unha lista de trackers incluídos nunha aplicación."</string>
     <string name="pref_services_desc">"Lanzar Servizos de Aurora"</string>
     <string name="pref_custom_tokenizer">"Active tokenizer personalizado"</string>
     <string name="pref_custom_tokenizer_url">"URL del creador de tokens"</string>
+    <string name="details_dev_website">Sitio web</string>
+    <string name="details_dev_address">Enderezo</string>
+    <string name="details_dev_email">Correo electrónico</string>
 </resources>
