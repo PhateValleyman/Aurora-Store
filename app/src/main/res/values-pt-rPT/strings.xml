@@ -83,7 +83,6 @@
     <string name="download_force_clear_all">"Forçar limpeza"</string>
     <string name="download_pause_all">"Pausa para tudo"</string>
     <string name="download_paused">"Em pausa"</string>
-
     <!-- "Baixar" e "Descarregar" são termos pt-BR, não baralhar linguas -->
     <string name="download_progress">"A transferir"</string>
     <string name="download_queued">"Na fila"</string>
@@ -222,7 +221,6 @@ Tenha em mente que a transferência de versões arbitrárias de aplicações nã
     <string name="action_close">"Fechar"</string>
     <string name="exodus_hasTracker">"Contém 'trackers'"</string>
     <string name="list_selected">"Aplicações selecionadas"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"Transferida, clique para instalar"</string>
     <string name="notification_installation_manual">"APK agrupado, requer ação manual"</string>
@@ -314,9 +312,9 @@ Tenha em mente que a transferência de versões arbitrárias de aplicações nã
     <string name="menu_blacklist">"Adicionar à lista negra"</string>
     <string name="action_unknown">"Desconhecido"</string>
     <string name="details_dev_details">"Contacto do programador"</string>
-    <string name="details_dev_email">"Email"</string>
+    <string name="details_dev_email">Correio eletrónico</string>
     <string name="details_dev_address">"Endereço"</string>
-    <string name="details_dev_website">"Website"</string>
+    <string name="details_dev_website">Sítio</string>
     <string name="details_more_updated">"Atualizado em"</string>
     <string name="details_more_version">"Versão"</string>
     <string name="exodus_noReport">"Relatório não disponível"</string>
