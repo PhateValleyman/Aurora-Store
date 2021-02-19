@@ -307,7 +307,7 @@
     <string name="menu_blacklist">"Додати до чорного списку"</string>
     <string name="action_unknown">"Невідомо"</string>
     <string name="details_dev_details">"Зв'язок з розробником"</string>
-    <string name="details_dev_email">"Email"</string>
+    <string name="details_dev_email">Е-пошта</string>
     <string name="details_dev_address">"Адреса"</string>
     <string name="details_dev_website">"Сайт"</string>
     <string name="details_more_updated">"Останнє оновлення"</string>
