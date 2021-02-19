@@ -307,7 +307,7 @@
     <string name="menu_blacklist">"Dodaj na crnu listu"</string>
     <string name="action_unknown">"Nepoznato"</string>
     <string name="details_dev_details">"Kontaktiraj razvojnog programera"</string>
-    <string name="details_dev_email">"e-mail"</string>
+    <string name="details_dev_email">E-adresa</string>
     <string name="details_dev_address">"Adresa"</string>
     <string name="details_dev_website">"Web stranica"</string>
     <string name="details_more_updated">"Ažurirano dana"</string>
