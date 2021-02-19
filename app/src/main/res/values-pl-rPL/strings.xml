@@ -180,7 +180,6 @@ Pamiętaj, że pobieranie dowolnych wersji aplikacji nie jest obsługiwane przez
     <string name="title_home">"Sklep Aurora"</string>
     <string name="title_installed">"Moje aplikacje i gry"</string>
     <string name="title_perm">"Uprawnienia"</string>
-
     <!-- Games ARE applications... -->
     <string name="title_search">"Wyszukaj aplikacje i gry"</string>
     <string name="title_updates">"Dostępne aktualizacje"</string>
@@ -207,11 +206,9 @@ Udostępnia również listę usług śledzących zaimplementowanych w aplikacji.
     <string name="about_fdroid_summary">"Pobierz Aurora z repozytorium F-Droid"</string>
     <string name="about_xda">"Wątek Dev"</string>
     <string name="about_xda_summary">"Zobacz wątek XDA AuroraStore, aby móc dyskutować i proponować sugestie."</string>
-
     <!-- correct it to about app -->
     <string name="action_about">"O"</string>
     <string name="pref_downloader_strategy_summary">"Wybierz domyślny tryb pobierania, polecany tryb równoległy do szybszego pobierania"</string>
-
     <!-- Strategy... You mean mode? -->
     <string name="pref_downloader_strategy_title">"Tryb pobierania"</string>
     <string name="pref_downloader_strategy_sequential">"Pobieranie sekwencyjne"</string>
@@ -227,7 +224,6 @@ Udostępnia również listę usług śledzących zaimplementowanych w aplikacji.
     <string name="action_close">"Zamknij"</string>
     <string name="exodus_hasTracker">"Zawiera usługi śledzące"</string>
     <string name="list_selected">"Aplikacje wybrane"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"Pobrane, kliknij aby zainstalować"</string>
     <string name="notification_installation_manual">"Podzielony plik APK, wymagana akcja użytkownika"</string>
@@ -319,7 +315,7 @@ Udostępnia również listę usług śledzących zaimplementowanych w aplikacji.
     <string name="menu_blacklist">"Dodaj do czarnej listy"</string>
     <string name="action_unknown">"Nieznany"</string>
     <string name="details_dev_details">"Kontakt z deweloperem"</string>
-    <string name="details_dev_email">"Email"</string>
+    <string name="details_dev_email">E-mail</string>
     <string name="details_dev_address">"Adres"</string>
     <string name="details_dev_website">"Witryna"</string>
     <string name="details_more_updated">"Ostatnia aktualizacja"</string>
