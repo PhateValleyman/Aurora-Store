@@ -310,4 +310,5 @@
     <string name="list_categories_none">Không có danh mục có sẵn</string>
     <string name="action_import">Nhập</string>
     <string name="action_clear_restart">Dọn sạch dữ liệu</string>
+    <string name="details_dev_email">Thư điện tử</string>
 </resources>
