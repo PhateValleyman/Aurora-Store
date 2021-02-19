@@ -52,4 +52,14 @@
     <string name="account_logout">Kirjaudu ulos Aurora Storesta\?</string>
     <string name="account_google">Google</string>
     <string name="account_dummy">Anonyymi</string>
+    <string name="details_download">Lataa</string>
+    <string name="delete">Poista</string>
+    <string name="category_appFree">Ilmainen</string>
+    <string name="action_uninstall">Poista asennus</string>
+    <string name="exodus_noReport">Raportti ei ole käytettävissä</string>
+    <string name="details_more_version">Versio</string>
+    <string name="details_more_updated">Päivitetty</string>
+    <string name="details_dev_website">Verkkosivusto</string>
+    <string name="details_dev_address">Osoite</string>
+    <string name="details_dev_email">Sähköposti</string>
 </resources>
