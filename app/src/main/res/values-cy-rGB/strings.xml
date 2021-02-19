@@ -185,7 +185,6 @@ Cofia nad yw Google Play Store yn cefnogi lawrlwytho fersiynau mympwyol o apiau.
     <string name="action_close">"Cau"</string>
     <string name="exodus_hasTracker">"Yn cynnwys tracwyr"</string>
     <string name="list_selected">"Apiau wedi'u dewis"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"Wedi lawrlwytho; clicia i'w osod"</string>
     <string name="pref_update_interval_hourly">"Pob awr"</string>
@@ -234,4 +233,7 @@ Cofia nad yw Google Play Store yn cefnogi lawrlwytho fersiynau mympwyol o apiau.
     <string name="pref_clean_junk_desc">"Mae'n tynnu pob ffeil a lawrlwythwyd o'r cyfeiriadur rhagosodedig"</string>
     <string name="pref_abandon_session">"Gorfodi clirio sesiynau gosod"</string>
     <string name="toast_junk_removed">"Tynnwyd ffeiliau sothach"</string>
+    <string name="details_dev_website">Gwefan</string>
+    <string name="details_dev_address">Cyfeiriad</string>
+    <string name="details_dev_email">E-bost</string>
 </resources>
