@@ -220,7 +220,6 @@ Tingueu en compte que Google Play Store no admet la baixada de versions arbitrà
     <string name="action_close">"Tancar"</string>
     <string name="exodus_hasTracker">"Conté rastrejadors"</string>
     <string name="list_selected">"Aplicacions triades"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"S'ha baixat, feu clic per instal·lar"</string>
     <string name="notification_installation_manual">"APK massiu, cal una acció manual"</string>
@@ -312,7 +311,7 @@ Tingueu en compte que Google Play Store no admet la baixada de versions arbitrà
     <string name="menu_blacklist">"Afegeix a la llista negra"</string>
     <string name="action_unknown">"Desconeguda"</string>
     <string name="details_dev_details">"Contacte del desenvolupador"</string>
-    <string name="details_dev_email">"Correu"</string>
+    <string name="details_dev_email">Correu electrònic</string>
     <string name="details_dev_address">"Adreça"</string>
     <string name="details_dev_website">"Lloc web"</string>
     <string name="details_more_updated">"Actualitzat el"</string>
