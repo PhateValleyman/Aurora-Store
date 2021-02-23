@@ -3,19 +3,21 @@
     <string name="account_dummy">"Anonimowe"</string>
     <string name="account_google">"Konto Google"</string>
     <string name="account_logout">"Wylogować z Aurory?"</string>
-    <string name="account_prompt_login">"Zaloguj się, żeby kontynuować"</string>
+    <string name="account_prompt_login">"Zaloguj się, aby kontynuować"</string>
     <string name="action_accounts">"Konta"</string>
     <string name="action_ask">"Zapytaj"</string>
     <string name="action_blacklist">"Czarna lista"</string>
     <string name="action_cancel">"Anuluj"</string>
     <string name="action_clear">"Wyczyść"</string>
     <string name="action_clear_all">"Wyczyść wszystko"</string>
+    <string name="action_clear_restart">"Wyczyść dane"</string>
     <string name="action_copied">"Link skopiowany do schowka"</string>
     <string name="action_copy">"Skopiuj link"</string>
     <string name="action_disable">"Wyłącz"</string>
     <string name="action_done">"Gotowe"</string>
     <string name="action_enable">"Włącz"</string>
     <string name="action_export">"Eksportuj"</string>
+    <string name="action_import">"Importuj"</string>
     <string name="action_favourites">"Ulubione aplikacje"</string>
     <string name="action_filter">"Filtry"</string>
     <string name="action_filter_all">"Wszystko"</string>
@@ -106,20 +108,19 @@
     <string name="list_app_user">"Aplikacja użytkownika"</string>
     <string name="list_blacklist">"Aplikacje na czarnej liście"</string>
     <string name="list_blacklist_none">"Brak aplikacji na czarnej liście"</string>
+    <string name="list_categories_none">"Brak dostępnych kategorii"</string>
     <string name="list_empty_fav">"Brak ulubionych"</string>
     <string name="list_empty_updates">"Brak dostępnych aktualizacji"</string>
-    <string name="list_installed">"Zainstalowane"</string>
+    <string name="list_installed">"Zainstalowany"</string>
     <string name="list_installed_system">"Pokaż tylko aplikacje użytkownika"</string>
-    <string name="list_not_installd">"Niezainstalowane"</string>
+    <string name="list_not_installd">"Niezainstalowany"</string>
     <string name="list_update_all">"Aktualizuj wszystko"</string>
     <string name="list_update_all_txt">"aktualizacja(-e) dostępna(-e)"</string>
     <string name="manual_download_disclaimer">"Odrzuć"</string>
     <string name="manual_download_incompatible">"Sklep Google Play uważa tę aplikację za niekompatybilną z twoim urządzeniem. Oznacza to, że kod wersji nie został zwrócony przez serwer sklepu Google Play."</string>
-    <string name="manual_download_warning">"Ta strona pozwala ci ręcznie wybrać wersję aplikacji do pobrania. 
-
-Pamiętaj, że pobieranie dowolnych wersji aplikacji nie jest obsługiwane przez sklep Google Play. Twój sukces zależy od wpisania poprawnego numeru wersji. Nawet jeśli wpiszesz poprawny numer i uruchomisz pobieranie - możesz uzyskać niekompatybilny apk."</string>
+    <string name="manual_download_warning">"Ta strona pozwala na ręczny wybór wersji aplikacji do pobrania. Pamiętaj, że pobieranie dowolnych wersji aplikacji nie jest obsługiwane przez sklep Google Play. Twój sukces zależy od wpisania poprawnego numeru wersji. Nawet jeśli wpiszesz poprawny numer i uruchomisz pobieranie - możesz uzyskać niekompatybilny apk."</string>
     <string name="menu_account">"Konta"</string>
-    <string name="menu_disclaimer">"Odrzuć"</string>
+    <string name="menu_disclaimer">"Zrzeczenie się odpowiedzialności"</string>
     <string name="menu_downloads">"Pobrane"</string>
     <string name="menu_license">"Licencja"</string>
     <string name="menu_setting">"Ustawienia"</string>
@@ -141,15 +142,15 @@ Pamiętaj, że pobieranie dowolnych wersji aplikacji nie jest obsługiwane przez
     <string name="pref_downloader_debug_summary">"Włącz debugowanie pobierania, aby uzyskać szczegółowe informacje"</string>
     <string name="pref_downloader_debug_title">"Debugowanie pobierania"</string>
     <string name="pref_downloader_path_title">"Ścieżka pobierania"</string>
-    <string name="pref_downloader_wifi_title">"Pobieraj tylko używając Wi-Fi"</string>
+    <string name="pref_downloader_wifi_title">"Pobieraj tylko przez Wi-Fi"</string>
     <string name="pref_filter_fdroid_summary">"Usuwa z list aplikacje pochodzące z F-droid"</string>
     <string name="pref_filter_fdroid_title">"Filtruj aplikacje F-droid"</string>
-    <string name="pref_filter_google_summary">"Usuń wszystkie Aplikacje Google z wyników wyszukiwania i kategorii aplikacji"</string>
+    <string name="pref_filter_google_summary">"Usuń wszystkie aplikacje Google z wyników wyszukiwania i kategorii aplikacji"</string>
     <string name="pref_filter_google_title">"Filtruj aplikacje Google"</string>
     <string name="pref_filter_search_summary">"Filtry wyszukiwania są resetowane przy każdym wyszukiwaniu. Wyłącz, aby zapisać filtry wyszukiwania"</string>
     <string name="pref_filter_search_title">"Użyj nietrwałych filtrów wyszukiwania"</string>
     <string name="pref_install_auto_summary">"Aplikacje są instalowane natychmiast po zakończeniu pobierania"</string>
-    <string name="pref_install_auto_title">"Automatyczna instalacja APK'ów po pobraniu"</string>
+    <string name="pref_install_auto_title">"Automatyczna instalacja plików APK po pobraniu"</string>
     <string name="pref_install_delete_title">"Usuń APK po zainstalowaniu"</string>
     <string name="pref_install_mode_summary">"Wybierz tryb instalacji APK"</string>
     <string name="pref_install_mode_title">"Metoda instalacji"</string>
@@ -163,7 +164,7 @@ Pamiętaj, że pobieranie dowolnych wersji aplikacji nie jest obsługiwane przez
     <string name="pref_proxy_type">"Typ proxy"</string>
     <string name="pref_requested_language">"Zmień domyślne API żądania języka"</string>
     <string name="pref_requested_location_disable">"Musisz ręcznie wyłączyć pozorowanie lokalizacji w opcjach programisty, aby ją całkowicie wyłączyć."</string>
-    <string name="pref_requested_location_summary">"Sklep Aurora musi być ustawiona jako domyślna aplikacja do pozorowania lokalizacji"</string>
+    <string name="pref_requested_location_summary">"Sklep Aurora musi być ustawiony jako domyślna aplikacja do pozorowania lokalizacji"</string>
     <string name="pref_ui_card_summary">"Używaj starego stylu dla kart polecanych aplikacji"</string>
     <string name="pref_ui_card_title">"Karty aplikacji w starym stylu"</string>
     <string name="pref_ui_snap_summary">"Pokaż tylko jedną aplikację na przewinięcie"</string>
@@ -172,7 +173,7 @@ Pamiętaj, że pobieranie dowolnych wersji aplikacji nie jest obsługiwane przez
     <string name="testing_program_opt_in">"Dołącz"</string>
     <string name="testing_program_opt_out">"Opuść"</string>
     <string name="testing_program_review_dialog_content_hint">"Dodaj opinię o aplikacji"</string>
-    <string name="testing_program_section_opted_in_message">"Aktualizacje aplikacji będą zawierać wersje beta. Jeśli opuścisz program beta tej aplikacji, nie będziesz już otrzymywać aktualizacji beta."</string>
+    <string name="testing_program_section_opted_in_message">"Aktualizacje aplikacji będą obejmować wersje beta. Jeśli opuścisz program beta tej aplikacji, nie będziesz już otrzymywać aktualizacji wersji beta."</string>
     <string name="testing_program_section_opted_in_title">"Jesteś beta testerem"</string>
     <string name="testing_program_section_opted_out_message">"Wypróbuj nowe funkcje, zanim zostaną upublicznione. Prześlij swoją opinię bezpośrednio do programisty."</string>
     <string name="testing_program_section_opted_out_title">"Zostań beta testerem"</string>
@@ -180,8 +181,6 @@ Pamiętaj, że pobieranie dowolnych wersji aplikacji nie jest obsługiwane przez
     <string name="title_home">"Sklep Aurora"</string>
     <string name="title_installed">"Moje aplikacje i gry"</string>
     <string name="title_perm">"Uprawnienia"</string>
-
-    <!-- Games ARE applications... -->
     <string name="title_search">"Wyszukaj aplikacje i gry"</string>
     <string name="title_updates">"Dostępne aktualizacje"</string>
     <string name="title_welcome">"Witamy"</string>
@@ -193,10 +192,7 @@ Pamiętaj, że pobieranie dowolnych wersji aplikacji nie jest obsługiwane przez
     <string name="pref_locale_custom_title">"Własny język"</string>
     <string name="pref_locale_custom_summary">"Wymuś wybrany język aplikacji"</string>
     <string name="pref_locale_list_title">"Wybierz język"</string>
-    <string name="about_app">"Aurora jest otwarto-źródłową alternatywą dla Sklepu Google Play.
-Pozwala ona wyszukiwać, pobierać aplikacje, dostarcza aktualizacje zainstalowanych aplikacji oraz pozwala wyszukać gry i aplikacje.
-Udostępnia również listę usług śledzących zaimplementowanych w aplikacji.
-"</string>
+    <string name="about_app">"Aurora jest otwarto-źródłową alternatywą dla Sklepu Google Play. Pozwala ona wyszukiwać, pobierać aplikacje, dostarcza aktualizacje zainstalowanych aplikacji oraz pozwala wyszukać gry i aplikacje. Udostępnia również listę usług śledzących zaimplementowanych w aplikacji."</string>
     <string name="about_paypal">"PayPal"</string>
     <string name="about_paypal_summary">"Wesprzyj mnie poprzez PayPal"</string>
     <string name="about_fdroid">"F-Droid"</string>
@@ -207,12 +203,8 @@ Udostępnia również listę usług śledzących zaimplementowanych w aplikacji.
     <string name="about_fdroid_summary">"Pobierz Aurora z repozytorium F-Droid"</string>
     <string name="about_xda">"Wątek Dev"</string>
     <string name="about_xda_summary">"Zobacz wątek XDA AuroraStore, aby móc dyskutować i proponować sugestie."</string>
-
-    <!-- correct it to about app -->
-    <string name="action_about">"O"</string>
+    <string name="action_about">"O aplikacji"</string>
     <string name="pref_downloader_strategy_summary">"Wybierz domyślny tryb pobierania, polecany tryb równoległy do szybszego pobierania"</string>
-
-    <!-- Strategy... You mean mode? -->
     <string name="pref_downloader_strategy_title">"Tryb pobierania"</string>
     <string name="pref_downloader_strategy_sequential">"Pobieranie sekwencyjne"</string>
     <string name="pref_downloader_strategy_parallel">"Pobieranie równoległe (dzielone)"</string>
@@ -226,10 +218,8 @@ Udostępnia również listę usług śledzących zaimplementowanych w aplikacji.
     <string name="pref_ui_theme_black">"Czarny"</string>
     <string name="action_close">"Zamknij"</string>
     <string name="exodus_hasTracker">"Zawiera usługi śledzące"</string>
-    <string name="list_selected">"Aplikacje wybrane"</string>
-
-    <!-- Fuzzy -->
-    <string name="notification_installation_auto">"Pobrane, kliknij aby zainstalować"</string>
+    <string name="list_selected">"Wybrane aplikacje"</string>
+    <string name="notification_installation_auto">"Kliknij, aby zainstalować"</string>
     <string name="notification_installation_manual">"Podzielony plik APK, wymagana akcja użytkownika"</string>
     <string name="pref_install_type_summary">"Użyj natywnego instalatora, psuje instalacje dzielonych pakietów"</string>
     <string name="pref_install_type_title">"Wymuś natywny instalator"</string>
@@ -250,18 +240,18 @@ Udostępnia również listę usług śledzących zaimplementowanych w aplikacji.
     <string name="link_playstore">"Sklep Play"</string>
     <string name="link_setting">"Ustawienia"</string>
     <string name="link_share">"Udostępnij"</string>
-    <string name="pref_install_mode_no_root">"Uprawnienia root niedostępne, upewnij się że masz root-a na urządzeniu"</string>
-    <string name="pref_install_mode_root_warn">"Metoda instalacji przez root-a wymaga by apk został pobrany do danych aplikacji w celu istalacji przez adb shell, Android Pie+"</string>
-    <string name="pref_install_delete_summary">"Na urządzeniach z Android Pie + i metodą instalacji root-a, APK's są domyślnie usuwane"</string>
+    <string name="pref_install_mode_no_root">"Brak dostępu do roota, upewnij się, że twoje urządzenie jest zrootowane"</string>
+    <string name="pref_install_mode_root_warn">"Metoda instalacji przez roota wymaga by plik APK został pobrany do danych aplikacji w celu instalacji przez adb shell, Android Pie +"</string>
+    <string name="pref_install_delete_summary">"Na urządzeniach z systemem Android Pie + z metodą instalacji root, pliki APK są domyślnie usuwane"</string>
     <string name="action_loading">"Ładowanie"</string>
     <string name="pref_default">"Domyślny"</string>
     <string name="dialog_purchase_title">"Zakup aplikacji"</string>
-    <string name="dialog_purchase_desc">"Musisz najpierw kupić tą aplikacje. Sklep Aurora obecnie nie wspiera zakupów w aplikacji. Zostaniesz przekierowany na strone gdzie możesz dokona  zakupu."</string>
+    <string name="dialog_purchase_desc">"Musisz najpierw zakupić tę aplikację. Aurora Store nie obsługuje obecnie zakupów w aplikacji, nastąpi przekierowanie do strony internetowej, na której można dokonać zakupu."</string>
     <string name="dialog_purchase_positive">"Kup teraz"</string>
     <string name="dialog_geores_title">"Aplikacja ograniczona geograficznie"</string>
-    <string name="dialog_geores_desc">"Aplikacja jest niedostępna w twoim kraju. Stróbuj podmienić twój region z poziomu ustawień pobierania."</string>
+    <string name="dialog_geores_desc">"Aplikacja jest niedostępna w twoim kraju. Spróbuj podmienić twój region z poziomu ustawień pobierania."</string>
     <string name="dialog_incompat_title">"Aplikacja niekompatybilna"</string>
-    <string name="dialog_incompat_desc">"Aplikacja którą próbujesz pobrać jest niekompatybilna z twoim urządzeniem. Spróbuj podmienić na inne urządzenie w ustawieniach."</string>
+    <string name="dialog_incompat_desc">"Aplikacja, którą próbujesz pobrać jest niekompatybilna z twoim urządzeniem. Spróbuj podmienić swoje urządzenie na inne korzystając z ustawień i spróbować ponownie."</string>
     <string name="pref_install_mode_services">"Usługi Aurora"</string>
     <string name="pref_install_mode_no_services">"Usługi Aurora nie są zainstalowane, proszę je najpierw zainstalować"</string>
     <string name="pref_install_mode_offline_services">"Usługi Aurora niedostępne, sprawdź czy są włączone oraz czy posiadasz odpowiednią wersje"</string>
@@ -269,7 +259,7 @@ Udostępnia również listę usług śledzących zaimplementowanych w aplikacji.
     <string name="download_waiting">"Oczekiwanie"</string>
     <string name="pref_services_title">"Usługi Aurora"</string>
     <string name="pref_services_desc">"Uruchom Usługi Aurora"</string>
-    <string name="pref_services_desc_alt">"Usługi Aurora  niedostępne"</string>
+    <string name="pref_services_desc_alt">"Usługi Aurora są niedostępne. Kliknij, aby przejść do repozytorium usług i dowiedzieć się więcej."</string>
     <string name="pref_custom_tokenizer">"Ustaw własny tokenizer"</string>
     <string name="pref_custom_tokenizer_url">"Tokenizer URL"</string>
     <string name="action_export_device">"Zapisz informacje o urządzeniu"</string>
@@ -278,21 +268,21 @@ Udostępnia również listę usług śledzących zaimplementowanych w aplikacji.
     <string name="installer_status_failure">"Instalacja nieudana"</string>
     <string name="installer_status_failure_aborted">"Instalacja anulowana"</string>
     <string name="installer_status_failure_blocked">"Instalacja zablokowana"</string>
-    <string name="installer_status_failure_conflict">"Istnieje konfliktujący pakiet"</string>
+    <string name="installer_status_failure_conflict">"Istnieje konflikt pakietów"</string>
     <string name="installer_status_failure_incompatible">"Niekompatybilna aplikacja"</string>
-    <string name="installer_status_failure_invalid">"Nieprawidłowy plik APK"</string>
+    <string name="installer_status_failure_invalid">"Nieprawidłowy lub uszkodzony plik APK"</string>
     <string name="installer_status_failure_storage">"Brak miejsca na dysku"</string>
-    <string name="installer_status_success">"Zainstalowano poprawnie"</string>
+    <string name="installer_status_success">"Zainstalowano pomyślnie"</string>
     <string name="installer_status_unknown">"Nieznany"</string>
     <string name="installer_status_user_action">"Oczekiwanie na potwierdzenie przez użytkownika"</string>
     <string name="pref_downloader_internal">"Pobieraj aplikacje do pamięci wewnętrznej"</string>
-    <string name="pref_downloader_internal_desc">"Gdy włączone, nie będzie możliwości korzystania z Aurora Services"</string>
+    <string name="pref_downloader_internal_desc">"Jeśli ta opcja jest włączona, nie będzie można instalować aplikacji za pośrednictwem usług Aurora Services"</string>
     <string name="pref_install_profile_summary">"Wybierz domyślny profil do instalowania aplikacji. Działa tylko z instalacją przez root-a"</string>
     <string name="pref_install_profile_title">"Profile instalacji (eksperymentalne)"</string>
-    <string name="pref_install_mode_internal_warn">"Wybrałeś pamięć wewnętrzną jako cel pobierania. Wyłącz to aby używać Aurora Services"</string>
+    <string name="pref_install_mode_internal_warn">"Wybrano pamięć wewnętrzną jako cel pobierania. Wyłącz to, aby używać Aurora Services"</string>
     <string name="pref_updates_extended">"Rozszerzone aktualizacje"</string>
-    <string name="pref_updates_extended_desc">"Włącz, aby sprawdzać aktualizacje dla wyłączonych aplikacji"</string>
-    <string name="pref_caching_strategy">"Strategia zapisywania zdjęć"</string>
+    <string name="pref_updates_extended_desc">"Włącz sprawdzanie aktualizacji dla wyłączonych aplikacji"</string>
+    <string name="pref_caching_strategy">"Strategia buforowania zdjęć"</string>
     <string name="pref_caching_strategy_all">"Wszystkie"</string>
     <string name="pref_caching_strategy_automatic">"Automatycznie"</string>
     <string name="pref_caching_strategy_none">"Żadne"</string>
@@ -304,11 +294,11 @@ Udostępnia również listę usług śledzących zaimplementowanych w aplikacji.
     <string name="toast_abandon_sessions">"Stare sesje instalacji porzucono"</string>
     <string name="dialog_title_self_update">"Dostępna nowa aktualizacja"</string>
     <string name="dialog_desc_self_update">"Chcesz zaktualizować teraz?"</string>
-    <string name="list_update_all_txt_one">"aktualizje dostępne"</string>
+    <string name="list_update_all_txt_one">"dostępna aktualizacja"</string>
     <string name="pref_ui_package">"Szukaj po nazwie pakietu"</string>
-    <string name="pref_ui_package_summary">"Pozwól szukać aplikacji po nazwie pakietu"</string>
+    <string name="pref_ui_package_summary">"Pozwól na wyszukiwanie aplikacji po nazwie pakietu"</string>
     <string name="pref_update_self_title">"Sprawdź aktualizacje"</string>
-    <string name="pref_update_self_desc">"Sprawdź czy są nowe aktualizacje Aurora Store"</string>
+    <string name="pref_update_self_desc">"Sprawdź czy są dostępne nowe aktualizacje Aurora Store"</string>
     <string name="list_updating_background">"Pobieranie aplikacji w tle"</string>
     <string name="list_updating_failed">"Aktualizacją nieudana"</string>
     <string name="pref_updates_auto">"Włącz automatyczną aktualizację"</string>
@@ -335,8 +325,46 @@ Udostępnia również listę usług śledzących zaimplementowanych w aplikacji.
     <string name="toast_api_build_failed">"Budowanie API nieudane."</string>
     <string name="toast_api_build_api">"Budowanie API GooglePlay"</string>
     <string name="review_positive">"Pozytywne"</string>
-    <string name="review_recent">"Ostatnie"</string>
+    <string name="review_recent">"Najnowsze"</string>
     <string name="review_helpful">"Pomocne"</string>
     <string name="notification_channel_alert">"Szybkie powiadomienia"</string>
     <string name="notification_channel_general">"Ogólne powiadomienia"</string>
+    <string name="action_continue_anyway">"Kontynuować mimo wszystko?"</string>
+    <string name="details_files">"Szczegóły pliku"</string>
+    
+    <string name="pref_requested_location_enable">"You need to manually enable Mock Location from the Developer Options. A VPN connection to nearby location is mandatory."</string>
+    
+    <string name="toast_api_build_delayed">"Trwa to trochę dłużej niż oczekiwano"</string>
+    <string name="dialog_uninstall_confirmation">"Czy chcesz odinstalować tę aplikację?"</string>
+    <string name="action_send">"Wyślij"</string>
+    <string name="dialog_unavailable_title">"Aplikacja niedostępna"</string>
+    
+    <string name="dialog_unavailable_desc">"The item you were attempting to purchase could not be found, try spoofing your device or switch account."</string>
+    
+    <string name="privacy_title">"Polityka prywatności Aurory OSS"</string>
+    <string name="privacy_policy">"Polityka prywatności"</string>
+    <string name="action_accept">"Akceptuj"</string>
+    <string name="action_decline">"Odrzuć"</string>
+    <string name="crash_title">"Raport awarii Aurory"</string>
+    <string name="crash_line1">"To żenujące!"</string>
+    <string name="crash_line2">"Możesz wysłać ten raport do Aurora Dev, aby pomóc w rozwiązaniu tego problemu."</string>
+    <string name="crash_line3">"Opcjonalnie możesz spróbować wyczyścić dane aplikacji a następnie ponownie uruchomić aplikację."</string>
+    <string name="action_ignore">"Ignoruj tę wersję"</string>
+    <string name="action_ignore_remove">"Usuń z listy ignorowanych"</string>
+    <string name="action_disabled">"Wyłączona"</string>
+    <string name="exodus_progress">"Sprawdzam usługi śledzące"</string>
+    <string name="list_update_selected">"Aktualizuj wybrane"</string>
+    <string name="about_libera">"Libera Pay"</string>
+    <string name="about_libera_summary">"Zostań patronem w Libera Pay"</string>
+    <string name="about_bitcoin_btc">"Bitcoin"</string>
+    <string name="about_bitcoin_btc_summary">"Wesprzyj mnie poprzez Bitcoin (BTC)"</string>
+    <string name="about_bitcoin_bch">"Bitcoin Cash"</string>
+    <string name="about_bitcoin_bch_summary">"Wesprzyj mnie poprzez Bitcoin Cash (BCH)"</string>
+    <string name="about_bitcoin_eth">"Ethereum"</string>
+    <string name="about_bitcoin_eth_summary">"Wesprzyj mnie poprzez Ethereum (ETH)"</string>
+    <string name="about_bhim">"BHIM - UPI"</string>
+    <string name="about_bhim_summary">"Wesprzyj mnie poprzez UPI"</string>
+    <string name="download_metadata">"Pobieranie metadanych"</string>
+    <string name="list_empty_blacklist">"Brak aplikacji na czarnej liście"</string>
+    <string name="pref_notification_title_geo_spoof">"Aurora Geo Spoof"</string>
 </resources>
