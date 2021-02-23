@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="account_dummy">"Cuenta anónima"</string>
-    <string name="account_google">"Cuenta de Google"</string>
-    <string name="account_logout">"¿Zarrar la sesión n'Aurora?"</string>
+    <string name="account_dummy"></string>
+    <string name="account_google"></string>
+    <string name="account_logout"></string>
     <string name="account_prompt_login">"Anicia sesión pa siguir"</string>
     <string name="action_accounts">"Cuentes"</string>
     <string name="action_ask">"Dar laude"</string>
@@ -10,10 +10,10 @@
     <string name="action_cancel">"Encaboxar"</string>
     <string name="action_clear">"Llimpiar"</string>
     <string name="action_clear_all">"Llimpiar too"</string>
-    <string name="action_copied">"L'enllaz copióse al cartafueyu"</string>
-    <string name="action_copy">"Copiar l'enllaz"</string>
-    <string name="action_disable">"Desactivar"</string>
-    <string name="action_done">"Fecho"</string>
+    <string name="action_copied"></string>
+    <string name="action_copy"></string>
+    <string name="action_disable"></string>
+    <string name="action_done"></string>
     <string name="action_enable">"Activar"</string>
     <string name="action_export">"Esportar"</string>
     <string name="action_favourites">"Aplicaciones favorites"</string>
@@ -21,8 +21,8 @@
     <string name="action_filter_all">"Toes"</string>
     <string name="action_filter_apply">"Aplicar"</string>
     <string name="action_filter_apps_with_ads">"Aplicaciones con anuncios"</string>
-    <string name="action_filter_downloads">"Descargues"</string>
-    <string name="action_filter_gsf_dependent_apps">"Dependencia a GSF"</string>
+    <string name="action_filter_downloads"></string>
+    <string name="action_filter_gsf_dependent_apps"></string>
     <string name="action_filter_misc">"Miscelánea"</string>
     <string name="action_filter_paid_apps">"De pagu"</string>
     <string name="action_filter_rating">"Valoraciones"</string>
@@ -197,7 +197,6 @@ Decátate que baxar versiones al debalu nun lo sofita la tienda Google Play. L'�
     <string name="pref_ui_theme_black">"Prietu"</string>
     <string name="action_close">"Zarrar"</string>
     <string name="exodus_hasTracker">"Númberu de rastrexadores:"</string>
-
     <!-- Fuzzy -->
     <string name="notification_installation_auto">"Calca pa instalar"</string>
     <string name="pref_install_type_title">"Forciar l'instalador nativu"</string>
