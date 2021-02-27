@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="account_dummy">"Anonym"</string>
-    <string name="account_google">"Google Konto"</string>
+    <string name="account_google">Google-Konto</string>
     <string name="account_logout">Von Aurora abmelden\?</string>
     <string name="account_prompt_login">"Bitte anmelden um fortzufahren"</string>
     <string name="action_accounts">"Konten"</string>
