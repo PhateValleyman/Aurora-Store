@@ -345,4 +345,22 @@
     <string name="exodus_noReport">レポートは利用できません</string>
     <string name="details_more_version">バージョン</string>
     <string name="details_more_updated">更新日</string>
+    <string name="list_empty_blacklist">ブラックリストに登録されていないアプリ</string>
+    <string name="download_metadata">メタデータの取得</string>
+    <string name="about_libera">Libera Pay</string>
+    <string name="action_disabled">無効化</string>
+    <string name="crash_line1">申し訳ございません！</string>
+    <string name="action_decline">拒否</string>
+    <string name="action_accept">同意</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="privacy_title">Aurora OSSのプライバシーポリシー</string>
+    <string name="dialog_unavailable_desc">購入しようとしたアイテムが見つかりませんでした。デバイスを偽装するか、アカウントを切り替えてください。</string>
+    <string name="pref_requested_location_enable">開発者オプションから手動でMock Locationを有効にする必要があります。近隣へのVPN接続は必須です。</string>
+    <string name="notification_channel_general">一般的な通知</string>
+    <string name="notification_channel_alert">クイック通知</string>
+    <string name="toast_api_build_failed">APIの構築に失敗しました。</string>
+    <string name="toast_api_build_retrying">APIの構築に失敗しました。再試行します。</string>
+    <string name="testing_program_opt_out_failed">ベータプログラムのオプトアウトに失敗しました</string>
+    <string name="testing_program_opt_in_failed">ベータ版の購読リクエストに失敗しました</string>
+    <string name="testing_program_opt_out_success">ベータプログラムの登録に成功しました</string>
 </resources>
