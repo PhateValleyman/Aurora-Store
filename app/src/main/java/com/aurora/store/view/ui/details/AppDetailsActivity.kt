@@ -413,10 +413,7 @@ class AppDetailsActivity : BaseDetailsActivity() {
         }
     }
 
-    private fun enqueue(files: List<File>) = runWithPermissions(
-        Manifest.permission.READ_EXTERNAL_STORAGE,
-        Manifest.permission.WRITE_EXTERNAL_STORAGE
-    ) {
+    private fun enqueue(files: List<File>) {
         val requestList = files
             .filter { it.url.isNotEmpty() }
             .map {
