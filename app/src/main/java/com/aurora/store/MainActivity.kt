@@ -110,23 +110,23 @@ class MainActivity : BaseActivity() {
         attachDrawer()
         attachSearch()
 
-        checkPermission()
-        checkStoragePermission()
+        //checkPermission()
+        //checkStoragePermission()
     }
 
-    private fun checkPermission() = runWithPermissions(
-        Manifest.permission.READ_EXTERNAL_STORAGE,
-        Manifest.permission.WRITE_EXTERNAL_STORAGE
-    ) {
-        Log.i("Required permissions available")
-    }
+    //private fun checkPermission() = runWithPermissions(
+        //Manifest.permission.READ_EXTERNAL_STORAGE,
+        //Manifest.permission.WRITE_EXTERNAL_STORAGE
+    //) {
+        //Log.i("Required permissions available")
+    //}
 
-    private fun checkStoragePermission() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-            if (!Environment.isExternalStorageManager())
-                startActivity(Intent(Settings.ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION))
-        }
-    }
+    //private fun checkStoragePermission() {
+        //.if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            //if (!Environment.isExternalStorageManager())
+                //startActivity(Intent(Settings.ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION))
+        //}
+    //}
 
     private fun attachToolbar() {
         B.viewToolbar.imgActionPrimary.setOnClickListener {
