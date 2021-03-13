@@ -113,4 +113,5 @@
     <string name="about_bitcoin_bch">Bitcoin Cash</string>
     <string name="about_bhim_summary">Adományozás UPI-n keresztül</string>
     <string name="about_bhim">BHIM - UPI</string>
+    <string name="details_dev_email">E-mail</string>
 </resources>
