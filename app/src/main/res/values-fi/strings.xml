@@ -31,6 +31,5 @@
     <string name="details_dev_email">Sähköposti</string>
     <string name="details_dev_address">Osoite</string>
     <string name="details_no_app">Sovelluksia ei ole saatavilla</string>
-    <string name="dialog_title_self_update"/>
     <string name="pref_downloader_external"/>
 </resources>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_paypal_summary"/>
     <string name="toast_abandon_sessions"/>
 </resources>
