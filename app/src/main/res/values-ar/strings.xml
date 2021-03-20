@@ -2,5 +2,4 @@
 <resources>
     <string name="details_dev_website">موقع الكتروني</string>
     <string name="details_dev_email">البريد الإلكتروني</string>
-    <string name="exodus_substring"/>
 </resources>
