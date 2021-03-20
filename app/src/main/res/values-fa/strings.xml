@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="action_info"/>
     <string name="action_clear_all"/>
-    <string name="filter_review_five"/>
     <string name="about_paypal_summary"/>
-    <string name="action_close"/>
     <string name="purchase_unsupported"/>
-    <string name="pref_ui_accent_title"/>
     <string name="toast_abandon_sessions"/>
-    <string name="action_discover"/>
 </resources>

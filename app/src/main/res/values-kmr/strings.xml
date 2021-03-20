@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="title_apps_games"/>
     <string name="about_bitcoin_btc"/>
-    <string name="title_about"/>
     <string name="title_library"/>
-    <string name="tab_top_free"/>
     <string name="action_cancel"/>
-    <string name="download_cancel_all"/>
     <string name="about_bitcoin_bch"/>
-    <string name="pref_filter_fdroid_title"/>
 </resources>

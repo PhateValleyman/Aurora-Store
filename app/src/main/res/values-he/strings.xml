@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="toast_abandon_sessions"/>
     <string name="download_speed_estimating"/>
-    <string name="installer_status_user_action"/>
     <string name="action_wishlist_add"/>
-    <string name="action_open"/>
     <string name="about_telegram"/>
-    <string name="details_more_about_app"/>
     <string name="tab_editor_choice"/>
-    <string name="download_completed"/>
 </resources>

@@ -6,13 +6,8 @@
     <string name="details_dev_details">Contato do desenvolvedor</string>
     <string name="details_dev_address">Endereço</string>
     <string name="details_dev_email">Correio eletrônico</string>
-    <string name="details_beta_delay"/>
     <string name="action_wishlist_add"/>
-    <string name="title_account_manager"/>
     <string name="title_download_playstore"/>
-    <string name="title_no_network"/>
     <string name="details_contains_ads"/>
-    <string name="exodus_progress"/>
     <string name="details_no_reviews"/>
-    <string name="pref_install_delete_summary"/>
 </resources>

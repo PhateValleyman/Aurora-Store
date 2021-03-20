@@ -218,7 +218,5 @@
     <string name="details_dev_website">Weboldal</string>
     <string name="details_dev_reply">Fejlesztői válasza</string>
     <string name="details_dev_profile">Fejlesztői profil</string>
-    <string name="pref_app_download"/>
     <string name="purchase_invalid"/>
-    <string name="title_spoof_manager"/>
 </resources>

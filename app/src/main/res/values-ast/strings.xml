@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="action_purchase"/>
     <string name="exodus_title_alt"/>
-    <string name="pref_install_mode_root"/>
     <string name="action_installations"/>
-    <string name="action_later"/>
     <string name="pref_downloader_active_summary"/>
-    <string name="pref_ui_theme_system"/>
     <string name="tab_editor_choice"/>
-    <string name="list_update_all_txt_one"/>
 </resources>

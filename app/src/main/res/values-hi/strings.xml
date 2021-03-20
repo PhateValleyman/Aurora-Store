@@ -79,11 +79,7 @@
     <string name="action_done">हो गया</string>
     <string name="action_discover">डिस्कवर</string>
     <string name="action_discard">रद्द करें</string>
-    <string name="download_deleted"/>
     <string name="details_more_about_app"/>
-    <string name="toast_developer_setting_failed"/>
     <string name="action_resend"/>
-    <string name="title_device"/>
     <string name="installer_status_success"/>
-    <string name="toast_abandon_sessions"/>
 </resources>

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="title_download_manager"/>
     <string name="about_paypal_summary"/>
-    <string name="exodus_no_report"/>
     <string name="purchase_failed"/>
-    <string name="onboarding_title_installer"/>
     <string name="action_granted"/>
-    <string name="title_installed"/>
     <string name="action_installed"/>
-    <string name="title_settings"/>
 </resources>

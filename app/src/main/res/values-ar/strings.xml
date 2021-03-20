@@ -2,13 +2,8 @@
 <resources>
     <string name="details_dev_website">موقع الكتروني</string>
     <string name="details_dev_email">البريد الإلكتروني</string>
-    <string name="onboarding_permission_installer"/>
     <string name="title_details"/>
-    <string name="details_no_reviews"/>
     <string name="purchase_no_file"/>
-    <string name="title_games"/>
     <string name="action_enable"/>
-    <string name="pref_install_delete_summary"/>
     <string name="exodus_substring"/>
-    <string name="toast_spoof_applied"/>
 </resources>
