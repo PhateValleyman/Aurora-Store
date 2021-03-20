@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="exodus_title_alt"/>
     <string name="action_installations"/>
-    <string name="pref_downloader_active_summary"/>
     <string name="tab_editor_choice"/>
 </resources>

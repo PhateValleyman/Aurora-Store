@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_paypal_summary"/>
     <string name="purchase_failed"/>
-    <string name="action_granted"/>
     <string name="action_installed"/>
 </resources>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_bitcoin_btc"/>
     <string name="title_library"/>
-    <string name="action_cancel"/>
     <string name="about_bitcoin_bch"/>
 </resources>

@@ -2,8 +2,6 @@
 <resources>
     <string name="details_dev_website">موقع الكتروني</string>
     <string name="details_dev_email">البريد الإلكتروني</string>
-    <string name="title_details"/>
     <string name="purchase_no_file"/>
-    <string name="action_enable"/>
     <string name="exodus_substring"/>
 </resources>

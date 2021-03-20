@@ -79,7 +79,5 @@
     <string name="action_done">हो गया</string>
     <string name="action_discover">डिस्कवर</string>
     <string name="action_discard">रद्द करें</string>
-    <string name="details_more_about_app"/>
     <string name="action_resend"/>
-    <string name="installer_status_success"/>
 </resources>
