@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="device_huawei_title"/>
     <string name="title_download_manager"/>
-    <string name="action_cancel"/>
     <string name="about_paypal_summary"/>
-    <string name="onboarding_tos_error"/>
     <string name="exodus_no_report"/>
-    <string name="purchase_not_found"/>
     <string name="purchase_failed"/>
-    <string name="action_discover"/>
     <string name="onboarding_title_installer"/>
-    <string name="action_skip"/>
     <string name="action_granted"/>
-    <string name="about_libera"/>
     <string name="title_installed"/>
-    <string name="exodus_progress"/>
     <string name="action_installed"/>
-    <string name="about_bhim"/>
     <string name="title_settings"/>
-    <string name="about_gitlab"/>
 </resources>

@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="details_dependencies"/>
     <string name="toast_abandon_sessions"/>
-    <string name="action_retry"/>
     <string name="download_speed_estimating"/>
-    <string name="action_update"/>
     <string name="installer_status_user_action"/>
-    <string name="about_bitcoin_btc"/>
     <string name="action_wishlist_add"/>
-    <string name="action_wait"/>
     <string name="action_open"/>
-    <string name="action_filter_rating"/>
     <string name="about_telegram"/>
-    <string name="onboarding_permission_esm"/>
     <string name="details_more_about_app"/>
-    <string name="tab_trending"/>
     <string name="tab_editor_choice"/>
-    <string name="purchase_failed"/>
     <string name="download_completed"/>
-    <string name="tab_categories"/>
 </resources>

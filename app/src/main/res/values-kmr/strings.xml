@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="filter_review_five"/>
     <string name="title_apps_games"/>
-    <string name="download_resume"/>
     <string name="about_bitcoin_btc"/>
-    <string name="pref_install_mode_summary"/>
     <string name="title_about"/>
-    <string name="download_pause"/>
     <string name="title_library"/>
-    <string name="action_share"/>
     <string name="tab_top_free"/>
-    <string name="installer_status_success"/>
     <string name="action_cancel"/>
-    <string name="onboarding_title_permissions"/>
     <string name="download_cancel_all"/>
-    <string name="title_installer"/>
     <string name="about_bitcoin_bch"/>
-    <string name="installer_service_misconfigured"/>
     <string name="pref_filter_fdroid_title"/>
-    <string name="dialog_title_self_update"/>
 </resources>

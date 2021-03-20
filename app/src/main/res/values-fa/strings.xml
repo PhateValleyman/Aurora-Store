@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="action_favourites"/>
     <string name="action_info"/>
-    <string name="pref_filter_google_summary"/>
     <string name="action_clear_all"/>
-    <string name="about_bitcoin_btc_summary"/>
     <string name="filter_review_five"/>
-    <string name="onboarding_theme_select"/>
     <string name="about_paypal_summary"/>
-    <string name="action_previous"/>
     <string name="action_close"/>
-    <string name="about_xda_summary"/>
     <string name="purchase_unsupported"/>
-    <string name="download_queued"/>
     <string name="pref_ui_accent_title"/>
-    <string name="pref_install_mode_title"/>
     <string name="toast_abandon_sessions"/>
-    <string name="title_purchase_history"/>
     <string name="action_discover"/>
-    <string name="action_join"/>
 </resources>

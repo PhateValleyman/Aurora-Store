@@ -26,22 +26,13 @@
     <string name="about_bitcoin_bch">Bitcoin Cash</string>
     <string name="about_bhim_summary">UPIで寄付</string>
     <string name="about_bhim">BHIM - UPI</string>
-    <string name="title_apps_library"/>
     <string name="action_uninstall"/>
-    <string name="details_permission"/>
     <string name="pref_install_mode_session"/>
-    <string name="filter_review_all"/>
     <string name="device_huawei_title"/>
-    <string name="details_dependencies"/>
     <string name="exodus_powered"/>
-    <string name="action_updates"/>
     <string name="device_huawei_description"/>
-    <string name="details_changelog"/>
     <string name="pref_ui_accent_title"/>
-    <string name="filter_review_five"/>
     <string name="download_resume_all"/>
-    <string name="onboarding_tos_confirmation"/>
     <string name="download_paused"/>
-    <string name="download_clear_completed"/>
     <string name="action_favourites"/>
 </resources>

@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_telegram"/>
     <string name="action_purchase"/>
-    <string name="pref_downloader_active_title"/>
     <string name="exodus_title_alt"/>
-    <string name="about_xda"/>
     <string name="pref_install_mode_root"/>
-    <string name="download_pause_all"/>
     <string name="action_installations"/>
-    <string name="pref_filter_fdroid_summary"/>
     <string name="action_later"/>
-    <string name="title_apps_games"/>
     <string name="pref_downloader_active_summary"/>
-    <string name="title_download_manager"/>
     <string name="pref_ui_theme_system"/>
-    <string name="action_sign_in"/>
     <string name="tab_editor_choice"/>
-    <string name="action_wait"/>
     <string name="list_update_all_txt_one"/>
-    <string name="pref_ui_theme_title"/>
 </resources>

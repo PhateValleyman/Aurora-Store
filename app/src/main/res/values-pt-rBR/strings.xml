@@ -6,23 +6,13 @@
     <string name="details_dev_details">Contato do desenvolvedor</string>
     <string name="details_dev_address">Endereço</string>
     <string name="details_dev_email">Correio eletrônico</string>
-    <string name="onboarding_permission_esa_desc"/>
     <string name="details_beta_delay"/>
-    <string name="action_home"/>
     <string name="action_wishlist_add"/>
-    <string name="notification_installation_auto"/>
     <string name="title_account_manager"/>
-    <string name="action_filter"/>
     <string name="title_download_playstore"/>
-    <string name="action_filter_paid_apps"/>
     <string name="title_no_network"/>
-    <string name="pref_downloader_external"/>
     <string name="details_contains_ads"/>
-    <string name="pref_install_auto_summary"/>
     <string name="exodus_progress"/>
-    <string name="details_files"/>
     <string name="details_no_reviews"/>
-    <string name="exodus_no_report"/>
     <string name="pref_install_delete_summary"/>
-    <string name="toast_apk_blacklisted"/>
 </resources>

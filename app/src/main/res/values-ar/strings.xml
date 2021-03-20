@@ -2,23 +2,13 @@
 <resources>
     <string name="details_dev_website">موقع الكتروني</string>
     <string name="details_dev_email">البريد الإلكتروني</string>
-    <string name="purchase_unsupported"/>
     <string name="onboarding_permission_installer"/>
-    <string name="installer_status_failure_storage"/>
     <string name="title_details"/>
-    <string name="onboarding_permission_esa"/>
     <string name="details_no_reviews"/>
-    <string name="about_bitcoin_eth"/>
     <string name="purchase_no_file"/>
-    <string name="title_apps"/>
     <string name="title_games"/>
-    <string name="action_post"/>
     <string name="action_enable"/>
-    <string name="action_previous"/>
     <string name="pref_install_delete_summary"/>
-    <string name="title_updates"/>
     <string name="exodus_substring"/>
-    <string name="tab_top_charts"/>
     <string name="toast_spoof_applied"/>
-    <string name="title_language"/>
 </resources>

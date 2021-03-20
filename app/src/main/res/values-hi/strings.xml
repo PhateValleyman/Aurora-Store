@@ -79,18 +79,11 @@
     <string name="action_done">हो गया</string>
     <string name="action_discover">डिस्कवर</string>
     <string name="action_discard">रद्द करें</string>
-    <string name="details_others_think"/>
     <string name="download_deleted"/>
-    <string name="details_no_reviews"/>
     <string name="details_more_about_app"/>
-    <string name="details_ratings"/>
     <string name="toast_developer_setting_failed"/>
-    <string name="onboarding_theme_select"/>
     <string name="action_resend"/>
-    <string name="installer_status_failure_session"/>
     <string name="title_device"/>
-    <string name="details_description"/>
     <string name="installer_status_success"/>
-    <string name="list_update_all_txt_one"/>
     <string name="toast_abandon_sessions"/>
 </resources>
