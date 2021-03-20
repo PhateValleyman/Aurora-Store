@@ -1,42 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="installer_status_failure"/>
     <string name="action_favourites"/>
-    <string name="action_discard"/>
     <string name="action_info"/>
-    <string name="installer_status_failure_invalid"/>
     <string name="pref_filter_google_summary"/>
-    <string name="toast_apk_copy_success"/>
     <string name="action_clear_all"/>
-    <string name="onboarding_title_installer"/>
     <string name="about_bitcoin_btc_summary"/>
-    <string name="menu_disclaimer"/>
     <string name="filter_review_five"/>
-    <string name="installer_status_user_action"/>
     <string name="onboarding_theme_select"/>
-    <string name="onboarding_permission_esm"/>
     <string name="about_paypal_summary"/>
-    <string name="installer_root_available"/>
     <string name="action_previous"/>
-    <string name="download_force_clear_all"/>
     <string name="action_close"/>
-    <string name="title_library"/>
     <string name="about_xda_summary"/>
-    <string name="action_logging_in"/>
     <string name="purchase_unsupported"/>
-    <string name="action_next"/>
     <string name="download_queued"/>
-    <string name="filter_review_three"/>
     <string name="pref_ui_accent_title"/>
-    <string name="details_dev_details"/>
     <string name="pref_install_mode_title"/>
-    <string name="action_pending"/>
     <string name="toast_abandon_sessions"/>
-    <string name="pref_ui_theme_dark_x"/>
     <string name="title_purchase_history"/>
-    <string name="title_download_manager"/>
     <string name="action_discover"/>
-    <string name="action_copy_link"/>
     <string name="action_join"/>
-    <string name="action_update"/>
 </resources>

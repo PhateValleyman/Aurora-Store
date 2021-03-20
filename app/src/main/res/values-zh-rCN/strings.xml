@@ -1,42 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="onboarding_permission_esm"/>
     <string name="device_huawei_title"/>
-    <string name="onboarding_permission_esa_desc"/>
     <string name="title_download_manager"/>
-    <string name="details_beta_description"/>
     <string name="action_cancel"/>
-    <string name="details_dev_details"/>
     <string name="about_paypal_summary"/>
-    <string name="exodus_report"/>
     <string name="onboarding_tos_error"/>
-    <string name="title_updates"/>
     <string name="exodus_no_report"/>
-    <string name="action_discard"/>
     <string name="purchase_not_found"/>
-    <string name="installer_status_success"/>
     <string name="purchase_failed"/>
-    <string name="action_clear_all"/>
     <string name="action_discover"/>
-    <string name="onboarding_tos_confirmation"/>
     <string name="onboarding_title_installer"/>
-    <string name="title_spoof_manager"/>
     <string name="action_skip"/>
-    <string name="onboarding_title_theme"/>
     <string name="action_granted"/>
-    <string name="toast_apk_blacklisted"/>
     <string name="about_libera"/>
-    <string name="pref_filter_google_title"/>
     <string name="title_installed"/>
-    <string name="action_manual"/>
     <string name="exodus_progress"/>
-    <string name="pref_install_mode_native"/>
     <string name="action_installed"/>
-    <string name="details_no_previews"/>
     <string name="about_bhim"/>
-    <string name="details_no_updates"/>
     <string name="title_settings"/>
-    <string name="action_pause"/>
     <string name="about_gitlab"/>
-    <string name="toast_developer_setting_failed"/>
 </resources>

@@ -1,42 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="details_paid"/>
     <string name="filter_review_five"/>
-    <string name="action_filter_downloads"/>
     <string name="title_apps_games"/>
-    <string name="action_leave"/>
     <string name="download_resume"/>
-    <string name="action_copy_link"/>
     <string name="about_bitcoin_btc"/>
-    <string name="download_eta_calculating"/>
     <string name="pref_install_mode_summary"/>
-    <string name="installer_status_failure"/>
     <string name="title_about"/>
-    <string name="action_post"/>
     <string name="download_pause"/>
-    <string name="action_clear_all"/>
     <string name="title_library"/>
-    <string name="details_no_reviews"/>
     <string name="action_share"/>
-    <string name="details_free"/>
     <string name="tab_top_free"/>
-    <string name="action_filter_apps_with_ads"/>
     <string name="installer_status_success"/>
-    <string name="action_ignore"/>
     <string name="action_cancel"/>
-    <string name="device_miui_title"/>
     <string name="onboarding_title_permissions"/>
-    <string name="action_back"/>
     <string name="download_cancel_all"/>
-    <string name="toast_apk_copy_failed"/>
     <string name="title_installer"/>
-    <string name="exodus_view_more"/>
     <string name="about_bitcoin_bch"/>
-    <string name="action_buy"/>
     <string name="installer_service_misconfigured"/>
-    <string name="pref_ui_title"/>
     <string name="pref_filter_fdroid_title"/>
-    <string name="device_huawei_description"/>
     <string name="dialog_title_self_update"/>
-    <string name="action_install"/>
 </resources>

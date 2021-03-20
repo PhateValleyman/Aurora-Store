@@ -1,42 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_bitcoin_eth"/>
     <string name="about_telegram"/>
-    <string name="onboarding_title_installer"/>
     <string name="action_purchase"/>
-    <string name="download_clear_completed"/>
     <string name="pref_downloader_active_title"/>
-    <string name="exodus_substring"/>
     <string name="exodus_title_alt"/>
-    <string name="action_ask"/>
     <string name="about_xda"/>
-    <string name="details_dev_reply"/>
     <string name="pref_install_mode_root"/>
-    <string name="onboarding_permission_installer"/>
     <string name="download_pause_all"/>
-    <string name="pref_filter_fdroid_title"/>
     <string name="action_installations"/>
-    <string name="about_libera_summary"/>
     <string name="pref_filter_fdroid_summary"/>
-    <string name="action_uninstall"/>
     <string name="action_later"/>
-    <string name="action_resume"/>
     <string name="title_apps_games"/>
-    <string name="action_read"/>
     <string name="pref_downloader_active_summary"/>
-    <string name="filter_review_five"/>
     <string name="title_download_manager"/>
-    <string name="action_grant"/>
     <string name="pref_ui_theme_system"/>
-    <string name="action_disable"/>
     <string name="action_sign_in"/>
-    <string name="details_beta_description"/>
     <string name="tab_editor_choice"/>
-    <string name="onboarding_title_welcome"/>
     <string name="action_wait"/>
-    <string name="pref_install_mode_native"/>
     <string name="list_update_all_txt_one"/>
-    <string name="action_discard"/>
     <string name="pref_ui_theme_title"/>
-    <string name="onboarding_tos"/>
 </resources>

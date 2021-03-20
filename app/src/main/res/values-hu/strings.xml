@@ -218,16 +218,10 @@
     <string name="details_dev_website">Weboldal</string>
     <string name="details_dev_reply">Fejlesztői válasza</string>
     <string name="details_dev_profile">Fejlesztői profil</string>
-    <string name="title_installed"/>
     <string name="title_account_manager"/>
-    <string name="tab_top_free"/>
     <string name="pref_app_download"/>
-    <string name="title_games"/>
     <string name="action_installations"/>
-    <string name="pref_install_auto_summary"/>
     <string name="purchase_invalid"/>
-    <string name="pref_install_profile_summary"/>
     <string name="title_apps_games"/>
-    <string name="pref_abandon_session_desc"/>
     <string name="title_spoof_manager"/>
 </resources>

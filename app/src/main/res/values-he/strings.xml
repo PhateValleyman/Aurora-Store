@@ -1,42 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="details_contains_ads"/>
     <string name="details_dependencies"/>
-    <string name="pref_ui_title"/>
     <string name="toast_abandon_sessions"/>
-    <string name="device_huawei_title"/>
     <string name="action_retry"/>
-    <string name="action_done"/>
     <string name="download_speed_estimating"/>
-    <string name="toast_permission_granted"/>
     <string name="action_update"/>
-    <string name="onboarding_title_theme"/>
     <string name="installer_status_user_action"/>
-    <string name="details_in_app_purchase"/>
     <string name="about_bitcoin_btc"/>
-    <string name="action_installed"/>
     <string name="action_wishlist_add"/>
-    <string name="pref_install_mode_native"/>
     <string name="action_wait"/>
-    <string name="device_miui_extra"/>
     <string name="action_open"/>
-    <string name="title_installer"/>
     <string name="action_filter_rating"/>
-    <string name="action_pause"/>
     <string name="about_telegram"/>
-    <string name="about_gitlab"/>
     <string name="onboarding_permission_esm"/>
-    <string name="details_no_previews"/>
     <string name="details_more_about_app"/>
-    <string name="about_bitcoin_btc_summary"/>
     <string name="tab_trending"/>
-    <string name="onboarding_title_permissions"/>
     <string name="tab_editor_choice"/>
-    <string name="title_apps_library"/>
     <string name="purchase_failed"/>
-    <string name="pref_ui_theme_dark"/>
     <string name="download_completed"/>
-    <string name="menu_terms"/>
     <string name="tab_categories"/>
-    <string name="account_anonymous"/>
 </resources>
