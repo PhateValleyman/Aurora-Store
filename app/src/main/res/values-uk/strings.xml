@@ -343,4 +343,5 @@
     <string name="toast_double_press_to_exit">Клацніть двічі, щоб вийти</string>
     <string name="toast_page_unavailable">Сторінка огляду недоступна</string>
     <string name="toast_rated_success">Успішно оцінено</string>
+    <string name="toast_rated_failed">Не вдалося надіслати оцінку</string>
 </resources>
