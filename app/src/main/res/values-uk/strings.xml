@@ -63,7 +63,7 @@
     <string name="details_dev_address">Адреса</string>
     <string name="details_description">Опис</string>
     <string name="details_dependencies">Залежності</string>
-    <string name="details_contains_ads">Містить оголошення</string>
+    <string name="details_contains_ads">Містить рекламу</string>
     <string name="details_changelog_unavailable">Список змін не наданий</string>
     <string name="details_changelog">Список змін</string>
     <string name="details_beta_delay">Реєстрація може тривати трохи часу, стан можна перевірити пізніше.</string>
@@ -169,7 +169,7 @@
     <string name="about_paypal">PayPal</string>
     <string name="about_libera_summary">Стати спонсором на Liberapay</string>
     <string name="about_libera">Liberapay</string>
-    <string name="about_gitlab_summary">Джерельний код Aurora Store в репозиторії Aurora OSS на GitLab.</string>
+    <string name="about_gitlab_summary">Вихідний код Aurora Store в репозиторії Aurora OSS на GitLab.</string>
     <string name="about_gitlab">GitLab</string>
     <string name="about_fdroid_summary">Завантажити Aurora Store з репозиторію F-Droid.</string>
     <string name="about_fdroid">F-Droid</string>
@@ -255,7 +255,7 @@
     <string name="pref_install_profile_summary">Вибір профілю для встановлення застосунків, працює лише з кореневим методом встановлення</string>
     <string name="pref_install_mode_title">Спосіб встановлення</string>
     <string name="pref_install_mode_summary">Виберіть режим встановлення APK</string>
-    <string name="pref_install_mode_session">Встановлювач сеансу</string>
+    <string name="pref_install_mode_session">Сесійний встановлювач</string>
     <string name="pref_install_mode_services">Служби Aurora</string>
     <string name="pref_install_mode_root">Кореневий встановлювач</string>
     <string name="pref_install_mode_native">Власний встановлювач</string>
