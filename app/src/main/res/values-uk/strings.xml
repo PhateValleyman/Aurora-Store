@@ -341,4 +341,5 @@
     <string name="pref_common_extra">Додаткові</string>
     <string name="pref_common_advance">Розширені</string>
     <string name="toast_double_press_to_exit">Клацніть двічі, щоб вийти</string>
+    <string name="toast_page_unavailable">Сторінка огляду недоступна</string>
 </resources>
