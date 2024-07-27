@@ -298,12 +298,12 @@ class DownloadWorker @AssistedInject constructor(
                 }
 
                 // Ensure downloaded file matches expected sha
-                if (validSha(request.file, expectedSha, algorithm)) {
-                    return@withContext Result.success()
-                } else {
+                if (!validSha(request.file, expectedSha, algorithm)) {
                     Log.e(TAG, "Incorrect hash for ${request.file}")
                     throw Exception("Incorrect hash")
                 }
+
+                return@withContext Result.success()
 
             } catch (exception: Exception) {
                 Log.e(TAG, "Failed to download ${request.file}!", exception)
