@@ -279,7 +279,10 @@ class DownloadWorker @AssistedInject constructor(
             }
 
             try {
-                val isNewFile = request.file.createNewFile()
+                val tempFileSuffix = ".temp"
+                val tempFile = File(request.file.getAbsolutePath() + tempFileSuffix)
+
+                val isNewFile = tempFile.createNewFile()
                 val connection = if (proxy != null) {
                     URL(request.url).openConnection(proxy) as HttpsURLConnection
                 } else {
@@ -287,24 +290,30 @@ class DownloadWorker @AssistedInject constructor(
                 }
 
                 if (!isNewFile) {
-                    Log.i(TAG, "${request.file} has an unfinished download, resuming!")
-                    downloadedBytes += request.file.length()
-                    connection.setRequestProperty("Range", "bytes=${request.file.length()}-")
+                    Log.i(TAG, "${tempFile} has an unfinished download, resuming!")
+                    downloadedBytes += tempFile.length()
+                    connection.setRequestProperty("Range", "bytes=${tempFile.length()}-")
                 }
 
                 connection.inputStream.use { input ->
-                    FileOutputStream(request.file, !isNewFile).use {
+                    FileOutputStream(tempFile, !isNewFile).use {
                         input.copyTo(it, request.size).collect { p -> onProgress(p) }
                     }
                 }
 
                 // Ensure downloaded file matches expected sha
-                if (validSha(request.file, expectedSha, algorithm)) {
-                    return@withContext Result.success()
-                } else {
-                    Log.e(TAG, "Incorrect hash for ${request.file}")
+                if (!validSha(tempFile, expectedSha, algorithm)) {
+                    Log.e(TAG, "Incorrect hash for ${tempFile}")
                     throw Exception("Incorrect hash")
                 }
+
+                val wasRenamed = tempFile.renameTo(request.file)
+                if (!wasRenamed) {
+                    Log.e(TAG, "Unable to rename ${tempFile}")
+                    throw Exception("Rename failed")
+                }
+
+                return@withContext Result.success()
 
             } catch (exception: Exception) {
                 Log.e(TAG, "Failed to download ${request.file}!", exception)
