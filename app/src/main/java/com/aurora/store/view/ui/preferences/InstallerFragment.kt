@@ -29,7 +29,7 @@ import com.aurora.extensions.isMiuiOptimizationDisabled
 import com.aurora.extensions.isOAndAbove
 import com.aurora.extensions.showDialog
 import com.aurora.store.R
-import com.aurora.store.data.installer.AppInstaller
+import com.aurora.store.data.helper.InstallHelper
 import com.aurora.store.databinding.FragmentInstallerBinding
 import com.aurora.store.util.Preferences
 import com.aurora.store.util.Preferences.PREFERENCE_INSTALLER_ID
@@ -39,11 +39,15 @@ import com.aurora.store.view.ui.commons.BaseFragment
 import dagger.hilt.android.AndroidEntryPoint
 import rikka.shizuku.Shizuku
 import rikka.sui.Sui
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class InstallerFragment : BaseFragment<FragmentInstallerBinding>() {
 
     private val TAG = InstallerFragment::class.java.simpleName
+
+    @Inject
+    lateinit var installHelper: InstallHelper
 
     private var installerId: Int = 0
 
@@ -79,7 +83,7 @@ class InstallerFragment : BaseFragment<FragmentInstallerBinding>() {
 
         installerId = Preferences.getInteger(requireContext(), PREFERENCE_INSTALLER_ID)
 
-        if (isOAndAbove && AppInstaller.hasShizukuOrSui(requireContext())) {
+        if (isOAndAbove && installHelper.hasShizukuOrSui) {
             Shizuku.addBinderReceivedListenerSticky(shizukuAliveListener)
             Shizuku.addBinderDeadListener(shizukuDeadListener)
             Shizuku.addRequestPermissionResultListener(shizukuResultListener)
@@ -88,7 +92,7 @@ class InstallerFragment : BaseFragment<FragmentInstallerBinding>() {
         // RecyclerView
         binding.epoxyRecycler.withModels {
             setFilterDuplicates(true)
-            AppInstaller.getAvailableInstallersInfo(requireContext()).forEach {
+            installHelper.availableInstallersInfo.forEach {
                 add(
                     InstallerViewModel_()
                         .id(it.id)
@@ -108,7 +112,7 @@ class InstallerFragment : BaseFragment<FragmentInstallerBinding>() {
     }
 
     override fun onDestroy() {
-        if (isOAndAbove && AppInstaller.hasShizukuOrSui(requireContext())) {
+        if (isOAndAbove && installHelper.hasShizukuOrSui) {
             Shizuku.removeBinderReceivedListener(shizukuAliveListener)
             Shizuku.removeBinderDeadListener(shizukuDeadListener)
             Shizuku.removeRequestPermissionResultListener(shizukuResultListener)
@@ -127,7 +131,7 @@ class InstallerFragment : BaseFragment<FragmentInstallerBinding>() {
             }
 
             2 -> {
-                if (AppInstaller.hasRootAccess()) {
+                if (installHelper.hasRootAccess) {
                     this.installerId = installerId
                     save(PREFERENCE_INSTALLER_ID, installerId)
                 } else {
@@ -139,7 +143,7 @@ class InstallerFragment : BaseFragment<FragmentInstallerBinding>() {
             }
 
             3 -> {
-                if (AppInstaller.hasAuroraService(requireContext())) {
+                if (installHelper.hasAuroraService) {
                     this.installerId = installerId
                     save(PREFERENCE_INSTALLER_ID, installerId)
                 } else {
@@ -151,7 +155,7 @@ class InstallerFragment : BaseFragment<FragmentInstallerBinding>() {
             }
 
             4 -> {
-                if (AppInstaller.hasAppManager(requireContext())) {
+                if (installHelper.hasAppManager) {
                     this.installerId = installerId
                     save(PREFERENCE_INSTALLER_ID, installerId)
                 } else {
@@ -163,8 +167,8 @@ class InstallerFragment : BaseFragment<FragmentInstallerBinding>() {
             }
 
             5 -> {
-                if (isOAndAbove && AppInstaller.hasShizukuOrSui(requireContext())) {
-                    if (shizukuAlive && AppInstaller.hasShizukuPerm()) {
+                if (isOAndAbove && installHelper.hasShizukuOrSui) {
+                    if (shizukuAlive && installHelper.hasShizukuPerm) {
                         this.installerId = installerId
                         save(PREFERENCE_INSTALLER_ID, installerId)
                     } else if (shizukuAlive && !Shizuku.shouldShowRequestPermissionRationale()) {

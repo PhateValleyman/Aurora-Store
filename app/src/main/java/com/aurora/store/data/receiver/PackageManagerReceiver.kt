@@ -24,15 +24,10 @@ import android.content.Context
 import android.content.Intent
 import com.aurora.store.AuroraApp
 import com.aurora.store.data.event.InstallerEvent
-import com.aurora.store.data.installer.AppInstaller
 import dagger.hilt.android.AndroidEntryPoint
-import javax.inject.Inject
 
 @AndroidEntryPoint
 open class PackageManagerReceiver : BroadcastReceiver() {
-
-    @Inject
-    lateinit var appInstaller: AppInstaller
 
     override fun onReceive(context: Context, intent: Intent) {
         if (intent.action != null && intent.data != null) {
@@ -47,9 +42,6 @@ open class PackageManagerReceiver : BroadcastReceiver() {
                     AuroraApp.events.send(InstallerEvent.Uninstalled(packageName))
                 }
             }
-
-            //Clear installation queue
-            appInstaller.getPreferredInstaller().removeFromInstallQueue(packageName)
         }
     }
 }

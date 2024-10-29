@@ -31,7 +31,7 @@ import com.aurora.extensions.copyToClipBoard
 import com.aurora.extensions.toast
 import com.aurora.store.R
 import com.aurora.store.data.helper.DownloadHelper
-import com.aurora.store.data.installer.AppInstaller
+import com.aurora.store.data.helper.InstallHelper
 import com.aurora.store.data.model.DownloadStatus
 import com.aurora.store.databinding.SheetDownloadMenuBinding
 import com.aurora.store.util.PathUtil
@@ -65,13 +65,13 @@ class DownloadMenuSheet : BaseDialogSheet<SheetDownloadMenuBinding>() {
     lateinit var downloadHelper: DownloadHelper
 
     @Inject
-    lateinit var appInstaller: AppInstaller
+    lateinit var installHelper: InstallHelper
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         with(binding.navigationView) {
-            val downloadCompleted = args.download.downloadStatus == DownloadStatus.COMPLETED
+            val downloadCompleted = args.download.status == DownloadStatus.COMPLETED
             val downloadDir = PathUtil.getAppDownloadDir(
                 requireContext(),
                 args.download.packageName,
@@ -87,7 +87,9 @@ class DownloadMenuSheet : BaseDialogSheet<SheetDownloadMenuBinding>() {
             setNavigationItemSelectedListener { item ->
                 when (item.itemId) {
                     R.id.action_install -> {
-                        install()
+                        findViewTreeLifecycleOwner()?.lifecycleScope?.launch(NonCancellable) {
+                            install()
+                        }
                         dismissAllowingStateLoss()
                     }
 
@@ -125,9 +127,9 @@ class DownloadMenuSheet : BaseDialogSheet<SheetDownloadMenuBinding>() {
         }
     }
 
-    private fun install() {
+    private suspend fun install() {
         try {
-            appInstaller.getPreferredInstaller().install(args.download)
+            installHelper.enqueueInstall(args.download)
         } catch (exception: Exception) {
             Log.e(TAG, "Failed to install ${args.download.packageName}", exception)
             if (exception is NullPointerException) {

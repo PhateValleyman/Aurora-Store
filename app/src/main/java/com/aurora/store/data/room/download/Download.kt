@@ -1,11 +1,13 @@
 package com.aurora.store.data.room.download
 
 import android.os.Parcelable
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.aurora.gplayapi.data.models.App
 import com.aurora.gplayapi.data.models.File
 import com.aurora.store.data.model.DownloadStatus
+import com.aurora.store.data.model.Installer
 import com.aurora.store.data.room.update.Update
 import kotlinx.parcelize.Parcelize
 
@@ -20,7 +22,8 @@ data class Download(
     val iconURL: String,
     val size: Long,
     val id: Int,
-    var downloadStatus: DownloadStatus,
+    @ColumnInfo(name = "downloadStatus")
+    var status: DownloadStatus,
     var progress: Int,
     var speed: Long,
     var timeRemaining: Long,
@@ -29,9 +32,15 @@ data class Download(
     var fileList: List<File>,
     val sharedLibs: List<SharedLib>,
     val targetSdk: Int = 1,
+    val installer: Installer? = null,
+    val sessionId: Int? = null,
+    val installProgress: Int? = null,
+    val installedAt: Long? = null
 ) : Parcelable {
-    val isFinished get() = downloadStatus in DownloadStatus.finished
-    val isRunning get() = downloadStatus in DownloadStatus.running
+
+    val isFinished get() = status in DownloadStatus.finished
+    val isRunning get() = status in DownloadStatus.running
+    val isInstalling get() = status in DownloadStatus.installing
 
     companion object {
         fun fromApp(app: App): Download {
@@ -52,7 +61,11 @@ data class Download(
                 0,
                 app.fileList.filterNot { it.url.isBlank() },
                 app.dependencies.dependentLibraries.map { SharedLib.fromApp(it) },
-                app.targetSdk
+                app.targetSdk,
+                null,
+                null,
+                null,
+                null
             )
         }
 
@@ -74,7 +87,11 @@ data class Download(
                 0,
                 update.fileList,
                 update.sharedLibs,
-                update.targetSdk
+                update.targetSdk,
+                null,
+                null,
+                null,
+                null
             )
         }
     }

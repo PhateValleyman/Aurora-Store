@@ -6,6 +6,7 @@ import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.aurora.gplayapi.data.models.File
 import com.aurora.store.data.model.DownloadStatus
+import com.aurora.store.data.model.Installer
 import kotlinx.coroutines.flow.Flow
 
 @Dao
@@ -48,4 +49,19 @@ interface DownloadDao {
 
     @Query("DELETE FROM download")
     suspend fun deleteAll()
+
+    @Query(
+        """
+        UPDATE download
+        SET progress=:progress, installer=:installer, sessionId=:sessionId, installedAt=:installedAt
+        WHERE packageName=:packageName
+        """
+    )
+    suspend fun updateInstallDetails(
+        packageName: String,
+        installer: Installer?,
+        sessionId: Int?,
+        progress: Int?,
+        installedAt: Long?
+    )
 }

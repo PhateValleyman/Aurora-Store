@@ -23,7 +23,7 @@ import com.aurora.store.AuroraApp
 import com.aurora.store.R
 import com.aurora.store.data.event.InstallerEvent
 import com.aurora.store.data.helper.DownloadHelper
-import com.aurora.store.data.installer.AppInstaller
+import com.aurora.store.data.helper.InstallHelper
 import com.aurora.store.data.model.Algorithm
 import com.aurora.store.data.model.DownloadInfo
 import com.aurora.store.data.model.DownloadStatus
@@ -58,7 +58,7 @@ import com.aurora.gplayapi.data.models.File as GPlayFile
 class DownloadWorker @AssistedInject constructor(
     private val downloadDao: DownloadDao,
     private val gson: Gson,
-    private val appInstaller: AppInstaller,
+    private val installHelper: InstallHelper,
     private val authProvider: AuthProvider,
     private val httpClient: IHttpClient,
     @Assisted private val appContext: Context,
@@ -163,7 +163,7 @@ class DownloadWorker @AssistedInject constructor(
             while (downloading) {
                 delay(1000)
                 val d = downloadDao.getDownload(download.packageName)
-                if (isStopped || d.downloadStatus == DownloadStatus.CANCELLED) {
+                if (isStopped || d.status == DownloadStatus.CANCELLED) {
                     onFailure()
                     break
                 }
@@ -187,7 +187,7 @@ class DownloadWorker @AssistedInject constructor(
             notifyStatus(DownloadStatus.COMPLETED)
 
             try {
-                appInstaller.getPreferredInstaller().install(download)
+                installHelper.enqueueInstall(download)
             } catch (exception: Exception) {
                 Log.e(TAG, "Failed to install ${download.packageName}", exception)
             }
@@ -363,7 +363,7 @@ class DownloadWorker @AssistedInject constructor(
      */
     private suspend fun notifyStatus(status: DownloadStatus, dID: Int = -1) {
         // Update status in database
-        download.downloadStatus = status
+        download.status = status
         downloadDao.updateStatus(download.packageName, status)
 
         when (status) {
@@ -377,7 +377,13 @@ class DownloadWorker @AssistedInject constructor(
             else -> {}
         }
 
-        val notification = NotificationUtil.getDownloadNotification(appContext, download, id, icon)
+        val notification = NotificationUtil.getDownloadNotification(
+            appContext,
+            download,
+            id,
+            icon,
+            installHelper.canInstallSilently(download.packageName, download.targetSdk)
+        )
         val notificationID = if (dID != -1) dID else download.packageName.hashCode()
         notificationManager.notify(notificationID, notification)
     }

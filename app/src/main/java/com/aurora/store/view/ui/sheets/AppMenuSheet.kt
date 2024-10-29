@@ -31,7 +31,7 @@ import com.aurora.extensions.toast
 import com.aurora.store.AuroraApp
 import com.aurora.store.R
 import com.aurora.store.data.event.BusEvent
-import com.aurora.store.data.installer.AppInstaller
+import com.aurora.store.data.helper.InstallHelper
 import com.aurora.store.data.providers.BlacklistProvider
 import com.aurora.store.databinding.SheetAppMenuBinding
 import com.aurora.store.util.PackageUtil
@@ -45,6 +45,9 @@ class AppMenuSheet : BaseDialogSheet<SheetAppMenuBinding>() {
     companion object {
         const val TAG = "APP_MENU_SHEET"
     }
+
+    @Inject
+    lateinit var installHelper: InstallHelper
 
     @Inject
     lateinit var blacklistProvider: BlacklistProvider
@@ -107,7 +110,7 @@ class AppMenuSheet : BaseDialogSheet<SheetAppMenuBinding>() {
                     }
 
                     R.id.action_uninstall -> {
-                        AppInstaller.uninstall(requireContext(), args.app.packageName)
+                        installHelper.uninstall(args.app.packageName)
                         dismissAllowingStateLoss()
                     }
 

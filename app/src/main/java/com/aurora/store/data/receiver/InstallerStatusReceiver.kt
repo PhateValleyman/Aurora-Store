@@ -30,11 +30,10 @@ import com.aurora.extensions.runOnUiThread
 import com.aurora.store.AuroraApp
 import com.aurora.store.R
 import com.aurora.store.data.event.InstallerEvent
-import com.aurora.store.data.installer.AppInstaller
-import com.aurora.store.data.installer.AppInstaller.Companion.ACTION_INSTALL_STATUS
-import com.aurora.store.data.installer.AppInstaller.Companion.EXTRA_DISPLAY_NAME
-import com.aurora.store.data.installer.AppInstaller.Companion.EXTRA_PACKAGE_NAME
-import com.aurora.store.data.installer.AppInstaller.Companion.EXTRA_VERSION_CODE
+import com.aurora.store.data.helper.InstallHelper.Companion.ACTION_INSTALL_STATUS
+import com.aurora.store.data.helper.InstallHelper.Companion.EXTRA_DISPLAY_NAME
+import com.aurora.store.data.helper.InstallHelper.Companion.EXTRA_PACKAGE_NAME
+import com.aurora.store.data.helper.InstallHelper.Companion.EXTRA_VERSION_CODE
 import com.aurora.store.util.CommonUtil.inForeground
 import com.aurora.store.util.NotificationUtil
 import com.aurora.store.util.PackageUtil
@@ -63,7 +62,7 @@ class InstallerStatusReceiver : BroadcastReceiver() {
                 if (PackageUtil.isSharedLibrary(context, packageName)) return
 
                 AuroraApp.enqueuedInstalls.remove(packageName)
-                AppInstaller.notifyInstallation(context, displayName, packageName)
+                notifyInstallation(context, displayName, packageName)
                 if (Preferences.getBoolean(context, PREFERENCE_AUTO_DELETE)) {
                     PathUtil.getAppDownloadDir(context, packageName, versionCode)
                         .deleteRecursively()
@@ -92,7 +91,7 @@ class InstallerStatusReceiver : BroadcastReceiver() {
             context,
             packageName,
             displayName,
-            AppInstaller.getErrorString(context, status)
+            getErrorString(context, status)
         )
         notificationManager!!.notify(packageName.hashCode(), notification)
     }
@@ -121,17 +120,35 @@ class InstallerStatusReceiver : BroadcastReceiver() {
 
             PackageInstaller.STATUS_FAILURE_ABORTED -> {
                 InstallerEvent.Cancelled(packageName!!).apply {
-                    this.extra = AppInstaller.getErrorString(context, status)
+                    this.extra = getErrorString(context, status)
                 }
             }
 
             else -> {
                 InstallerEvent.Failed(packageName!!).apply {
-                    this.error = AppInstaller.getErrorString(context, status)
+                    this.error = getErrorString(context, status)
                     this.extra = extra ?: ""
                 }
             }
         }
         AuroraApp.events.send(event)
+    }
+
+    private fun notifyInstallation(context: Context, displayName: String, packageName: String) {
+        val notificationManager = context.getSystemService<NotificationManager>()
+        val notification = NotificationUtil.getInstallNotification(context, displayName, packageName)
+        notificationManager!!.notify(packageName.hashCode(), notification)
+    }
+
+    private fun getErrorString(context: Context, status: Int): String {
+        return when (status) {
+            PackageInstaller.STATUS_FAILURE_ABORTED -> context.getString(R.string.installer_status_user_action)
+            PackageInstaller.STATUS_FAILURE_BLOCKED -> context.getString(R.string.installer_status_failure_blocked)
+            PackageInstaller.STATUS_FAILURE_CONFLICT -> context.getString(R.string.installer_status_failure_conflict)
+            PackageInstaller.STATUS_FAILURE_INCOMPATIBLE -> context.getString(R.string.installer_status_failure_incompatible)
+            PackageInstaller.STATUS_FAILURE_INVALID -> context.getString(R.string.installer_status_failure_invalid)
+            PackageInstaller.STATUS_FAILURE_STORAGE -> context.getString(R.string.installer_status_failure_storage)
+            else -> context.getString(R.string.installer_status_failure)
+        }
     }
 }

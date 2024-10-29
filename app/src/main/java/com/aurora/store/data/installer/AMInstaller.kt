@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import android.util.Log
 import com.aurora.store.R
+import com.aurora.store.data.installer.base.InstallerBase
 import com.aurora.store.data.model.InstallerInfo
 import com.aurora.store.data.room.download.Download
 import com.aurora.store.util.PackageUtil.isSharedLibraryInstalled

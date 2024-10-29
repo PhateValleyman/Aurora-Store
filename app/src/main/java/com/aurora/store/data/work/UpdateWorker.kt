@@ -17,7 +17,7 @@ import com.aurora.store.BuildConfig
 import com.aurora.store.data.helper.DownloadHelper
 import com.aurora.store.data.helper.UpdateHelper
 import com.aurora.store.data.helper.UpdateHelper.Companion.UPDATE_SHOULD_NOTIFY
-import com.aurora.store.data.installer.AppInstaller
+import com.aurora.store.data.helper.InstallHelper
 import com.aurora.store.data.model.BuildType
 import com.aurora.store.data.model.SelfUpdate
 import com.aurora.store.data.model.UpdateMode
@@ -54,6 +54,7 @@ class UpdateWorker @AssistedInject constructor(
     private val updateDao: UpdateDao,
     private val downloadHelper: DownloadHelper,
     private val authProvider: AuthProvider,
+    private val installHelper: InstallHelper,
     @Assisted private val appContext: Context,
     @Assisted workerParams: WorkerParameters
 ) : AuthWorker(authProvider, appContext, workerParams) {
@@ -117,9 +118,7 @@ class UpdateWorker @AssistedInject constructor(
             val filteredUpdates = updates
                 .filter { it.hasValidCert }
                 .filterNot { it.isSelfUpdate(appContext) }
-                .partition {
-                    AppInstaller.canInstallSilently(appContext, it.packageName, it.targetSdk)
-                }
+                .partition { installHelper.canInstallSilently(it.packageName, it.targetSdk) }
 
             // Notify about apps that cannot be auto-updated
             notifyUpdates(filteredUpdates.second)

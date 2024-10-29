@@ -61,7 +61,7 @@ import com.aurora.store.R
 import com.aurora.store.data.event.BusEvent
 import com.aurora.store.data.event.Event
 import com.aurora.store.data.event.InstallerEvent
-import com.aurora.store.data.installer.AppInstaller
+import com.aurora.store.data.helper.InstallHelper
 import com.aurora.store.data.model.DownloadStatus
 import com.aurora.store.data.model.PermissionType
 import com.aurora.store.data.model.State
@@ -100,6 +100,9 @@ class AppDetailsFragment : BaseFragment<FragmentDetailsBinding>() {
     private val detailsClusterViewModel: DetailsClusterViewModel by activityViewModels()
 
     private val args: AppDetailsFragmentArgs by navArgs()
+
+    @Inject
+    lateinit var installHelper: InstallHelper
 
     @Inject
     lateinit var authProvider: AuthProvider
@@ -229,10 +232,10 @@ class AppDetailsFragment : BaseFragment<FragmentDetailsBinding>() {
                 .collectLatest { downloadsList ->
                     val download = downloadsList.find { it.packageName == app.packageName }
                     download?.let {
-                        downloadStatus = it.downloadStatus
+                        downloadStatus = it.status
 
                         if (it.isFinished) flip(0) else flip(1)
-                        when (it.downloadStatus) {
+                        when (it.status) {
                             DownloadStatus.QUEUED -> {
                                 updateProgress(it.progress)
                             }
@@ -423,7 +426,7 @@ class AppDetailsFragment : BaseFragment<FragmentDetailsBinding>() {
                     }
 
                     R.id.action_uninstall -> {
-                        AppInstaller.uninstall(requireContext(), app.packageName)
+                        installHelper.uninstall(app.packageName)
                     }
 
                     R.id.menu_download_manual -> {

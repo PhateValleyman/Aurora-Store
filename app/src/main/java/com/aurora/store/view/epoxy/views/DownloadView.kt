@@ -50,7 +50,7 @@ class DownloadView @JvmOverloads constructor(
             transformations(RoundedCornersTransformation(32F))
         }
         binding.txtTitle.text = download.displayName
-        binding.txtStatus.text = context.getString(download.downloadStatus.localized)
+        binding.txtStatus.text = context.getString(download.status.localized)
 
         binding.progressDownload.apply {
             progress = download.progress
@@ -64,7 +64,7 @@ class DownloadView @JvmOverloads constructor(
             download.speed
         )
 
-        when (download.downloadStatus) {
+        when (download.status) {
             DownloadStatus.DOWNLOADING, DownloadStatus.QUEUED -> {
                 binding.txtSpeed.visibility = VISIBLE
                 binding.txtEta.visibility = VISIBLE

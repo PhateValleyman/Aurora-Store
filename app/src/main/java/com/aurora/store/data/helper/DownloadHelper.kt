@@ -18,9 +18,11 @@ import com.aurora.store.util.PathUtil
 import com.google.gson.Gson
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.flow.SharingStarted
-import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.filter
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.firstOrNull
+import kotlinx.coroutines.flow.launchIn
+import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -54,30 +56,28 @@ class DownloadHelper @Inject constructor(
      */
     fun init() {
         AuroraApp.scope.launch {
-            cancelFailedDownloads(downloadDao.downloads().firstOrNull() ?: emptyList())
+            cancelFailedDownloads()
         }.invokeOnCompletion {
             observeDownloads()
         }
     }
 
     private fun observeDownloads() {
-        AuroraApp.scope.launch {
-            downloadDao.downloads().collectLatest { list ->
-                // Check and trigger next download in queue, if any
-                if (!list.any { it.downloadStatus == DownloadStatus.DOWNLOADING }) {
-                    val enqueuedDownloads = list.filter { it.downloadStatus == DownloadStatus.QUEUED }
-                    enqueuedDownloads.firstOrNull()?.let {
-                        try {
-                            Log.i(DOWNLOAD_WORKER, "Downloading ${it.packageName}")
-                            trigger(it)
-                        } catch (exception: Exception) {
-                            Log.i(DOWNLOAD_WORKER, "Failed to download app", exception)
-                            downloadDao.updateStatus(it.packageName, DownloadStatus.FAILED)
-                        }
+        downloadDao.downloads().onEach { list ->
+            // Check and trigger next download in queue, if any
+            if (!list.any { it.status == DownloadStatus.DOWNLOADING }) {
+                val enqueuedDownloads = list.filter { it.status == DownloadStatus.QUEUED }
+                enqueuedDownloads.firstOrNull()?.let {
+                    try {
+                        Log.i(DOWNLOAD_WORKER, "Downloading ${it.packageName}")
+                        trigger(it)
+                    } catch (exception: Exception) {
+                        Log.i(DOWNLOAD_WORKER, "Failed to download app", exception)
+                        downloadDao.updateStatus(it.packageName, DownloadStatus.FAILED)
                     }
                 }
             }
-        }
+        }.launchIn(AuroraApp.scope)
     }
 
     /**
@@ -145,7 +145,7 @@ class DownloadHelper @Inject constructor(
      */
     suspend fun cancelAll(updatesOnly: Boolean = false) {
         // Cancel all enqueued downloads first to avoid triggering re-download
-        downloadsList.value.filter { it.downloadStatus == DownloadStatus.QUEUED }
+        downloadsList.value.filter { it.status == DownloadStatus.QUEUED }
             .filter { if (updatesOnly) it.isInstalled else true }.forEach {
                 downloadDao.updateStatus(it.packageName, DownloadStatus.CANCELLED)
             }
@@ -154,10 +154,10 @@ class DownloadHelper @Inject constructor(
             .cancelAllWorkByTag(if (updatesOnly) DOWNLOAD_UPDATE else DOWNLOAD_APP)
     }
 
-    private suspend fun cancelFailedDownloads(downloadList: List<Download>) {
+    private suspend fun cancelFailedDownloads() {
         val workManager = WorkManager.getInstance(context)
 
-        downloadList.filter { it.isRunning }.forEach {
+        downloadDao.downloads().first().filter { it.isRunning }.forEach {
             workManager.getWorkInfosByTagFlow("$PACKAGE_NAME:${it.packageName}").firstOrNull()
                 ?.all { workInfo -> workInfo.state.isFinished }
                 ?.run { downloadDao.updateStatus(it.packageName, DownloadStatus.FAILED) }

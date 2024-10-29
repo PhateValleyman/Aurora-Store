@@ -99,8 +99,8 @@ class AppUpdateView @JvmOverloads constructor(
     @ModelProp
     fun download(download: Download?) {
         if (download != null) {
-            binding.btnAction.updateState(download.downloadStatus)
-            when (download.downloadStatus) {
+            binding.btnAction.updateState(download.status)
+            when (download.status) {
                 DownloadStatus.QUEUED -> {
                     binding.progressDownload.isIndeterminate = true
                     animateImageView(scaleFactor = 0.75f)

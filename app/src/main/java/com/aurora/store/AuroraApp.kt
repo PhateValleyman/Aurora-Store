@@ -30,6 +30,7 @@ import com.aurora.extensions.isPAndAbove
 import com.aurora.extensions.setAppTheme
 import com.aurora.store.data.event.EventFlow
 import com.aurora.store.data.helper.DownloadHelper
+import com.aurora.store.data.helper.InstallHelper
 import com.aurora.store.data.helper.UpdateHelper
 import com.aurora.store.data.receiver.PackageManagerReceiver
 import com.aurora.store.util.CommonUtil
@@ -58,6 +59,9 @@ class AuroraApp : Application(), Configuration.Provider, ImageLoaderFactory {
 
     @Inject
     lateinit var updateHelper: UpdateHelper
+
+    @Inject
+    lateinit var installHelper: InstallHelper
 
     override val workManagerConfiguration: Configuration
         get() = Configuration.Builder()
@@ -92,6 +96,7 @@ class AuroraApp : Application(), Configuration.Provider, ImageLoaderFactory {
         // Initialize Download and Update helpers to observe and trigger downloads
         downloadHelper.init()
         updateHelper.init()
+        installHelper.init()
 
         //Register broadcast receiver for package install/uninstall
         ContextCompat.registerReceiver(

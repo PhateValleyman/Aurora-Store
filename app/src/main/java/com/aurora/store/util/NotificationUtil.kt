@@ -20,7 +20,7 @@ import com.aurora.Constants
 import com.aurora.store.MainActivity
 import com.aurora.store.R
 import com.aurora.store.data.activity.InstallActivity
-import com.aurora.store.data.installer.AppInstaller
+import com.aurora.store.data.helper.InstallHelper
 import com.aurora.store.data.model.DownloadStatus
 import com.aurora.store.data.room.download.Download
 import com.aurora.store.data.room.update.Update
@@ -89,14 +89,15 @@ object NotificationUtil {
         context: Context,
         download: AuroraDownload,
         workID: UUID,
-        largeIcon: Bitmap? = null
+        largeIcon: Bitmap? = null,
+        canInstallSilently: Boolean = false,
     ): Notification {
         val builder = NotificationCompat.Builder(context, Constants.NOTIFICATION_CHANNEL_DOWNLOADS)
         builder.setContentTitle(download.displayName)
         builder.setContentIntent(getContentIntentForDownloads(context))
         builder.setLargeIcon(largeIcon)
 
-        when (download.downloadStatus) {
+        when (download.status) {
             DownloadStatus.CANCELLED -> {
                 builder.setSmallIcon(R.drawable.ic_download_cancel)
                 builder.setContentText(context.getString(R.string.download_canceled))
@@ -119,7 +120,7 @@ object NotificationUtil {
                 builder.setContentIntent(getContentIntentForDetails(context, download.packageName))
 
                 // Show install action if app cannot be silently installed
-                if (!AppInstaller.canInstallSilently(context, download.packageName, download.targetSdk)) {
+                if (!canInstallSilently) {
                     builder.addAction(
                         NotificationCompat.Action.Builder(
                             R.drawable.ic_install,

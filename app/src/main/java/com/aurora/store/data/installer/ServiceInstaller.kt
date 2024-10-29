@@ -37,6 +37,7 @@ import com.aurora.store.AuroraApp
 import com.aurora.store.BuildConfig
 import com.aurora.store.R
 import com.aurora.store.data.event.InstallerEvent
+import com.aurora.store.data.installer.base.InstallerBase
 import com.aurora.store.data.model.InstallerInfo
 import com.aurora.store.data.room.download.Download
 import com.aurora.store.util.PackageUtil
@@ -228,12 +229,7 @@ class ServiceInstaller @Inject constructor(
                 }
 
                 else -> {
-                    val error = AppInstaller.getErrorString(
-                        context,
-                        returnCode
-                    )
-
-                    postError(packageName, error, extra)
+                    postError(packageName, getErrorString(context, returnCode), extra)
                 }
             }
             if (::serviceConnection.isInitialized) {
@@ -260,12 +256,7 @@ class ServiceInstaller @Inject constructor(
                 }
 
                 else -> {
-                    val error = AppInstaller.getErrorString(
-                        context,
-                        returnCode
-                    )
-
-                    postError(packageName, error, extra)
+                    postError(packageName, getErrorString(context, returnCode), extra)
                 }
             }
             if (::serviceConnection.isInitialized) {

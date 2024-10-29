@@ -40,10 +40,11 @@ import com.aurora.extensions.runOnUiThread
 import com.aurora.store.AuroraApp
 import com.aurora.store.R
 import com.aurora.store.data.event.InstallerEvent
-import com.aurora.store.data.installer.AppInstaller.Companion.ACTION_INSTALL_STATUS
-import com.aurora.store.data.installer.AppInstaller.Companion.EXTRA_DISPLAY_NAME
-import com.aurora.store.data.installer.AppInstaller.Companion.EXTRA_PACKAGE_NAME
-import com.aurora.store.data.installer.AppInstaller.Companion.EXTRA_VERSION_CODE
+import com.aurora.store.data.helper.InstallHelper.Companion.ACTION_INSTALL_STATUS
+import com.aurora.store.data.helper.InstallHelper.Companion.EXTRA_DISPLAY_NAME
+import com.aurora.store.data.helper.InstallHelper.Companion.EXTRA_PACKAGE_NAME
+import com.aurora.store.data.helper.InstallHelper.Companion.EXTRA_VERSION_CODE
+import com.aurora.store.data.installer.base.InstallerBase
 import com.aurora.store.data.model.InstallerInfo
 import com.aurora.store.data.model.SessionInfo
 import com.aurora.store.data.receiver.InstallerStatusReceiver
